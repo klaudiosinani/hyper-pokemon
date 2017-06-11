@@ -11,8 +11,8 @@
 ## Contents
 
 - [Description](#description)
-- [Designing](#designing)
 - [Install](#install)
+- [Designing](#designing)
   - [Latest Release](#latest-release)
   - [Building from Source](#building-from-source)
 - [Usage](#usage)
@@ -24,6 +24,28 @@
 ## Description
 
 [:arrow_up:Back to top!](#contents)
+
+## Install
+
+Add `hyper-pokemon` to the plugins list in your `~/.hyper.js` config file and restart Hyper.
+
+```js
+plugins: ['hyper-pokemon']
+```
+
+Then set your pokemon theme & pokemon syntax by adding the `pokemon` and `pokemonSyntax` options respectively, under the `colors` object.
+
+```js
+config: {
+  colors {
+  //...
+  }
+	pokemon: 'pikachu',
+	pokemonSyntax: 'light',
+}
+```
+
+> Right now the only theme available is `pokemon: 'pikachu'`, but many many more are on the way!
 
 ## Designing
 
