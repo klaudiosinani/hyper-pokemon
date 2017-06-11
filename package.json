@@ -1,0 +1,27 @@
+{
+  "name": "hyper-pokemon",
+  "version": "0.1.0",
+  "description": "Wondrous pokemon themes for the Hyper terminal.",
+  "license": "MIT",
+  "repository": "klauscfhq/hyper-pokemon",
+  "homepage": "https://github.com/klauscfhq/hyper-pokemons",
+  "author": {
+    "name": "Klaus Sinani",
+    "email": "klauscfhq@protonmail.com",
+    "url": "https://cookfood.me"
+  },
+  "keywords": [
+    "hyper",
+    "hyperterm",
+    "pokemon",
+    "theme",
+    "terminal",
+    "background",
+    "ui",
+    "syntax"
+  ],
+  "dependencies": {
+    "home-dir": "^1.0.0",
+  },
+  "devDependencies": {}
+}
