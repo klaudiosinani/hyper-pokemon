@@ -1,5 +1,5 @@
 <h1 align="center">
-			<a href="https://github.com/klauscfhq/hhyper-pokemon">
+			<a href="https://github.com/klauscfhq/hyper-pokemon">
 				<img src="https://cdn.rawgit.com/klauscfhq/hyper-pokemon/e66c2a4c/media/screen.png" alt="Hyper Pokemon" width="95%">
 			</a>
 </h1>
@@ -28,9 +28,8 @@
 ## Designing
 
 <p align="center">
-			<a href="https://github.com/klauscfhq/hhyper-pokemon">
-				<img src="https://cdn.rawgit.com/klauscfhq/hyper-pokemon/cb43900d/media/screens.png
-" alt="Hyper Pokemon" width="90%">
+			<a href="https://github.com/klauscfhq/hyper-pokemon">
+				<img src="https://cdn.rawgit.com/klauscfhq/hyper-pokemon/cb43900d/media/screens.png" alt="Hyper Pokemon" width="90%">
 			</a>
 </p>
 
