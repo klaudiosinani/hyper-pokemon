@@ -1,7 +1,7 @@
 {
   "name": "hyper-pokemon",
-  "version": "0.1.0",
-  "description": "🌈🐱Wondrous, tailor-made Pokémon themes for your Hyper terminal",
+  "version": "0.1.1",
+  "description": "🌈 🐱 Wondrous, tailor-made Pokémon themes for your Hyper terminal",
   "license": "MIT",
   "repository": "klauscfhq/hyper-pokemon",
   "homepage": "https://github.com/klauscfhq/hyper-pokemons",
