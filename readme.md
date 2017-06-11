@@ -6,7 +6,7 @@
 
 > 🌈🐱Wondrous, tailor-made Pokémon themes for your Hyper terminal
 
- [![Dependency Status](https://dependencyci.com/github/klauscfhq/hyper-pokemon/badge)](https://dependencyci.com/github/klauscfhq/hyper-pokemon) [![Latest version](https://badge.fury.io/gh/klauscfhq%2Fhyper-pokemon.svg)](https://github.com/klauscfhq/hyper-pokemon/releases) [![Trello Board](https://img.shields.io/badge/trello-board-blue.svg)](https://trello.com/b/pg3NWkan) [![Repo Size](https://reposs.herokuapp.com/?path=klauscfhq/hyper-pokemon&color=orange)](https://raw.githubusercontent.com/klauscfhq/hyper-pokemon) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/klauscfhq/hyper-pokemon/master/license.md)
+ [![Build Status](https://travis-ci.org/klauscfhq/hyper-pokemon.svg?branch=master)](https://travis-ci.org/klauscfhq/hyper-pokemon) [![Dependency Status](https://dependencyci.com/github/klauscfhq/hyper-pokemon/badge)](https://dependencyci.com/github/klauscfhq/hyper-pokemon) [![Latest version](https://badge.fury.io/gh/klauscfhq%2Fhyper-pokemon.svg)](https://github.com/klauscfhq/hyper-pokemon/releases) [![Trello Board](https://img.shields.io/badge/trello-board-blue.svg)](https://trello.com/b/pg3NWkan) [![Repo Size](https://reposs.herokuapp.com/?path=klauscfhq/hyper-pokemon&color=orange)](https://raw.githubusercontent.com/klauscfhq/hyper-pokemon) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/klauscfhq/hyper-pokemon/master/license.md)
 
 ## Contents
 
