@@ -10,7 +10,7 @@
 
 ## Contents
 
-- [Project Description](#projec-description)
+- [Description](#description)
 - [Designing](#designing)
 - [Install](#install)
   - [Latest Release](#latest-release)
@@ -21,11 +21,18 @@
 - [Team](#team)
 - [License](#license)
 
-## Project Description
+## Description
 
 [:arrow_up:Back to top!](#contents)
 
 ## Designing
+
+<p align="center">
+			<a href="https://github.com/klauscfhq/hhyper-pokemon">
+				<img src="https://cdn.rawgit.com/klauscfhq/hyper-pokemon/cb43900d/media/screens.png
+" alt="Hyper Pokemon" width="90%">
+			</a>
+</p>
 
 [:arrow_up:Back to top!](#contents)
 
