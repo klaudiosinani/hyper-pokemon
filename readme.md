@@ -45,6 +45,8 @@ config: {
 
 > Right now the only theme available is `pokemon: 'pikachu'`, but many many more are on the way!
 
+[:arrow_up:Back to top!](#contents)
+
 ## Designing
 
 <p align="center">
@@ -78,14 +80,17 @@ $ cd hyper-pokemon
 
 ## Team
 
-:sparkles: **<>** with :heart: by Klaus :sparkles:
+Meet the Hyper Pokémon massive.<br/>
+All of us are senior undergraduate students @ ECE NTUA studying all sorts of Software and Computer engineering.
 
-[![Klaus Sinani](https://avatars.githubusercontent.com/u/12670537?s=130)](https://github.com/klauscfhq) |
---- |
-[Klaus Sinani](https://github.com/klauscfhq) [:mailbox:](mailto:klauscfhq@protonmail.com) |
+[![Klaus Sinani](https://avatars.githubusercontent.com/u/12670537?s=130)](https://github.com/klauscfhq) | [![Leonidas Avdelas](https://avatars.githubusercontent.com/u/15968096?s=130)](https://github.com/LoniasGR) | [![George Baxopoulos](https://avatars.githubusercontent.com/u/19195396?s=130)](https://github.com/georgebax) | [![Konstantinos Mitropoulos](https://avatars.githubusercontent.com/u/24499401?s=130)](https://github.com/tsikos7) | [![Konstantinos Skouras](https://avatars.githubusercontent.com/u/?s=130)](https://github.com/KonSkouras) | [![Panagiotis Bakos](https://avatars.githubusercontent.com/u/?s=130)](https://github.com/pmpakos)
+--- | --- | --- | --- | --- | ---
+[Klaus Sinani](https://github.com/klauscfhq) [:mailbox:](mailto:klauscfhq@protonmail.com) | [Leonidas Avdelas](http://github.com/LoniasGR) [:mailbox:](mailto:avdelasleonidas@gmail.com) | [George Baxopoulos](http://github.com/georgebax) [:mailbox:](mailto:baxopoulos.george@gmail.com) | [Konstantinos Mitropoulos](https://github.com/tsikos7) [:mailbox:](mailto:konsmitr@gmail.com) | [Konstantinos Skouras](https://github.com/KonSkouras) [:mailbox:](mailto:konst.skouras@gmail.com) | [Panagiotis Bakos](https://github.com/pmpakos) [:mailbox:](mailto:pmpakos@hotmail.com)
 
 [:arrow_up:Back to top!](#contents)
 
 ## License
 
 [MIT](https://github.com/klauscfhq/hyper-pokemon/blob/master/license.md) © [Klaus Sinani](https://github.com/klauscfhq)
+
+:sparkles: **<>** with :heart: by the Hyper Pokémon team :sparkles:
