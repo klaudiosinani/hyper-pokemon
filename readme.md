@@ -35,13 +35,13 @@ Then set your pokemon theme & pokemon syntax by adding the `pokemon` and `pokemo
 
 ```js
 config: {
-  //...
-  colors {
-  //...
-  },
-  pokemon: 'pikachu',
-  pokemonSyntax: 'light',
-  //...
+	//...
+	colors {
+	//...
+	},
+	pokemon: 'pikachu',
+	pokemonSyntax: 'light',
+	//...
 }
 ```
 
@@ -85,7 +85,7 @@ $ cd hyper-pokemon
 Meet the Hyper Pokémon massive.<br/>
 All of us are senior undergraduate students @ **ECE NTUA** studying all sorts of Software and Computer engineering.
 
-[![Klaus Sinani](https://avatars.githubusercontent.com/u/12670537?s=130)](https://github.com/klauscfhq) | [![Leonidas Avdelas](https://avatars.githubusercontent.com/u/15968096?s=130)](https://github.com/LoniasGR) | [![George Baxopoulos](https://avatars.githubusercontent.com/u/19195396?s=130)](https://github.com/georgebax) | [![Konstantinos Mitropoulos](https://avatars.githubusercontent.com/u/24499401?s=130)](https://github.com/tsikos7) | [![Konstantinos Skouras](https://avatars.githubusercontent.com/u/?s=130)](https://github.com/KonSkouras) | [![Panagiotis Bakos](https://avatars.githubusercontent.com/u/?s=130)](https://github.com/pmpakos)
+[![Klaus Sinani](https://avatars.githubusercontent.com/u/12670537?s=130)](https://github.com/klauscfhq) | [![Leonidas Avdelas](https://avatars.githubusercontent.com/u/15968096?s=130)](https://github.com/LoniasGR) | [![George Baxopoulos](https://avatars.githubusercontent.com/u/19195396?s=130)](https://github.com/georgebax) | [![Konstantinos Mitropoulos](https://avatars.githubusercontent.com/u/24499401?s=130)](https://github.com/tsikos7) | [![Konstantinos Skouras](https://avatars.githubusercontent.com/u/15022446?s=130)](https://github.com/KonSkouras) | [![Panagiotis Bakos](https://avatars.githubusercontent.com/u/23611809?s=130)](https://github.com/pmpakos)
 --- | --- | --- | --- | --- | ---
 [Klaus Sinani](https://github.com/klauscfhq) [:mailbox:](mailto:klauscfhq@protonmail.com) | [Leonidas Avdelas](http://github.com/LoniasGR) [:mailbox:](mailto:avdelasleonidas@gmail.com) | [George Baxopoulos](http://github.com/georgebax) [:mailbox:](mailto:baxopoulos.george@gmail.com) | [Konstantinos Mitropoulos](https://github.com/tsikos7) [:mailbox:](mailto:konsmitr@gmail.com) | [Konstantinos Skouras](https://github.com/KonSkouras) [:mailbox:](mailto:konst.skouras@gmail.com) | [Panagiotis Bakos](https://github.com/pmpakos) [:mailbox:](mailto:pmpakos@hotmail.com)
 
