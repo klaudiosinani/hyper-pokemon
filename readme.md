@@ -1,6 +1,6 @@
 <h1 align="center">
 			<a href="https://github.com/klauscfhq/hyper-pokemon">
-				<img src="https://cdn.rawgit.com/klauscfhq/hyper-pokemon/e66c2a4c/media/screen.png" alt="Hyper Pokemon" width="95%">
+				<img src="https://cdn.rawgit.com/klauscfhq/hyper-pokemon/d45bcb77/media/screen.png" alt="Hyper Pokemon" width="95%">
 			</a>
 </h1>
 
