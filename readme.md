@@ -35,11 +35,13 @@ Then set your pokemon theme & pokemon syntax by adding the `pokemon` and `pokemo
 
 ```js
 config: {
+	//...
   colors {
   //...
-  }
+  },
 	pokemon: 'pikachu',
 	pokemonSyntax: 'light',
+	//...
 }
 ```
 
@@ -91,6 +93,6 @@ All of us are senior undergraduate students @ ECE NTUA studying all sorts of Sof
 
 ## License
 
-[MIT](https://github.com/klauscfhq/hyper-pokemon/blob/master/license.md) © [Klaus Sinani](https://github.com/klauscfhq)
+[MIT](https://github.com/klauscfhq/hyper-pokemon/blob/master/license.md)
 
 :sparkles: **<>** with :heart: by the Hyper Pokémon team :sparkles:
