@@ -5,21 +5,24 @@ const extension = '.png';
 
 exports.decorateConfig = (config, t) => {
 
-	let primary, secondary, text;
+	let primary, secondary, tertiary;
 
 	switch (config.pokemon) {
 		case 'pikachu':
 			primary = '#F6BD20';
 			secondary = '#623108';
+			tertiary = '#C98600';
 			break;
 
 		default:
 			if (config.pokemonSyntax === 'light') {
 				primary = '#383A42';
 				secondary = '#383A42';
+				tertiary = '#383A42';
 			} else {
 				primary = '#FAFAFA';
 				secondary = '#FAFAFA';
+				tertiary = '#FAFAFA';
 			}
 
 	}
@@ -31,23 +34,22 @@ exports.decorateConfig = (config, t) => {
 			foregroundColor: secondary,
 			backgroundColor: '#383A42',
 			colors: {
-				black: primary,
+				black: tertiary,
 				red: secondary,
-				green: secondary,
+				green: tertiary,
 				yellow: secondary,
 				blue: secondary,
 				magenta: secondary,
 				cyan: secondary,
 				white: secondary,
-				lightBlack: primary,
+				lightBlack: tertiary,
 				lightRed: secondary,
-				lightGreen: secondary,
+				lightGreen: tertiary,
 				lightYellow: secondary,
 				lightBlue: secondary,
 				lightMagenta: secondary,
 				lightCyan: secondary,
-				colorCubes: primary,
-				grayscale: primary
+				lightWhite: secondary
 			}
 		},
 
@@ -57,23 +59,22 @@ exports.decorateConfig = (config, t) => {
 			foregroundColor: secondary,
 			backgroundColor: '#FAFAFA',
 			colors: {
-				black: primary,
+				black: tertiary,
 				red: secondary,
-				green: secondary,
+				green: tertiary,
 				yellow: secondary,
 				blue: secondary,
 				magenta: secondary,
 				cyan: secondary,
 				white: secondary,
-				lightBlack: primary,
+				lightBlack: tertiary,
 				lightRed: secondary,
-				lightGreen: secondary,
+				lightGreen: tertiary,
 				lightYellow: secondary,
 				lightBlue: secondary,
 				lightMagenta: secondary,
 				lightCyan: secondary,
-				colorCubes: primary,
-				grayscale: primary
+				lightWhite: secondary
 			}
 		}
 	};
