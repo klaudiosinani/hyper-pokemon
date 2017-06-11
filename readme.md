@@ -6,7 +6,7 @@
 
 > 🌈🐱Wondrous, tailor-made Pokémon themes for your Hyper terminal
 
- [![Latest version](https://badge.fury.io/gh/klauscfhq%2Fhyper-pokemon.svg)](https://github.com/klauscfhq/compilers/releases) [![Trello Board](https://img.shields.io/badge/trello-board-blue.svg)](https://trello.com/b/) [![Repo Size](https://reposs.herokuapp.com/?path=klauscfhq/hyper-pokemon&color=orange)](https://raw.githubusercontent.com/klauscfhq/hyper-pokemon) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/klauscfhq/hyper-pokemon/master/license.md)
+ [![Dependency Status](https://dependencyci.com/github/klauscfhq/hyper-pokemon/badge)](https://dependencyci.com/github/klauscfhq/hyper-pokemon) [![Latest version](https://badge.fury.io/gh/klauscfhq%2Fhyper-pokemon.svg)](https://github.com/klauscfhq/hyper-pokemon/releases) [![Trello Board](https://img.shields.io/badge/trello-board-blue.svg)](https://trello.com/b/pg3NWkan) [![Repo Size](https://reposs.herokuapp.com/?path=klauscfhq/hyper-pokemon&color=orange)](https://raw.githubusercontent.com/klauscfhq/hyper-pokemon) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/klauscfhq/hyper-pokemon/master/license.md)
 
 ## Contents
 
@@ -35,17 +35,17 @@ Then set your pokemon theme & pokemon syntax by adding the `pokemon` and `pokemo
 
 ```js
 config: {
-	//...
+  //...
   colors {
   //...
   },
-	pokemon: 'pikachu',
-	pokemonSyntax: 'light',
-	//...
+  pokemon: 'pikachu',
+  pokemonSyntax: 'light',
+  //...
 }
 ```
 
-> Right now the only theme available is `pokemon: 'pikachu'`, but many many more are on the way!
+> Right now the only theme available is `pokemon: 'pikachu'`, but 600 more themes will be available asap!
 
 [:arrow_up:Back to top!](#contents)
 
@@ -83,7 +83,7 @@ $ cd hyper-pokemon
 ## Team
 
 Meet the Hyper Pokémon massive.<br/>
-All of us are senior undergraduate students @ ECE NTUA studying all sorts of Software and Computer engineering.
+All of us are senior undergraduate students @ **ECE NTUA** studying all sorts of Software and Computer engineering.
 
 [![Klaus Sinani](https://avatars.githubusercontent.com/u/12670537?s=130)](https://github.com/klauscfhq) | [![Leonidas Avdelas](https://avatars.githubusercontent.com/u/15968096?s=130)](https://github.com/LoniasGR) | [![George Baxopoulos](https://avatars.githubusercontent.com/u/19195396?s=130)](https://github.com/georgebax) | [![Konstantinos Mitropoulos](https://avatars.githubusercontent.com/u/24499401?s=130)](https://github.com/tsikos7) | [![Konstantinos Skouras](https://avatars.githubusercontent.com/u/?s=130)](https://github.com/KonSkouras) | [![Panagiotis Bakos](https://avatars.githubusercontent.com/u/?s=130)](https://github.com/pmpakos)
 --- | --- | --- | --- | --- | ---
