@@ -62,9 +62,9 @@ plugins: ['hyper-pokemon']
 
 Once you have installed `hyper-pokemon`, it's time to set your favorite theme! 
 
-Go to your `~/.hyper.js` and add the `pokemon` and `pokemonSyntax` options below the `colors` object, and define your favorite theme of choice! 
+Go to your `~/.hyper.js` and add the `pokemon` and `pokemonSyntax` options below the `colors` object, and define your theme of choice! 
 
-Here is a quick example of choosing the `pikachu` theme!
+Here is a quick example, where we choose the `pikachu` theme!
 
 ```js
 config: {
@@ -77,7 +77,7 @@ config: {
     // pokemonSyntax defines the color of the terminal tabs. 
     // Choose `light` if your pokemon theme is of a more light color
     // or `dark` if you are going with a darker pokemon theme
-    // We plan to complete automate this option, so it's just temporary :)
+    // We plan to completely automate this option, so it's just temporary :)
     //...
 }
 ```
