@@ -16,6 +16,12 @@ exports.decorateConfig = config => {
 			tertiary = '#C98600';
 			break;
 
+		case 'raichu':
+			primary = '#F2BD4B';
+			secondary = '#623108';
+			tertiary = '#C16200';
+			break;
+
 		case 'gengar':
 			primary = '#EF735B';
 			secondary = '#77BC3E';
