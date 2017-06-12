@@ -14,7 +14,11 @@ exports.decorateConfig = config => {
 			secondary = '#623108';
 			tertiary = '#C98600';
 			break;
-
+		case 'gengar':
+			primary = '#EF735B';
+			secondary = '#77BC3E';
+			tertiary = '#FFFFFF';
+			break;
 		default:
 			if (config.pokemonSyntax === 'light') {
 				primary = '#383A42';
