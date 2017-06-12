@@ -21,7 +21,11 @@
 
 ## Description
 
-[:arrow_up:Back to top!](#contents)
+Made for Pokémon enthusiasts by Pokémon enthusiasts ❤
+
+All of the wonderful Pokémon backgrounds were created by the amazing [Teej/TopHat](https://pldh.net/gallery/the493).
+
+Inspired by the original [Pokemon-Terminal](https://github.com/LazoCoder/Pokemon-Terminal) project.
 
 ## Install
 
