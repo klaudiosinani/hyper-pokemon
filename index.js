@@ -24,8 +24,8 @@ exports.decorateConfig = config => {
 
 		case 'gengar':
 			primary = '#EF735B';
-			secondary = '#77BC3E';
-			tertiary = '#FFFFFF';
+			secondary = '#BDACBD';
+			tertiary = '#EF735B';
 			break;
 
 		default:
