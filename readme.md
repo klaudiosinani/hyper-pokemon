@@ -6,14 +6,15 @@
 
 > 🌈🐱Wondrous, tailor-made Pokémon themes for your Hyper terminal
 
- [![Build Status](https://travis-ci.org/klauscfhq/hyper-pokemon.svg?branch=master)](https://travis-ci.org/klauscfhq/hyper-pokemon) [![Dependency Status](https://dependencyci.com/github/klauscfhq/hyper-pokemon/badge)](https://dependencyci.com/github/klauscfhq/hyper-pokemon) [![Latest version](https://badge.fury.io/gh/klauscfhq%2Fhyper-pokemon.svg)](https://github.com/klauscfhq/hyper-pokemon/releases) [![Trello Board](https://img.shields.io/badge/trello-board-blue.svg)](https://trello.com/b/pg3NWkan) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/klauscfhq/hyper-pokemon) [![Repo Size](https://reposs.herokuapp.com/?path=klauscfhq/hyper-pokemon&color=orange)](https://raw.githubusercontent.com/klauscfhq/hyper-pokemon) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/klauscfhq/hyper-pokemon/master/license.md)
+ [![Build Status](https://travis-ci.org/klauscfhq/hyper-pokemon.svg?branch=master)](https://travis-ci.org/klauscfhq/hyper-pokemon) [![Dependency Status](https://dependencyci.com/github/klauscfhq/hyper-pokemon/badge)](https://dependencyci.com/github/klauscfhq/hyper-pokemon) [![Trello Board](https://img.shields.io/badge/trello-board-blue.svg)](https://trello.com/b/pg3NWkan) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/klauscfhq/hyper-pokemon) [![Latest version](https://badge.fury.io/gh/klauscfhq%2Fhyper-pokemon.svg)](https://github.com/klauscfhq/hyper-pokemon/releases) [![Repo Size](https://reposs.herokuapp.com/?path=klauscfhq/hyper-pokemon&color=orange)](https://raw.githubusercontent.com/klauscfhq/hyper-pokemon) [![npm](https://img.shields.io/npm/dm/hyper-pokemon.svg?label=DL)]() [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/klauscfhq/hyper-pokemon/master/license.md)
 
 ## Contents
 
 - [Description](#description)
 - [Install](#install)
-- [Designing](#designing)
 - [Usage](#usage)
+- [Available Themes](#available-themes)
+- [Designing](#designing)
 - [Download](#download)
 - [Related](#related)
 - [Team](#team)
@@ -29,27 +30,70 @@ Inspired by the original [Pokemon-Terminal](https://github.com/LazoCoder/Pokemon
 
 ## Install
 
+### Using the plugin manager - `hpm-cli`
+
+Firstly, ensure you have [Hyper](https://github.com/zeit/hyper/releases) and [Node.js](https://nodejs.org) installed in your system.<br/>
+Then simply do the `npm` dance to get `hpm-cli`
+
+```bash
+# fire up a terminal and type
+$ npm install -g hpm-cli
+```
+
+Once done with that, it's time to install the `hyper-pokemon` theme!
+
+```bash
+# run the hyper plugin manager
+$ hpm install hyper-pokemon
+```
+
+### Manually throught `.hyper.js`
+
 Add `hyper-pokemon` to the plugins list in your `~/.hyper.js` config file and restart Hyper.
+That's it!
 
 ```js
 plugins: ['hyper-pokemon']
 ```
 
-Then set your pokemon theme & pokemon syntax by adding the `pokemon` and `pokemonSyntax` options respectively, under the `colors` object.
+[:arrow_up:Back to top!](#contents)
+
+## Usage
+
+Once you have installed `hyper-pokemon`, it's time to set your favorite theme! 
+
+Go to your `~/.hyper.js` and add the `pokemon` and `pokemonSyntax` options below the `colors` object, and define your favorite theme of choice! 
+
+Here is a quick example of choosing the `pikachu` theme!
 
 ```js
 config: {
-	//...
-	colors {
-	//...
-	},
-	pokemon: 'pikachu',
-	pokemonSyntax: 'light',
-	//...
+    //...
+    colors {
+    //...
+    },
+    pokemon: 'pikachu', // Define your favorite pokemon theme!
+    pokemonSyntax: 'light', 
+    // pokemonSyntax defines the color of the terminal tabs. 
+    // Choose `light` if your pokemon theme is of a more light color
+    // or `dark` if you are going with a darker pokemon theme
+    // We plan to complete automate this option, so it's just temporary :)
+    //...
 }
 ```
 
-> Right now the only theme available is `pokemon: 'pikachu'`, but 600 more themes will be available asap!
+[:arrow_up:Back to top!](#contents)
+
+## Available Themes
+
+Here is a list of all the available Pokémon themes up to now!
+
+- Pikachu ⚡
+- Raichu ⚡
+- Gengar 👻
+
+You can track the creation/progress of all themes on our [Trello board](https://trello.com/b/pg3NWkan)!<br/>
+Cove over and say hi!
 
 [:arrow_up:Back to top!](#contents)
 
@@ -57,19 +101,15 @@ config: {
 
 <p align="center">
 			<a href="https://github.com/klauscfhq/hyper-pokemon">
-				<img src="https://cdn.rawgit.com/klauscfhq/hyper-pokemon/cb43900d/media/screens.png" alt="Hyper Pokemon" width="90%">
+				<img src="https://cdn.rawgit.com/klauscfhq/hyper-pokemon/cb43900d/media/screens.png" alt="Hyper Pokemon" width="100%">
 			</a>
 </p>
 
 [:arrow_up:Back to top!](#contents)
 
-## Usage
-
-[:arrow_up:Back to top!](#contents)
-
 ## Download
 
-### Fork project
+### Fork the project
 
 ```bash
 # clone the repository
@@ -78,9 +118,24 @@ $ git clone https://github.com/klauscfhq/hyper-pokemon.git
 $ cd hyper-pokemon
 ```
 
+### Using `npm`
+
+```bash
+# get the package & set it as a dependency 
+$ npm install hyper-pokemon --save
+# or set it as a devDependency
+$ npm install hyper-pokemon --save-dev
+# or even save it globaly
+$ npm install hyper-pokemon --g
+```
+
 [:arrow_up:Back to top!](#contents)
 
 ## Related
+
+Here is an awesome list where you can find other awesome Hyper themes & plugins!
+
+- [Awesome-Hyper](https://github.com/bnb/awesome-hyper)
 
 [:arrow_up:Back to top!](#contents)
 
