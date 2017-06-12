@@ -1,11 +1,12 @@
 const homeDir = require('home-dir');
+
 const path = homeDir('/.hyper_plugins/node_modules/hyper-pokemon/backgrounds/');
 const extension = '.png';
 
-
-exports.decorateConfig = (config, t) => {
-
-	let primary, secondary, tertiary;
+exports.decorateConfig = config => {
+	let primary;
+	let secondary;
+	let tertiary;
 
 	switch (config.pokemon) {
 		case 'pikachu':
@@ -30,7 +31,7 @@ exports.decorateConfig = (config, t) => {
 	const syntax = {
 		dark: {
 			borderColor: primary,
-			cursorColor: primary,
+			cursorColor: secondary,
 			foregroundColor: secondary,
 			backgroundColor: '#383A42',
 			colors: {
@@ -79,12 +80,13 @@ exports.decorateConfig = (config, t) => {
 		}
 	};
 
-	var assemblePath = path + config.pokemon + extension;
+	let pathToTheme;
+	const assemblePath = path + config.pokemon + extension;
 
 	if (process.platform === 'win32') {
-		var pathToTheme = assemblePath.replace(/\\/g, "/");
+		pathToTheme = assemblePath.replace(/\\/g, '/');
 	} else {
-		var pathToTheme = assemblePath;
+		pathToTheme = assemblePath;
 	}
 
 	return Object.assign({}, config,
