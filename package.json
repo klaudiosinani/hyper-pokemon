@@ -40,15 +40,24 @@
   "keywords": [
     "hyper",
     "hyperterm",
+    "hyper-pokemon",
+    "hyper-theme",
+    "color-scheme",
     "pokemon",
+    "pokemons",
     "theme",
     "terminal",
     "background",
     "ui",
     "syntax"
   ],
+  "scripts": {
+    "test": "xo index.js"
+  },
   "dependencies": {
     "home-dir": "^1.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "xo": "^0.18.2"
+  }
 }
