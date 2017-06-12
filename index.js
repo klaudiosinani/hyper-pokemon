@@ -8,7 +8,7 @@ exports.decorateConfig = config => {
 	let secondary;
 	let tertiary;
 
-	switch (config.pokemon) {
+	switch (config.pokemon.toLowerCase()) {
 		case 'pikachu':
 			primary = '#F6BD20';
 			secondary = '#623108';
@@ -81,7 +81,7 @@ exports.decorateConfig = config => {
 	};
 
 	let pathToTheme;
-	const assemblePath = path + config.pokemon + extension;
+	const assemblePath = path + config.pokemon.toLowerCase() + extension;
 
 	if (process.platform === 'win32') {
 		pathToTheme = assemblePath.replace(/\\/g, '/');
