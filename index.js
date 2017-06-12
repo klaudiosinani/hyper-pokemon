@@ -55,7 +55,7 @@ exports.decorateConfig = (config, t) => {
 
 		light: {
 			borderColor: primary,
-			cursorColor: primary,
+			cursorColor: secondary,
 			foregroundColor: secondary,
 			backgroundColor: '#FAFAFA',
 			colors: {
