@@ -7,18 +7,21 @@ exports.decorateConfig = config => {
 	let primary;
 	let secondary;
 	let tertiary;
+	const pokemonTheme = config.pokemon.toLowerCase();
 
-	switch (config.pokemon.toLowerCase()) {
+	switch (pokemonTheme) {
 		case 'pikachu':
 			primary = '#F6BD20';
 			secondary = '#623108';
 			tertiary = '#C98600';
 			break;
+
 		case 'gengar':
 			primary = '#EF735B';
 			secondary = '#77BC3E';
 			tertiary = '#FFFFFF';
 			break;
+
 		default:
 			if (config.pokemonSyntax === 'light') {
 				primary = '#383A42';
@@ -85,7 +88,7 @@ exports.decorateConfig = config => {
 	};
 
 	let pathToTheme;
-	const assemblePath = path + config.pokemon.toLowerCase() + extension;
+	const assemblePath = path + pokemonTheme + extension;
 
 	if (process.platform === 'win32') {
 		pathToTheme = assemblePath.replace(/\\/g, '/');
