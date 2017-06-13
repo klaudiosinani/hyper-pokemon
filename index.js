@@ -7,29 +7,36 @@ exports.decorateConfig = config => {
 	let primary;
 	let secondary;
 	let tertiary;
+	let unibodyFlag;
 	const pokemonTheme = config.pokemon.toLowerCase();
+	const unibody = config.unibody;
+	if (unibody === 'false') {
+		unibodyFlag = false;
+	} else {
+		unibodyFlag = true;
+	}
 
 	switch (pokemonTheme) {
 		case 'pikachu':
-			primary = '#F6BD20';
+			primary = (unibodyFlag === true) ? '#F7DE82' : '#F6BD20';
 			secondary = '#623108';
 			tertiary = '#C98600';
 			break;
 
 		case 'raichu':
-			primary = '#F2BD4B';
+			primary = (unibodyFlag === true) ? '#F2BD4B' : '#66431b';
 			secondary = '#623108';
 			tertiary = '#C16200';
 			break;
 
 		case 'gengar':
-			primary = '#4B294A';
+			primary = (unibodyFlag === true) ? '#4B294A' : '#EF735B';
 			secondary = '#43B28F';
 			tertiary = '#BB4477';
 			break;
 
 		case 'vulpix':
-			primary = '#c08672';
+			primary = (unibodyFlag === true) ? '#c08672' : '#723822';
 			secondary = '#1F1F1F';
 			tertiary = '#7F3E26';
 			break;
