@@ -19,8 +19,8 @@ exports.decorateConfig = config => {
 	switch (pokemonTheme) {
 		case 'pikachu':
 			primary = (unibodyFlag === true) ? '#F7DE82' : '#F6BD20';
-			secondary = '#623108';
-			tertiary = '#C98600';
+			secondary = '#4C1803';
+			tertiary = '#DE7329';
 			break;
 
 		case 'raichu':
@@ -37,8 +37,8 @@ exports.decorateConfig = config => {
 
 		case 'vulpix':
 			primary = (unibodyFlag === true) ? '#c08672' : '#723822';
-			secondary = '#1F1F1F';
-			tertiary = '#7F3E26';
+			secondary = '#421402';
+			tertiary = '#f2a485';
 			break;
 
 		default:
