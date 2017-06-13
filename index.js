@@ -111,6 +111,10 @@ exports.decorateConfig = config => {
           ::selection {
             background: ${primary} !important;
           }
+          ::-webkit-scrollbar-thumb {
+            background-color: ${secondary};
+            -webkit-box-shadow: none;
+					}
           x-screen {
             background: transparent !important;
           }
