@@ -23,9 +23,9 @@ exports.decorateConfig = config => {
 			break;
 
 		case 'gengar':
-			primary = '#EF735B';
-			secondary = '#BDACBD';
-			tertiary = '#EF735B';
+			primary = '#4B294A';
+			secondary = '#43B28F';
+			tertiary = '#BB4477';
 			break;
 
 		case 'vulpix':
