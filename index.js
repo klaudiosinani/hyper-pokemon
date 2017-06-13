@@ -28,6 +28,12 @@ exports.decorateConfig = config => {
 			tertiary = '#EF735B';
 			break;
 
+		case 'vulpix':
+			primary = '#c08672';
+			secondary = '#1F1F1F';
+			tertiary = '#7F3E26';
+			break;
+
 		default:
 			if (config.pokemonSyntax === 'light') {
 				primary = '#383A42';
