@@ -41,6 +41,12 @@ exports.decorateConfig = config => {
 			tertiary = '#f2a485';
 			break;
 
+		case 'squirtle':
+			primary = (unibodyFlag === true) ? '#84C1D4' : '#916A5B';
+			secondary = '#832900';
+			tertiary = '#B4E6EE';
+			break;
+
 		default:
 			if (config.pokemonSyntax === 'light') {
 				primary = '#383A42';
