@@ -13,6 +13,7 @@
 - [Description](#description)
 - [Install](#install)
 - [Usage](#usage)
+- [Options](#options)
 - [Available Themes](#available-themes)
 - [Showcase](#showcase)
 - [Download](#download)
@@ -64,7 +65,7 @@ Once you have installed `hyper-pokemon`, it's time to set your favorite theme!
 
 Go to your `~/.hyper.js` and add the `pokemon` and `pokemonSyntax` options below the `colors` object, and define your theme of choice!
 
-Here is a quick example, where we choose the `pikachu` theme!
+Here is a quick example, where we choose the `gengar` theme, with a `unibody` color for the window header & dark terminal tabs! 👻
 
 ```js
 config: {
@@ -72,15 +73,47 @@ config: {
     colors {
     //...
     },
-    pokemon: 'pikachu', // Define your favorite pokemon theme!
-    pokemonSyntax: 'light',
-    // pokemonSyntax defines the color of the terminal tabs.
-    // Choose `light` if your pokemon theme is of a more light color
-    // or `dark` if you are going with a darker pokemon theme
-    // We plan to completely automate this option, so it's just temporary :)
-    //...
+    pokemon: 'gengar', // Define your favorite pokemon theme!
+    pokemonSyntax: 'dark', // Define the color of the terminal tabs.
+    unibody: 'true', // Define the color of the Hyper window header
 }
 ```
+
+![Gengar Example](media/example.png)
+
+To get the exact same look as in this image, install [`oh-my-zsh`](http://ohmyz.sh/) and choose [`pure`](https://github.com/sindresorhus/pure) as your zsh prompt 🐱
+
+[:arrow_up:Back to top!](#contents)
+
+## Options
+
+### `pokemon`
+
+Using this option you choose your pokémon background along with it's tailor-made syntax color.
+
+### `pokemonSyntax`
+
+Here you can define the color of the terminal tabs.
+
+The assignable values are:
+
+- `light` - choose it if your pokémon theme is of a more light color
+- `dark` - go for it if you are going with a darker pokémon theme
+
+![Pokemon Syntax](media/pokemon-syntax.png)
+
+### `unibody`
+
+Choose whether or not you like the Hyper windows header color to be the same as the background pokémon theme.
+
+The assignable values are:
+
+- `true` - choose it for a unibody color for your theme
+- `false` - go for it if you like you window header colorful
+
+In addition, completely omitting the `unibody` option from your `.hyper.js` will have the same effect defining it and setting it to `true`.
+
+![Unibody](media/unibody.png)
 
 [:arrow_up:Back to top!](#contents)
 
@@ -140,6 +173,7 @@ $ npm install hyper-pokemon --g
 Here is an awesome list where you can find other awesome Hyper themes & plugins!
 
 - [Awesome-Hyper](https://github.com/bnb/awesome-hyper)
+- [Pure](https://github.com/sindresorhus/pure)
 
 [:arrow_up:Back to top!](#contents)
 
