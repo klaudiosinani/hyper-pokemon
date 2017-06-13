@@ -60,9 +60,9 @@ plugins: ['hyper-pokemon']
 
 ## Usage
 
-Once you have installed `hyper-pokemon`, it's time to set your favorite theme! 
+Once you have installed `hyper-pokemon`, it's time to set your favorite theme!
 
-Go to your `~/.hyper.js` and add the `pokemon` and `pokemonSyntax` options below the `colors` object, and define your theme of choice! 
+Go to your `~/.hyper.js` and add the `pokemon` and `pokemonSyntax` options below the `colors` object, and define your theme of choice!
 
 Here is a quick example, where we choose the `pikachu` theme!
 
@@ -73,8 +73,8 @@ config: {
     //...
     },
     pokemon: 'pikachu', // Define your favorite pokemon theme!
-    pokemonSyntax: 'light', 
-    // pokemonSyntax defines the color of the terminal tabs. 
+    pokemonSyntax: 'light',
+    // pokemonSyntax defines the color of the terminal tabs.
     // Choose `light` if your pokemon theme is of a more light color
     // or `dark` if you are going with a darker pokemon theme
     // We plan to completely automate this option, so it's just temporary :)
@@ -91,9 +91,10 @@ Here is a list of all the available Pokémon themes up to now!
 - Pikachu ⚡
 - Raichu ⚡
 - Gengar 👻
+- Vulpix 🔥
 
 You can track the creation/progress of all themes on our [Trello board](https://trello.com/b/pg3NWkan)!<br/>
-Cove over and say hi!
+Come over and say hi!
 
 [:arrow_up:Back to top!](#contents)
 
@@ -121,7 +122,7 @@ $ cd hyper-pokemon
 ### Using `npm`
 
 ```bash
-# get the package & set it as a dependency 
+# get the package & set it as a dependency
 $ npm install hyper-pokemon --save
 # or set it as a devDependency
 $ npm install hyper-pokemon --save-dev
@@ -154,4 +155,12 @@ All of us are senior undergraduate students @ **ECE NTUA** studying all sorts of
 
 [MIT](https://github.com/klauscfhq/hyper-pokemon/blob/master/license.md)
 
-:sparkles: **<>** with :heart: by the Hyper Pokémon team :sparkles:
+<div align="center">
+	<br>
+			<a href="https://github.com/klauscfhq/hyper-pokemon">
+				<img src="https://cdn.rawgit.com/klauscfhq/hyper-pokemon/b589d665/media/logo.png" alt="Hyper Pokemon" width="60%">
+			</a>
+		<br>
+	 <p> **<>** with ❤ by the Hyper Pokémon team </p>
+	<br>
+</div>
