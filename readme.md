@@ -14,7 +14,7 @@
 - [Install](#install)
 - [Usage](#usage)
 - [Available Themes](#available-themes)
-- [Designing](#designing)
+- [Showcase](#showcase)
 - [Download](#download)
 - [Related](#related)
 - [Team](#team)
@@ -98,7 +98,10 @@ Come over and say hi!
 
 [:arrow_up:Back to top!](#contents)
 
-## Designing
+## Showcase
+
+All available themes can be previewed on the project's [homepage](https://hyper-pokemon.github.io)! <br/>
+Go on and take a peek 👀
 
 <p align="center">
 			<a href="https://github.com/klauscfhq/hyper-pokemon">
@@ -158,9 +161,9 @@ All of us are senior undergraduate students @ **ECE NTUA** studying all sorts of
 <div align="center">
 	<br>
 			<a href="https://github.com/klauscfhq/hyper-pokemon">
-				<img src="https://cdn.rawgit.com/klauscfhq/hyper-pokemon/b589d665/media/logo.png" alt="Hyper Pokemon" width="60%">
+				<img src="https://cdn.rawgit.com/klauscfhq/hyper-pokemon/b589d665/media/logo.png" alt="Hyper Pokemon" width="45%">
 			</a>
 		<br>
-	 <p> **<>** with ❤ by the Hyper Pokémon team </p>
+	 <p><b> <> with ❤ by the Hyper Pokémon team </b></p>
 	<br>
 </div>
