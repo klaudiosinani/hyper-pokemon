@@ -3,8 +3,8 @@
   "version": "0.1.4",
   "description": "🌈 🐱 Wondrous, tailor-made Pokémon themes for your Hyper terminal",
   "license": "MIT",
-  "repository": "klauscfhq/hyper-pokemon",
-  "homepage": "https://github.com/klauscfhq/hyper-pokemons",
+  "repository": "hyper-pokemon/hyper-pokemon",
+  "homepage": "https://hyper-pokemon.github.io",
   "author": {
     "name": "Klaus Sinani",
     "email": "klauscfhq@protonmail.com",
