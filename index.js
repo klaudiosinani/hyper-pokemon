@@ -1,13 +1,12 @@
 const fs = require('fs');
-
-const homeDir = require('home-dir');
 const yaml = require('js-yaml');
+const homeDir = require('home-dir');
 
 const path = homeDir('/.hyper_plugins/node_modules/hyper-pokemon/backgrounds/');
 const extension = '.png';
 
 exports.decorateConfig = config => {
-	let pkmn;
+	let theme;
 	let pokemonTheme = config.pokemon.toLowerCase();
 	const unibody = config.unibody;
 	const unibodyFlag = unibody !== 'false';
@@ -28,15 +27,15 @@ exports.decorateConfig = config => {
 	}
 
 	if (Object.prototype.hasOwnProperty.call(pokemonYml.pokemon, pokemonTheme)) {
-		pkmn = pokemonYml.pokemon[pokemonTheme];
+		theme = pokemonYml.pokemon[pokemonTheme];
 	} else {
-		pkmn = pokemonYml.default[config.pokemonSyntax];
+		theme = pokemonYml.default[config.pokemonSyntax];
 	}
 
 	// Set theme colors
-	const primary = (unibodyFlag === true) ? pkmn.unibody : pkmn.primary;
-	const secondary = pkmn.secondary;
-	const tertiary = pkmn.tertiary;
+	const primary = (unibodyFlag === true) ? theme.unibody : theme.primary;
+	const secondary = theme.secondary;
+	const tertiary = theme.tertiary;
 
 	const syntax = {
 		dark: {
