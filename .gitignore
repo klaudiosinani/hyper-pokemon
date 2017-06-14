@@ -1,10 +1,11 @@
-# IDE
 .idea
-
-# OS
 .directory
 .DS_Store
-
+Thumbs.db
 node_modules
 *.log
 *.swp
+*.swo
+tags
+cscope.*
+*~
