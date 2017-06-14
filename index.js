@@ -1,46 +1,42 @@
+const fs = require('fs');
+
 const homeDir = require('home-dir');
 const yaml = require('js-yaml');
-const fs = require('fs');
 
 const path = homeDir('/.hyper_plugins/node_modules/hyper-pokemon/backgrounds/');
 const extension = '.png';
 
 exports.decorateConfig = config => {
 	let pkmn;
-	let primary;
-	let secondary;
-	let tertiary;
-	let unibodyFlag;
 	let pokemonTheme = config.pokemon.toLowerCase();
 	const unibody = config.unibody;
+	const unibodyFlag = unibody !== 'false';
 
-	unibodyFlag = unibody !== 'false';
-
-	// load color palettes from yaml file
-	const pokemon_yml = yaml.safeLoad(
+	// Load color palettes from yaml file
+	const pokemonYml = yaml.safeLoad(
 		fs.readFileSync(
 			homeDir('/.hyper_plugins/node_modules/hyper-pokemon/pokemon.yml'),
 			'utf8'
 		)
 	);
 
-	// determine theme color palette
+	// Determine theme color palette
 	if (pokemonTheme === 'random') {
-		const keys = Object.keys(pokemon_yml.pokemon);
+		const keys = Object.keys(pokemonYml.pokemon);
 		const index = Math.floor(Math.random() * (keys.length));
 		pokemonTheme = keys[index];
 	}
 
-	if (pokemon_yml.pokemon.hasOwnProperty(pokemonTheme)) {
-		pkmn = pokemon_yml.pokemon[pokemonTheme];
+	if (Object.prototype.hasOwnProperty.call(pokemonYml.pokemon, pokemonTheme)) {
+		pkmn = pokemonYml.pokemon[pokemonTheme];
 	} else {
-		pkmn = pokemon_yml.default[config.pokemonSyntax]
+		pkmn = pokemonYml.default[config.pokemonSyntax];
 	}
 
-	// set theme colors
-	primary = (unibodyFlag === true) ? pkmn.unibody : pkmn.primary;
-	secondary = pkmn.secondary;
-	tertiary = pkmn.tertiary;
+	// Set theme colors
+	const primary = (unibodyFlag === true) ? pkmn.unibody : pkmn.primary;
+	const secondary = pkmn.secondary;
+	const tertiary = pkmn.tertiary;
 
 	const syntax = {
 		dark: {
