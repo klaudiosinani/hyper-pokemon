@@ -55,7 +55,8 @@
     "test": "xo index.js"
   },
   "dependencies": {
-    "home-dir": "^1.0.0"
+    "home-dir": "^1.0.0",
+    "js-yaml": "^3.8.4"
   },
   "devDependencies": {
     "xo": "^0.18.2"

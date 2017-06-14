@@ -1,64 +1,42 @@
+const fs = require('fs');
+
 const homeDir = require('home-dir');
+const yaml = require('js-yaml');
 
 const path = homeDir('/.hyper_plugins/node_modules/hyper-pokemon/backgrounds/');
 const extension = '.png';
 
 exports.decorateConfig = config => {
-	let primary;
-	let secondary;
-	let tertiary;
-	let unibodyFlag;
-	const pokemonTheme = config.pokemon.toLowerCase();
+	let pkmn;
+	let pokemonTheme = config.pokemon.toLowerCase();
 	const unibody = config.unibody;
-	if (unibody === 'false') {
-		unibodyFlag = false;
+	const unibodyFlag = unibody !== 'false';
+
+	// Load color palettes from yaml file
+	const pokemonYml = yaml.safeLoad(
+		fs.readFileSync(
+			homeDir('/.hyper_plugins/node_modules/hyper-pokemon/pokemon.yml'),
+			'utf8'
+		)
+	);
+
+	// Determine theme color palette
+	if (pokemonTheme === 'random') {
+		const keys = Object.keys(pokemonYml.pokemon);
+		const index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	}
+
+	if (Object.prototype.hasOwnProperty.call(pokemonYml.pokemon, pokemonTheme)) {
+		pkmn = pokemonYml.pokemon[pokemonTheme];
 	} else {
-		unibodyFlag = true;
+		pkmn = pokemonYml.default[config.pokemonSyntax];
 	}
 
-	switch (pokemonTheme) {
-		case 'pikachu':
-			primary = (unibodyFlag === true) ? '#F7DE82' : '#F6BD20';
-			secondary = '#4C1803';
-			tertiary = '#DE7329';
-			break;
-
-		case 'raichu':
-			primary = (unibodyFlag === true) ? '#F2BD4B' : '#66431b';
-			secondary = '#623108';
-			tertiary = '#C16200';
-			break;
-
-		case 'gengar':
-			primary = (unibodyFlag === true) ? '#4B294A' : '#EF735B';
-			secondary = '#43B28F';
-			tertiary = '#BB4477';
-			break;
-
-		case 'vulpix':
-			primary = (unibodyFlag === true) ? '#c08672' : '#723822';
-			secondary = '#421402';
-			tertiary = '#f2a485';
-			break;
-
-		case 'squirtle':
-			primary = (unibodyFlag === true) ? '#84C1D4' : '#916A5B';
-			secondary = '#832900';
-			tertiary = '#B4E6EE';
-			break;
-
-		default:
-			if (config.pokemonSyntax === 'light') {
-				primary = '#383A42';
-				secondary = '#383A42';
-				tertiary = '#383A42';
-			} else {
-				primary = '#FAFAFA';
-				secondary = '#FAFAFA';
-				tertiary = '#FAFAFA';
-			}
-
-	}
+	// Set theme colors
+	const primary = (unibodyFlag === true) ? pkmn.unibody : pkmn.primary;
+	const secondary = pkmn.secondary;
+	const tertiary = pkmn.tertiary;
 
 	const syntax = {
 		dark: {
