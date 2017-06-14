@@ -1,0 +1,55 @@
+##
+# All the Pokémon
+##
+pokemon:
+
+  # 007
+  squirtle:
+    primary: '#916A5B'
+    secondary: '#832900'
+    tertiary: '#B4E6EE'
+    unibody: '#84C1D4'
+
+  # 025
+  pikachu:
+    primary: '#F6BD20'
+    secondary: '#4C1803'
+    tertiary: '#DE7329'
+    unibody: '#F7DE82'
+
+  # 026
+  raichu:
+    primary: '#66431b'
+    secondary: '#623108'
+    tertiary: '#C16200'
+    unibody: '#F2BD4B'
+
+  # 037
+  vulpix:
+    primary: '#723822'
+    secondary: '#421402'
+    tertiary: '#f2a485'
+    unibody: '#c08672'
+
+  # 094
+  gengar:
+    primary: '#EF735B'
+    secondary: '#43B28F'
+    tertiary: '#BB4477'
+    unibody: '#4B294A'
+
+##
+# Default values
+##
+default:
+  light:
+    primary: '#383A42'
+    secondary: '#383A42'
+    tertiary: '#383A42'
+    unibody: '#383A42'
+
+  dark:
+    primary: '#FAFAFA'
+    secondary: '#FAFAFA'
+    tertiary: '#FAFAFA'
+    unibody: '#FAFAFA'
