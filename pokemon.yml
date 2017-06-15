@@ -2,6 +2,12 @@
 # All the Pokémon
 ##
 pokemon:
+  # 006
+  charizard:
+    primary: '#CF844B'
+    secondary: '#4C1803'
+    tertiary: '#DBD8AE'
+    unibody: '#DC8E4C'
 
   # 007
   squirtle:
