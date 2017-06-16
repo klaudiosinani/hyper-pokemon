@@ -9,6 +9,13 @@ pokemon:
     tertiary: '#F6DFD1'
     unibody: '#F4B186'
 
+  # 005
+  charmeleon:
+    primary: '#BE5B55'
+    secondary: '#532924'
+    tertiary: '#EAD3D1'
+    unibody: '#D3675A'
+
   # 006
   charizard:
     primary: '#CF844B'
