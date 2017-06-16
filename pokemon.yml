@@ -51,6 +51,13 @@ pokemon:
     tertiary: '#f2a485'
     unibody: '#c08672'
 
+  # 065
+  alakazam:
+    primary: '#D8BF58'
+    secondary: '#4F4A34'
+    tertiary: '#A5978B'
+    unibody: '#EAD055'
+
   # 094
   gengar:
     primary: '#EF735B'
