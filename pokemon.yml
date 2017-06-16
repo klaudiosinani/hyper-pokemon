@@ -2,6 +2,13 @@
 # All the Pokémon
 ##
 pokemon:
+  # 004
+  charmander:
+    primary: '#96191B'
+    secondary: '#35261D'
+    tertiary: '#F6DFD1'
+    unibody: '#F4B186'
+
   # 006
   charizard:
     primary: '#CF844B'
