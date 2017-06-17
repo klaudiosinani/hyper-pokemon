@@ -2,6 +2,13 @@
 # All the Pokémon
 ##
 pokemon:
+  # 002
+  ivysaur:
+    primary: '#1C6C6A'
+    secondary: '#062121'
+    tertiary: '#6ECFD1'
+    unibody: '#278887'
+
   # 004
   charmander:
     primary: '#96191B'
