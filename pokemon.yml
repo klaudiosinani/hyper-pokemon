@@ -65,12 +65,26 @@ pokemon:
     tertiary: '#f2a485'
     unibody: '#c08672'
 
+  # 039
+  jigglypuff:
+    primary: '#279C9A'
+    secondary: '#1873C5'
+    tertiary: '#279C94'
+    unibody: '#FAC7D6'
+
   # 065
   alakazam:
     primary: '#D8BF58'
     secondary: '#4F4A34'
     tertiary: '#A5978B'
     unibody: '#EAD055'
+
+  # 079
+  slowpoke:
+    primary: '#C491A2'
+    secondary: '#8B5A18'
+    tertiary: '#7B2031'
+    unibody: '#E5A6B9'
 
   # 094
   gengar:
