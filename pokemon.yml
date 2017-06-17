@@ -44,6 +44,13 @@ pokemon:
     tertiary: '#C16200'
     unibody: '#F2BD4B'
 
+  # 036
+  jigglypuff:
+    primary: '#C694A0'
+    secondary: '#A41020'
+    tertiary: '#104A8B'
+    unibody: '#F6D9D1'
+
   # 037
   vulpix:
     primary: '#723822'
