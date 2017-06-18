@@ -37,6 +37,13 @@ pokemon:
     tertiary: '#B4E6EE'
     unibody: '#84C1D4'
 
+  # 009
+  blastoise:
+    primary: '#4D5D6C'
+    secondary: '#42341C'
+    tertiary: '#B7D9FF'
+    unibody: '#85ACD7'
+
   # 011
   metapod:
     primary: '#77A052'
