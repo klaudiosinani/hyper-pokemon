@@ -93,6 +93,13 @@ pokemon:
     tertiary: '#BB4477'
     unibody: '#4B294A'
 
+  # 132
+  ditto:
+    primary: '#040607'
+    secondary: '#4B1F44'
+    tertiary: '#FFD0F7'
+    unibody: '#CB91C1'
+
 ##
 # Default values
 ##
