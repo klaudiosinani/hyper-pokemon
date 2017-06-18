@@ -170,7 +170,7 @@ List of Kanto region Pokémon themes :tada:
 * Ditto 🌟
 * Kabutops ✂
 
-</details>
+</details><br/>
 
 [:arrow_up:Back to top!](#contents)
 
