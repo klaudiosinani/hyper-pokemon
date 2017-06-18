@@ -1,0 +1,255 @@
+##
+# Pokémon Types
+##
+grass:
+  # 001 - grass, poison
+  bulbasaur:
+    primary: '#5B9C71'
+    secondary: '#0F2C33'
+    tertiary: '#F8DEA0'
+    unibody: '#77AC98'
+
+  # 002 - grass, poison
+  ivysaur:
+    primary: '#1C6C6A'
+    secondary: '#062121'
+    tertiary: '#6ECFD1'
+    unibody: '#278887'
+
+  # 003 - grass, poison
+  venusaur:
+    primary: '#548B52'
+    secondary: '#C9F3F1'
+    tertiary: '#142625'
+    unibody: '#58A7A2'
+
+poison:
+  # 001 - grass, poison
+  bulbasaur:
+    primary: '#5B9C71'
+    secondary: '#0F2C33'
+    tertiary: '#F8DEA0'
+    unibody: '#77AC98'
+
+  # 002 - grass, poison
+  ivysaur:
+    primary: '#1C6C6A'
+    secondary: '#062121'
+    tertiary: '#6ECFD1'
+    unibody: '#278887'
+
+  # 003 - grass, poison
+  venusaur:
+    primary: '#548B52'
+    secondary: '#C9F3F1'
+    tertiary: '#142625'
+    unibody: '#58A7A2'
+
+  # 014 - bug, poison
+  kakuna:
+    primary: '#F4E089'
+    secondary: '#292722'
+    tertiary: '#A547A5'
+    unibody: '#D8C173'
+
+  # 023 - poison
+  ekans:
+    primary: '#F9E994'
+    secondary: '#342136'
+    tertiary: '#DAB5DD'
+    unibody: '#8D6891'
+
+  # 094 - ghost,	poison
+  gengar:
+    primary: '#EF735B'
+    secondary: '#43B28F'
+    tertiary: '#BB4477'
+    unibody: '#4B294A'
+
+fire:
+  # 003 - fire
+  charmander:
+    primary: '#96191B'
+    secondary: '#35261D'
+    tertiary: '#F6DFD1'
+    unibody: '#F4B186'
+
+  # 005 - fire
+  charmeleon:
+    primary: '#BE5B55'
+    secondary: '#532924'
+    tertiary: '#EAD3D1'
+    unibody: '#D3675A'
+
+  # 006 - fire, flying
+  charizard:
+    primary: '#CF844B'
+    secondary: '#4C1803'
+    tertiary: '#DBD8AE'
+    unibody: '#DC8E4C'
+
+  # 037 - fire
+  vulpix:
+    primary: '#723822'
+    secondary: '#421402'
+    tertiary: '#f2a485'
+    unibody: '#c08672'
+
+flying:
+  # 006 - fire, flying
+  charizard:
+    primary: '#CF844B'
+    secondary: '#4C1803'
+    tertiary: '#DBD8AE'
+    unibody: '#DC8E4C'
+
+water:
+  # 007 - water
+  squirtle:
+    primary: '#916A5B'
+    secondary: '#832900'
+    tertiary: '#B4E6EE'
+    unibody: '#84C1D4'
+
+  # 008 - water
+  wartortle:
+    primary: '#C8E8F5'
+    secondary: '#2D333D'
+    tertiary: '#AF8C71'
+    unibody: '#A8BDE2'
+
+  # 009 - water
+  blastoise:
+    primary: '#4D5D6C'
+    secondary: '#42341C'
+    tertiary: '#B7D9FF'
+    unibody: '#85ACD7'
+
+  # 079 - psychic, water
+  slowpoke:
+    primary: '#C491A2'
+    secondary: '#8B5A18'
+    tertiary: '#7B2031'
+    unibody: '#E5A6B9'
+
+  # 141 - rock, water
+  kabutops:
+    primary: '#92786b'
+    secondary: '#291F19'
+    tertiary: '#89E3B5'
+    unibody: '#B2927D'
+
+bug:
+  # 011 - bug
+  metapod:
+    primary: '#77A052'
+    secondary: '#230729'
+    tertiary: '#DDFEAC'
+    unibody: '#85B243'
+
+  # 014 - bug, poison
+  kakuna:
+    primary: '#F4E089'
+    secondary: '#292722'
+    tertiary: '#A547A5'
+    unibody: '#D8C173'
+
+electric:
+  # 025 - electric
+  pikachu:
+    primary: '#F6BD20'
+    secondary: '#4C1803'
+    tertiary: '#DE7329'
+    unibody: '#F7DE82'
+
+  # 026 - electric
+  raichu:
+    primary: '#66431b'
+    secondary: '#623108'
+    tertiary: '#C16200'
+    unibody: '#F2BD4B'
+
+ground:
+  # 027 - ground
+  sandshrew:
+    primary: '#B9A06A'
+    secondary: '#302E28'
+    tertiary: '#987F42'
+    unibody: '#E5C57A'
+
+fairy:
+  # 036 - fairy
+  clefable:
+    primary: '#C694A0'
+    secondary: '#A41020'
+    tertiary: '#104A8B'
+    unibody: '#F6D9D1'
+
+  # 039 - fairy, normal
+  jigglypuff:
+    primary: '#279C9A'
+    secondary: '#1873C5'
+    tertiary: '#279C94'
+    unibody: '#FAC7D6'
+
+normal:
+  # 039 - fairy, normal
+  jigglypuff:
+    primary: '#279C9A'
+    secondary: '#1873C5'
+    tertiary: '#279C94'
+    unibody: '#FAC7D6'
+
+  # 132 - normal
+  ditto:
+    primary: '#040607'
+    secondary: '#4B1F44'
+    tertiary: '#FFD0F7'
+    unibody: '#CB91C1'
+
+psychic:
+  # 065 psychic
+  alakazam:
+    primary: '#D8BF58'
+    secondary: '#4F4A34'
+    tertiary: '#A5978B'
+    unibody: '#EAD055'
+
+  # 079 - psychic, water
+  slowpoke:
+    primary: '#C491A2'
+    secondary: '#8B5A18'
+    tertiary: '#7B2031'
+    unibody: '#E5A6B9'
+
+ghost:
+  # 094 - ghost,	poison
+  gengar:
+    primary: '#EF735B'
+    secondary: '#43B28F'
+    tertiary: '#BB4477'
+    unibody: '#4B294A'
+
+rock:
+  # 141 - rock, water
+  kabutops:
+    primary: '#92786b'
+    secondary: '#291F19'
+    tertiary: '#89E3B5'
+    unibody: '#B2927D'
+
+##
+# Default values
+##
+default:
+  light:
+    primary: '#383A42'
+    secondary: '#383A42'
+    tertiary: '#383A42'
+    unibody: '#383A42'
+
+  dark:
+    primary: '#FAFAFA'
+    secondary: '#FAFAFA'
+    tertiary: '#FAFAFA'
+    unibody: '#FAFAFA'
