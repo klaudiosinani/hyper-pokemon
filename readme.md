@@ -123,12 +123,37 @@ In addition, completely omitting the `unibody` option from your `.hyper.js` will
 
 ## Available Themes
 
-Here is a list of all the available Pokémon themes up to now!
+Here is a list, grouped by Pokémon regions, of all the available Pokémon themes up to now!
 
-- Pikachu ⚡
-- Raichu ⚡
-- Gengar 👻
-- Vulpix 🔥
+<details>
+<summary>Kanto Region</summary>
+List of Kanto region Pokémon themes :tada:
+
+* Bulbasaur 🌱
+* Ivysaur 🌱
+* Venusaur 🌱
+* Charmander 🔥
+* Charmeleon 🔥
+* Charizard 🔥
+* Squirtle 🌊
+* Wartortle 🌊
+* Blastoise 🌊
+* Metapod 🐛
+* Kakuna 🐛
+* Ekans 🐍
+* Pikachu ⚡
+* Raichu ⚡
+* Sandshrew 🐭
+* Clefable 🌟
+* Vulpix 🔥
+* Jigglypuff 🎤
+* Alakazam 🍴
+* Slowpoke 🌊
+* Gengar 👻
+* Ditto 🌟
+* Kabutops ✂
+
+</details>
 
 [:arrow_up:Back to top!](#contents)
 
