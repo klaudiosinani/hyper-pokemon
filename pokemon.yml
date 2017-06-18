@@ -37,6 +37,13 @@ pokemon:
     tertiary: '#B4E6EE'
     unibody: '#84C1D4'
 
+  # 014
+  kakuna:
+    primary: '#F4E089'
+    secondary: '#292722'
+    tertiary: '#A547A5'
+    unibody: '#D8C173'
+
   # 023
   ekans:
     primary: '#F9E994'
