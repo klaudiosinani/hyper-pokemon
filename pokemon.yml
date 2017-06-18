@@ -16,6 +16,13 @@ pokemon:
     tertiary: '#6ECFD1'
     unibody: '#278887'
 
+  # 003
+  venusaur:
+    primary: '#548B52'
+    secondary: '#C9F3F1'
+    tertiary: '#142625'
+    unibody: '#58A7A2'
+
   # 004
   charmander:
     primary: '#96191B'
