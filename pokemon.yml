@@ -107,6 +107,13 @@ pokemon:
     tertiary: '#FFD0F7'
     unibody: '#CB91C1'
 
+  # 141
+  kabutops:
+    primary: '#92786b'
+    secondary: '#291F19'
+    tertiary: '#89E3B5'
+    unibody: '#B2927D'
+
 ##
 # Default values
 ##
