@@ -27,6 +27,8 @@ Made for Pokémon enthusiasts by Pokémon enthusiasts ❤
 
 Come over to our [Gitter](https://gitter.im/hyper-pokemon/Lobby) to share your thoughts on the project or to just say hi!
 
+Track the creation/progress of all themes on our [Trello board](https://trello.com/b/pg3NWkan)!
+
 All of the wonderful Pokémon backgrounds were created by the amazing [Teej/TopHat](https://pldh.net/gallery/the493).
 
 Inspired by the original [Pokemon-Terminal](https://github.com/LazoCoder/Pokemon-Terminal) project.
@@ -50,7 +52,7 @@ Once done with that, it's time to install the `hyper-pokemon` theme!
 $ hpm install hyper-pokemon
 ```
 
-### Manually throught `.hyper.js`
+### Manually through `.hyper.js`
 
 Add `hyper-pokemon` to the plugins list in your `~/.hyper.js` config file and restart Hyper.
 That's it!
@@ -91,7 +93,7 @@ To get the exact same look as in this image, install [`oh-my-zsh`](http://ohmyz.
 
 ### `pokemon`
 
-Using this option you choose your pokémon background along with it's tailor-made syntax color.
+Using this option you can choose your pokémon background along with it's tailor-made syntax color.
 
 ### `pokemonSyntax`
 
@@ -106,14 +108,14 @@ The assignable values are:
 
 ### `unibody`
 
-Choose whether or not you like the Hyper windows header color to be the same as the background pokémon theme.
+Choose whether or not you want the Hyper windows header color to be the same as the background pokémon theme.
 
 The assignable values are:
 
-- `true` - choose it for a unibody color for your theme
+- `true` - choose it for a unibody color theme
 - `false` - go for it if you like you window header colorful
 
-In addition, completely omitting the `unibody` option from your `.hyper.js` will have the same effect defining it and setting it to `true`.
+In addition, completely omitting the `unibody` option from your `.hyper.js` will have the same effect as defining it and setting it to `true`.
 
 ![Unibody](media/unibody.png)
 
@@ -127,9 +129,6 @@ Here is a list of all the available Pokémon themes up to now!
 - Raichu ⚡
 - Gengar 👻
 - Vulpix 🔥
-
-You can track the creation/progress of all themes on our [Trello board](https://trello.com/b/pg3NWkan)!<br/>
-Come over and say hi!
 
 [:arrow_up:Back to top!](#contents)
 
