@@ -37,6 +37,13 @@ pokemon:
     tertiary: '#B4E6EE'
     unibody: '#84C1D4'
 
+  # 023
+  ekans:
+    primary: '#F9E994'
+    secondary: '#342136'
+    tertiary: '#DAB5DD'
+    unibody: '#8D6891'
+
   # 025
   pikachu:
     primary: '#F6BD20'
