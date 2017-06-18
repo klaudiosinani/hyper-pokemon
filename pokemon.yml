@@ -2,6 +2,13 @@
 # All the Pokémon
 ##
 pokemon:
+  # 001
+  bulbasaur:
+    primary: '#5B9C71'
+    secondary: '#0F2C33'
+    tertiary: '#F8DEA0'
+    unibody: '#77AC98'
+
   # 002
   ivysaur:
     primary: '#1C6C6A'
@@ -36,6 +43,13 @@ pokemon:
     secondary: '#832900'
     tertiary: '#B4E6EE'
     unibody: '#84C1D4'
+
+  # 008
+  wartortle:
+    primary: '#C8E8F5'
+    secondary: '#2D333D'
+    tertiary: '#AF8C71'
+    unibody: '#A8BDE2'
 
   # 009
   blastoise:
