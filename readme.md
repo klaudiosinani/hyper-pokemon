@@ -95,6 +95,23 @@ To get the exact same look as in this image, install [`oh-my-zsh`](http://ohmyz.
 
 Using this option you can choose your pokémon background along with it's tailor-made syntax color.
 
+The assignable values are:
+
+- `pokemon name` - choose any of the [available Pokémon themes](#available-themes) by defining the Pokémon name.<br/>i.e. `pokemon: "charizard"`, `pokemon: "pikachu"`, `pokemon: "blastoise"` etc
+
+- `random` - randomly selects a Pokémon theme from the **whole list** of available Pokémons, each time you fire up a new Hyper terminal session.<br/>
+i.e. `pokemon: "random"`
+
+- `pokemon type` - randomly selects a Pokémon theme from only a **specific Pokémon type**, each time you fire up a new Hyper terminal session.<br/>
+i.e. `pokemon: "fire"`, `pokemon: "water"`, `pokemon: "grass"` etc<br/>
+The available choices up to this moment (*all types will be supported really soon*) are the following:
+
+	- `fire`
+	- `water`
+	- `grass`
+	- `poison`
+
+
 ### `pokemonSyntax`
 
 Here you can define the color of the terminal tabs.
