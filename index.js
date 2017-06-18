@@ -7,11 +7,13 @@ const extension = '.png';
 
 exports.decorateConfig = config => {
 	let theme;
+	let keys;
+	let index;
 	let pokemonTheme = config.pokemon.toLowerCase();
 	const unibody = config.unibody;
 	const unibodyFlag = unibody !== 'false';
 
-	// Load color palettes from yaml file
+	// Load color palettes from yaml files
 	const pokemonYml = yaml.safeLoad(
 		fs.readFileSync(
 			homeDir('/.hyper_plugins/node_modules/hyper-pokemon/pokemon.yml'),
@@ -19,10 +21,33 @@ exports.decorateConfig = config => {
 		)
 	);
 
+	const typesYml = yaml.safeLoad(
+		fs.readFileSync(
+			homeDir('/.hyper_plugins/node_modules/hyper-pokemon/types.yml'),
+			'utf8'
+		)
+	);
+
 	// Determine theme color palette
 	if (pokemonTheme === 'random') {
-		const keys = Object.keys(pokemonYml.pokemon);
-		const index = Math.floor(Math.random() * (keys.length));
+		keys = Object.keys(pokemonYml.pokemon);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'fire') {
+		keys = Object.keys(typesYml.fire);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'water') {
+		keys = Object.keys(typesYml.water);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'grass') {
+		keys = Object.keys(typesYml.grass);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'poison') {
+		keys = Object.keys(typesYml.poison);
+		index = Math.floor(Math.random() * (keys.length));
 		pokemonTheme = keys[index];
 	}
 
