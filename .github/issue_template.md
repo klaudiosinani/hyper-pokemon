@@ -12,7 +12,7 @@
 ## Suggested quick smart steps
 
 - Run through the [contributing guidelines](https://github.com/hyper-pokemon/hyper-pokemon/blob/master/contributing.md)
-- Support questions are better asked in the project's [chat](https://gitter.im/hyper-pokemon/Lobby)! We will get back you in a flash! 🙌 ❤️
+- Support questions are better asked in the project's [chat](https://gitter.im/hyper-pokemon/Lobby)! We will get back at you in a flash! 🙌 ❤️
 - Ensure the issue is not already reported
 
 *Delete the above section and the content in the sections below before submitting your issue*
