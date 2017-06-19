@@ -74,8 +74,8 @@ Here is a quick example, where we choose the `gengar` theme, with a `unibody` co
 ```js
 config: {
     //...
-    colors {
-    //...
+    colors: {
+			//...
     },
     pokemon: 'gengar', // Define your favorite pokemon theme!
     pokemonSyntax: 'dark', // Define the color of the terminal tabs.
