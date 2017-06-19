@@ -32,7 +32,7 @@ You can use issue labels to discover issues you could help us out with!
 
 - [`enhancement` issues](https://github.com/hyper-pokemon/hyper-pokemon/labels/enhancement) are features we are open to including
 - [`bug` issues](https://github.com/hyper-pokemon/hyper-pokemon/labels/bug) are known bugs we would like to fix
-- [`needs testing` issues]https://github.com/hyper-pokemon/hyper-pokemon/labels/needs%20testing) are features that we are still working on improving
+- [`needs testing` issues](https://github.com/hyper-pokemon/hyper-pokemon/labels/needs%20testing) are features that we are still working on improving
 - [`future` issues](https://github.com/klauscfhq/compilers/labels/future) are those that we'd like to get to, but not anytime soon. Please check before working on these since we may not yet want to take on the burden of supporting those features
 - on the [`help wanted`](https://github.com/hyper-pokemon/hyper-pokemon/labels/future) label you can always find something exciting going on
 
@@ -52,7 +52,7 @@ Come over and say hi anytime you feel like on [Gitter](https://gitter.im/hyper-p
 ### Submitting a pull request
 
 - Non-trivial changes are often best discussed in an issue first, to prevent you from doing unnecessary work
-- Make the pull request from a [topic branch](https://github.com/dchelimsky/rspec/wiki/Topic-Branches)
+- Try making the pull request from a [topic branch](https://github.com/dchelimsky/rspec/wiki/Topic-Branches) if it is of crucial importance
 - Use a descriptive title for the pull request and commits
 - You might be asked to do changes to your pull request, you can do that by just [updating the existing one](https://github.com/RichardLitt/docs/blob/master/amending-a-commit-guide.md)
 
