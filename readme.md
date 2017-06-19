@@ -75,17 +75,17 @@ Here is a quick example, where we choose the `gengar` theme, with a `unibody` co
 config: {
     //...
     colors: {
-			//...
+    //...
     },
     pokemon: 'gengar', // Define your favorite pokemon theme!
-    pokemonSyntax: 'dark', // Define the color of the terminal tabs.
-    unibody: 'true', // Define the color of the Hyper window header
+    pokemonSyntax: 'dark', // Define the color of the terminal tabs!
+    unibody: 'true', // Define the color of the Hyper window header!
 }
 ```
 
 ![Gengar Example](media/example.png)
 
-To get the exact same look as in this image, install [`oh-my-zsh`](http://ohmyz.sh/) and choose [`pure`](https://github.com/sindresorhus/pure) as your zsh prompt 🐱
+To get the exact same look, install Google's [`Roboto Mono`](https://fonts.google.com/specimen/Roboto+Mono) font as well as [`oh-my-zsh`](http://ohmyz.sh/) and choose [`pure`](https://github.com/sindresorhus/pure) as your zsh prompt 🐱
 
 [:arrow_up:Back to top!](#contents)
 
@@ -110,7 +110,6 @@ The available choices up to this moment (*all types will be supported really soo
 	- `water`
 	- `grass`
 	- `poison`
-
 
 ### `pokemonSyntax`
 
@@ -205,8 +204,8 @@ $ cd hyper-pokemon
 $ npm install hyper-pokemon --save
 # or set it as a devDependency
 $ npm install hyper-pokemon --save-dev
-# or even save it globaly
-$ npm install hyper-pokemon --g
+# or even save it globally
+$ npm install hyper-pokemon -g
 ```
 
 [:arrow_up:Back to top!](#contents)
