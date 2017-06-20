@@ -25,11 +25,11 @@
 
 Made for Pokémon enthusiasts by Pokémon enthusiasts ❤
 
-Come over to our [Gitter](https://gitter.im/hyper-pokemon/Lobby) to share your thoughts on the project or to just say hi!
+All of the wonderful Pokémon backgrounds were created by the amazing [Teej/TopHat](https://pldh.net/gallery/the493)!
+
+Come over to our [Gitter](https://gitter.im/hyper-pokemon/Lobby) chat or [Twitter](https://twitter.com/hyper_pokemon) account to share your thoughts on the project or to just say hi!
 
 Track the creation/progress of all themes on our [Trello board](https://trello.com/b/pg3NWkan)!
-
-All of the wonderful Pokémon backgrounds were created by the amazing [Teej/TopHat](https://pldh.net/gallery/the493).
 
 Inspired by the original [Pokemon-Terminal](https://github.com/LazoCoder/Pokemon-Terminal) project.
 
