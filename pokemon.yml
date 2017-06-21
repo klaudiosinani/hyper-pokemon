@@ -177,6 +177,13 @@ pokemon:
     tertiary: '#89E3B5'
     unibody: '#B2927D'
 
+  # 144
+  articuno:
+    primary: '#246F96'
+    secondary: '#151F29'
+    tertiary: '#5F6973'
+    unibody: '#73A9DB'
+
   # 150
   mewtwo:
     primary: '#9B7D97'
