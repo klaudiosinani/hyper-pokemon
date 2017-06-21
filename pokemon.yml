@@ -128,6 +128,13 @@ pokemon:
     tertiary: '#279C94'
     unibody: '#FAC7D6'
 
+  # 055
+  psyduck:
+    primary: '#66431b'
+    secondary: '#623108'
+    tertiary: '#C16200'
+    unibody: '#F2BD4B'
+
   # 065
   alakazam:
     primary: '#D8BF58'

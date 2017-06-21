@@ -163,6 +163,7 @@ List of Kanto region Pokémon themes :tada:
 * Clefable 🌟
 * Vulpix 🔥
 * Jigglypuff 🎤
+* Psyduck 🌊
 * Alakazam 🍴
 * Slowpoke 🌊
 * Gengar 👻
