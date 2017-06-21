@@ -95,6 +95,13 @@ fire:
     tertiary: '#f2a485'
     unibody: '#c08672'
 
+  # 146 - fire, flying
+  moltres:
+    primary: '#D63427'
+    secondary: '#332714'
+    tertiary: '#834BAB'
+    unibody: '#F8C979'
+
 flying:
   # 006 - fire, flying
   charizard:
@@ -109,6 +116,13 @@ flying:
     secondary: '#151F29'
     tertiary: '#5F6973'
     unibody: '#73A9DB'
+
+  # 146 - fire, flying
+  moltres:
+    primary: '#D63427'
+    secondary: '#332714'
+    tertiary: '#834BAB'
+    unibody: '#F8C979'
 
 water:
   # 007 - water
