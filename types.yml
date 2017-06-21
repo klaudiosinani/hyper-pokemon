@@ -280,14 +280,6 @@ rock:
     tertiary: '#89E3B5'
     unibody: '#B2927D'
 
-bird:
-  # 000 normal, bird
-  missingno:
-    primary: '#6E6E6E'
-    secondary: '#43B28F'
-    tertiary: '#BB4477'
-    unibody:  '#000000'
-
 ice:
   # 144 - ice, flying
   articuno:
