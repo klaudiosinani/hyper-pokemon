@@ -49,6 +49,14 @@ exports.decorateConfig = config => {
 		keys = Object.keys(typesYml.poison);
 		index = Math.floor(Math.random() * (keys.length));
 		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'legendary') {
+		keys = Object.keys(typesYml.legendary);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'starter') {
+		keys = Object.keys(typesYml.starter);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
 	}
 
 	if (Object.prototype.hasOwnProperty.call(pokemonYml.pokemon, pokemonTheme)) {
