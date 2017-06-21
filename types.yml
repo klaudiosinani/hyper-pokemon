@@ -125,6 +125,13 @@ water:
     tertiary: '#B7D9FF'
     unibody: '#85ACD7'
 
+  # 055 - psychic, water
+  psyduck:
+    primary: '#66431b'
+    secondary: '#623108'
+    tertiary: '#C16200'
+    unibody: '#F2BD4B'
+
   # 079 - psychic, water
   slowpoke:
     primary: '#C491A2'
@@ -208,6 +215,13 @@ normal:
     unibody: '#CB91C1'
 
 psychic:
+  # 055 - psychic, water
+  psyduck:
+    primary: '#66431b'
+    secondary: '#623108'
+    tertiary: '#C16200'
+    unibody: '#F2BD4B'
+
   # 065 psychic
   alakazam:
     primary: '#D8BF58'
