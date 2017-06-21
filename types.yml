@@ -103,6 +103,13 @@ flying:
     tertiary: '#DBD8AE'
     unibody: '#DC8E4C'
 
+  # 144 - ice, flying
+  articuno:
+    primary: '#246F96'
+    secondary: '#151F29'
+    tertiary: '#5F6973'
+    unibody: '#73A9DB'
+
 water:
   # 007 - water
   squirtle:
@@ -280,6 +287,14 @@ bird:
     secondary: '#43B28F'
     tertiary: '#BB4477'
     unibody:  '#000000'
+
+ice:
+  # 144 - ice, flying
+  articuno:
+    primary: '#246F96'
+    secondary: '#151F29'
+    tertiary: '#5F6973'
+    unibody: '#73A9DB'
 
 ##
 # Default values
