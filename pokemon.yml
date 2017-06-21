@@ -184,6 +184,13 @@ pokemon:
     tertiary: '#5F6973'
     unibody: '#73A9DB'
 
+  # 146
+  moltres:
+    primary: '#D63427'
+    secondary: '#332714'
+    tertiary: '#834BAB'
+    unibody: '#F8C979'
+
   # 150
   mewtwo:
     primary: '#9B7D97'
