@@ -214,6 +214,13 @@ normal:
     tertiary: '#FFD0F7'
     unibody: '#CB91C1'
 
+  # 000 normal, bird
+  missingno:
+    primary: '#6E6E6E'
+    secondary: '#43B28F'
+    tertiary: '#BB4477'
+    unibody:  '#000000'
+
 psychic:
   # 055 - psychic, water
   psyduck:
@@ -258,6 +265,14 @@ rock:
     secondary: '#291F19'
     tertiary: '#89E3B5'
     unibody: '#B2927D'
+
+bird:
+  # 000 normal, bird
+  missingno:
+    primary: '#6E6E6E'
+    secondary: '#43B28F'
+    tertiary: '#BB4477'
+    unibody:  '#000000'
 
 ##
 # Default values
