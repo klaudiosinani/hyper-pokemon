@@ -130,7 +130,7 @@ water:
     primary: '#66431b'
     secondary: '#623108'
     tertiary: '#C16200'
-    unibody: '#F2BD4B'
+    unibody: '#FFD54B'
 
   # 079 - psychic, water
   slowpoke:
@@ -220,7 +220,7 @@ psychic:
     primary: '#66431b'
     secondary: '#623108'
     tertiary: '#C16200'
-    unibody: '#F2BD4B'
+    unibody: '#FFD54B'
 
   # 065 psychic
   alakazam:
