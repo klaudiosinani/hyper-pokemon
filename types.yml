@@ -95,7 +95,7 @@ fire:
     tertiary: '#f2a485'
     unibody: '#c08672'
 
-  # 146 - fire, flying
+  # 146 - fire, flying, legendary
   moltres:
     primary: '#D63427'
     secondary: '#332714'
@@ -110,14 +110,14 @@ flying:
     tertiary: '#DBD8AE'
     unibody: '#DC8E4C'
 
-  # 144 - ice, flying
+  # 144 - ice, flying, legendary
   articuno:
     primary: '#246F96'
     secondary: '#151F29'
     tertiary: '#5F6973'
     unibody: '#73A9DB'
 
-  # 146 - fire, flying
+  # 146 - fire, flying, legendary
   moltres:
     primary: '#D63427'
     secondary: '#332714'
@@ -264,14 +264,14 @@ psychic:
     tertiary: '#7B2031'
     unibody: '#E5A6B9'
 
-  # 151 - psychic
+  # 151 - psychic, legendary
   mew:
     primary: '#D1ABB8'
     secondary: '#4C363D'
     tertiary: '#BA5F79'
     unibody: '#F4C6D3'
 
-  # 150 - psychic
+  # 150 - psychic, legendary
   mewtwo:
     primary: '#9B7D97'
     secondary: '#4D4652'
@@ -295,12 +295,41 @@ rock:
     unibody: '#B2927D'
 
 ice:
-  # 144 - ice, flying
+  # 144 - ice, flying, legendary
   articuno:
     primary: '#246F96'
     secondary: '#151F29'
     tertiary: '#5F6973'
     unibody: '#73A9DB'
+
+legendary:
+  # 144 - ice, flying, legendary
+  articuno:
+    primary: '#246F96'
+    secondary: '#151F29'
+    tertiary: '#5F6973'
+    unibody: '#73A9DB'
+
+  # 146 - fire, flying, legendary
+  moltres:
+    primary: '#D63427'
+    secondary: '#332714'
+    tertiary: '#834BAB'
+    unibody: '#F8C979'
+
+  # 151 - psychic, legendary
+  mew:
+    primary: '#D1ABB8'
+    secondary: '#4C363D'
+    tertiary: '#BA5F79'
+    unibody: '#F4C6D3'
+
+  # 150 - psychic, legendary
+  mewtwo:
+    primary: '#9B7D97'
+    secondary: '#4D4652'
+    tertiary: '#8F6DA6'
+    unibody: '#DFD9E3'
 
 ##
 # Default values
