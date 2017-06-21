@@ -250,6 +250,13 @@ psychic:
     tertiary: '#BA5F79'
     unibody: '#F4C6D3'
 
+  # 150 - psychic
+  mewtwo:
+    primary: '#9B7D97'
+    secondary: '#4D4652'
+    tertiary: '#8F6DA6'
+    unibody: '#DFD9E3'
+
 ghost:
   # 094 - ghost,	poison
   gengar:
