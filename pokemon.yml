@@ -2,6 +2,13 @@
 # All the Pokémon
 ##
 pokemon:
+  # 000
+  missingno:
+    primary: '#6E6E6E'
+    secondary: '#43B28F'
+    tertiary: '#BB4477'
+    unibody:  '#000000'
+
   # 001
   bulbasaur:
     primary: '#5B9C71'
