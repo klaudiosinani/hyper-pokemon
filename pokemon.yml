@@ -2,6 +2,13 @@
 # All the Pokémon
 ##
 pokemon:
+  # 000
+  missingno:
+    primary: '#6E6E6E'
+    secondary: '#43B28F'
+    tertiary: '#BB4477'
+    unibody:  '#000000'
+
   # 001
   bulbasaur:
     primary: '#5B9C71'
@@ -133,7 +140,7 @@ pokemon:
     primary: '#66431b'
     secondary: '#623108'
     tertiary: '#C16200'
-    unibody: '#F2BD4B'
+    unibody: '#FFD54B'
 
   # 065
   alakazam:
@@ -169,6 +176,27 @@ pokemon:
     secondary: '#291F19'
     tertiary: '#89E3B5'
     unibody: '#B2927D'
+
+  # 144
+  articuno:
+    primary: '#246F96'
+    secondary: '#151F29'
+    tertiary: '#5F6973'
+    unibody: '#73A9DB'
+
+  # 146
+  moltres:
+    primary: '#D63427'
+    secondary: '#332714'
+    tertiary: '#834BAB'
+    unibody: '#F8C979'
+
+  # 150
+  mewtwo:
+    primary: '#9B7D97'
+    secondary: '#4D4652'
+    tertiary: '#8F6DA6'
+    unibody: '#DFD9E3'
 
   # 151
   mew:

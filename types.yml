@@ -95,6 +95,13 @@ fire:
     tertiary: '#f2a485'
     unibody: '#c08672'
 
+  # 146 - fire, flying
+  moltres:
+    primary: '#D63427'
+    secondary: '#332714'
+    tertiary: '#834BAB'
+    unibody: '#F8C979'
+
 flying:
   # 006 - fire, flying
   charizard:
@@ -102,6 +109,20 @@ flying:
     secondary: '#4C1803'
     tertiary: '#DBD8AE'
     unibody: '#DC8E4C'
+
+  # 144 - ice, flying
+  articuno:
+    primary: '#246F96'
+    secondary: '#151F29'
+    tertiary: '#5F6973'
+    unibody: '#73A9DB'
+
+  # 146 - fire, flying
+  moltres:
+    primary: '#D63427'
+    secondary: '#332714'
+    tertiary: '#834BAB'
+    unibody: '#F8C979'
 
 water:
   # 007 - water
@@ -130,7 +151,7 @@ water:
     primary: '#66431b'
     secondary: '#623108'
     tertiary: '#C16200'
-    unibody: '#F2BD4B'
+    unibody: '#FFD54B'
 
   # 079 - psychic, water
   slowpoke:
@@ -214,13 +235,20 @@ normal:
     tertiary: '#FFD0F7'
     unibody: '#CB91C1'
 
+  # 000 normal, bird
+  missingno:
+    primary: '#6E6E6E'
+    secondary: '#43B28F'
+    tertiary: '#BB4477'
+    unibody:  '#000000'
+
 psychic:
   # 055 - psychic, water
   psyduck:
     primary: '#66431b'
     secondary: '#623108'
     tertiary: '#C16200'
-    unibody: '#F2BD4B'
+    unibody: '#FFD54B'
 
   # 065 psychic
   alakazam:
@@ -243,6 +271,13 @@ psychic:
     tertiary: '#BA5F79'
     unibody: '#F4C6D3'
 
+  # 150 - psychic
+  mewtwo:
+    primary: '#9B7D97'
+    secondary: '#4D4652'
+    tertiary: '#8F6DA6'
+    unibody: '#DFD9E3'
+
 ghost:
   # 094 - ghost,	poison
   gengar:
@@ -258,6 +293,14 @@ rock:
     secondary: '#291F19'
     tertiary: '#89E3B5'
     unibody: '#B2927D'
+
+ice:
+  # 144 - ice, flying
+  articuno:
+    primary: '#246F96'
+    secondary: '#151F29'
+    tertiary: '#5F6973'
+    unibody: '#73A9DB'
 
 ##
 # Default values
