@@ -2,7 +2,7 @@
 # Pokémon Types
 ##
 grass:
-  # 001 - grass, poison
+  # 001 - grass, poison, starter
   bulbasaur:
     primary: '#5B9C71'
     secondary: '#0F2C33'
@@ -24,7 +24,7 @@ grass:
     unibody: '#58A7A2'
 
 poison:
-  # 001 - grass, poison
+  # 001 - grass, poison, starter
   bulbasaur:
     primary: '#5B9C71'
     secondary: '#0F2C33'
@@ -67,7 +67,7 @@ poison:
     unibody: '#4B294A'
 
 fire:
-  # 003 - fire
+  # 003 - fire, starter
   charmander:
     primary: '#96191B'
     secondary: '#35261D'
@@ -125,7 +125,7 @@ flying:
     unibody: '#F8C979'
 
 water:
-  # 007 - water
+  # 007 - water, starter
   squirtle:
     primary: '#916A5B'
     secondary: '#832900'
@@ -183,7 +183,7 @@ bug:
     unibody: '#D8C173'
 
 electric:
-  # 025 - electric
+  # 025 - electric, starter
   pikachu:
     primary: '#F6BD20'
     secondary: '#4C1803'
@@ -330,6 +330,35 @@ legendary:
     secondary: '#4D4652'
     tertiary: '#8F6DA6'
     unibody: '#DFD9E3'
+
+starter:
+  # 001 - grass, poison, starter
+  bulbasaur:
+    primary: '#5B9C71'
+    secondary: '#0F2C33'
+    tertiary: '#F8DEA0'
+    unibody: '#77AC98'
+
+  # 003 - fire, starter
+  charmander:
+    primary: '#96191B'
+    secondary: '#35261D'
+    tertiary: '#F6DFD1'
+    unibody: '#F4B186'
+
+  # 007 - water, starter
+  squirtle:
+    primary: '#916A5B'
+    secondary: '#832900'
+    tertiary: '#B4E6EE'
+    unibody: '#84C1D4'
+
+  # 025 - electric, starter
+  pikachu:
+    primary: '#F6BD20'
+    secondary: '#4C1803'
+    tertiary: '#DE7329'
+    unibody: '#F7DE82'
 
 ##
 # Default values
