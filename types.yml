@@ -204,6 +204,13 @@ ground:
     secondary: '#302E28'
     tertiary: '#987F42'
     unibody: '#E5C57A'
+    
+  # 027 - ground
+  sandslash:
+    primary: '#B9A06A'
+    secondary: '#302E28'
+    tertiary: '#987F42'
+    unibody: '#E4C674'
 
 fairy:
   # 036 - fairy

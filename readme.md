@@ -160,6 +160,7 @@ List of Kanto region Pokémon themes :tada:
 * Pikachu ⚡
 * Raichu ⚡
 * Sandshrew 🐭
+* Sandslash 🐭
 * Clefable 🌟
 * Vulpix 🔥
 * Jigglypuff 🎤
