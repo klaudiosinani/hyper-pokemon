@@ -207,10 +207,10 @@ ground:
     
   # 027 - ground
   sandslash:
-    primary: '#B9A06A'
+    primary: '#AD8432'
     secondary: '#302E28'
     tertiary: '#987F42'
-    unibody: '#AD8432'
+    unibody: '#E4C674'
 
 fairy:
   # 036 - fairy
