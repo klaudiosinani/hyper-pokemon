@@ -79,6 +79,13 @@ pokemon:
     tertiary: '#DDFEAC'
     unibody: '#85B243'
 
+  # 012
+  butterfree:
+    primary: '#7FBBC5'
+    secondary: '#262330'
+    tertiary: '#F4D89A'
+    unibody: '#978DC1'
+
   # 014
   kakuna:
     primary: '#F4E089'
