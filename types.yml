@@ -124,6 +124,13 @@ flying:
     tertiary: '#834BAB'
     unibody: '#F8C979'
 
+  # 012 - bug, flying
+  butterfree:
+    primary: '#7FBBC5'
+    secondary: '#262330'
+    tertiary: '#F4D89A'
+    unibody: '#978DC1'
+
 water:
   # 007 - water, starter
   squirtle:
@@ -182,6 +189,13 @@ bug:
     tertiary: '#A547A5'
     unibody: '#D8C173'
 
+  # 012 - bug, flying
+  butterfree:
+    primary: '#7FBBC5'
+    secondary: '#262330'
+    tertiary: '#F4D89A'
+    unibody: '#978DC1'
+
 electric:
   # 025 - electric, starter
   pikachu:
@@ -204,7 +218,7 @@ ground:
     secondary: '#302E28'
     tertiary: '#987F42'
     unibody: '#E5C57A'
-    
+
   # 027 - ground
   sandslash:
     primary: '#AD8432'
