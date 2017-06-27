@@ -205,6 +205,13 @@ pokemon:
     tertiary: '#834BAB'
     unibody: '#F8C979'
 
+  # 149
+  dragonite:
+    primary: '#2EAD9C'
+    secondary: '#4C351B'
+    tertiary: '#6D42BE'
+    unibody: '#F1B26C'
+
   # 150
   mewtwo:
     primary: '#9B7D97'
