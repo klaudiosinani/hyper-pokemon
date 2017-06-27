@@ -131,6 +131,13 @@ flying:
     tertiary: '#F4D89A'
     unibody: '#978DC1'
 
+  # 149 - dragon, flying
+  dragonite:
+    primary: '#2EAD9C'
+    secondary: '#4C351B'
+    tertiary: '#6D42BE'
+    unibody: '#F1B26C'
+
 water:
   # 007 - water, starter
   squirtle:
@@ -322,6 +329,14 @@ ice:
     secondary: '#151F29'
     tertiary: '#5F6973'
     unibody: '#73A9DB'
+
+dragon:
+  # 149 - dragon, flying
+  dragonite:
+    primary: '#2EAD9C'
+    secondary: '#4C351B'
+    tertiary: '#6D42BE'
+    unibody: '#F1B26C'
 
 legendary:
   # 144 - ice, flying, legendary
