@@ -4,7 +4,7 @@
 			</a>
 </h1>
 
-> 🌈🐱Wondrous, tailor-made Pokémon themes for your Hyper terminal
+> 🌈👾Wondrous, tailor-made Pokémon themes for your Hyper terminal
 
  [![Build Status](https://travis-ci.org/hyper-pokemon/hyper-pokemon.svg?branch=master)](https://travis-ci.org/hyper-pokemon/hyper-pokemon) [![Dependency Status](https://dependencyci.com/github/hyper-pokemon/hyper-pokemon/badge)](https://dependencyci.com/github/hyper-pokemon/hyper-pokemon) [![Trello Board](https://img.shields.io/badge/trello-board-blue.svg)](https://trello.com/b/pg3NWkan) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/hyper-pokemon/Lobby) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/hyper-pokemon/hyper-pokemon) [![Latest version](https://badge.fury.io/gh/hyper-pokemon%2Fhyper-pokemon.svg)](https://github.com/hyper-pokemon/hyper-pokemon/releases) [![Repo Size](https://reposs.herokuapp.com/?path=hyper-pokemon/hyper-pokemon&color=orange)](https://raw.githubusercontent.com/hyper-pokemon/hyper-pokemon) [![npm](https://img.shields.io/npm/dm/hyper-pokemon.svg?label=DL)](https://github.com/hyper-pokemon/hyper-pokemon)
 
