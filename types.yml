@@ -45,6 +45,13 @@ poison:
     tertiary: '#142625'
     unibody: '#58A7A2'
 
+  # 013 - bug, poison
+  weedle:
+    primary: '#EDF5EA'
+    secondary: '#EDF5EA'
+    tertiary: '#A547A5'
+    unibody: '#D09D4C'
+
   # 014 - bug, poison
   kakuna:
     primary: '#F4E089'
@@ -110,6 +117,34 @@ flying:
     tertiary: '#DBD8AE'
     unibody: '#DC8E4C'
 
+  # 012 - bug, flying
+  butterfree:
+    primary: '#7FBBC5'
+    secondary: '#262330'
+    tertiary: '#F4D89A'
+    unibody: '#978DC1'
+
+  # 016 - flying, normal
+  pidgey:
+    primary: '#F3EAB7'
+    secondary: '#0A0A08'
+    tertiary: '#AC8992'
+    unibody: '#9E6B35'
+
+  # 017 - flying, normal
+  pidgeotto:
+    primary: '#A3733C'
+    secondary: '#C25046'
+    tertiary: '#A48554'
+    unibody: '#F7F3B0'
+
+  # 018 - flying, normal
+  pidgeot:
+    primary: '#A48554'
+    secondary: '#C25046'
+    tertiary: '#A48554'
+    unibody: '#F2EAB7'
+
   # 144 - ice, flying, legendary
   articuno:
     primary: '#246F96'
@@ -117,19 +152,19 @@ flying:
     tertiary: '#5F6973'
     unibody: '#73A9DB'
 
+  # 145 - electric, flying, legendary
+  zapdos:
+    primary: '#A38B47'
+    secondary: '#0C0A0A'
+    tertiary: '#EDB45D'
+    unibody: '#FAD666'
+
   # 146 - fire, flying, legendary
   moltres:
     primary: '#D63427'
     secondary: '#332714'
     tertiary: '#834BAB'
     unibody: '#F8C979'
-
-  # 012 - bug, flying
-  butterfree:
-    primary: '#7FBBC5'
-    secondary: '#262330'
-    tertiary: '#F4D89A'
-    unibody: '#978DC1'
 
   # 149 - dragon, flying
   dragonite:
@@ -182,12 +217,26 @@ water:
     unibody: '#B2927D'
 
 bug:
+  # 010 - bug
+  caterpie:
+    primary: '#F47B59'
+    secondary: '#63583E'
+    tertiary: '#F2DF9C'
+    unibody: '#8CC979'
+
   # 011 - bug
   metapod:
     primary: '#77A052'
     secondary: '#230729'
     tertiary: '#DDFEAC'
     unibody: '#85B243'
+
+  # 013 - bug, poison
+  weedle:
+    primary: '#EDF5EA'
+    secondary: '#EDF5EA'
+    tertiary: '#A547A5'
+    unibody: '#D09D4C'
 
   # 014 - bug, poison
   kakuna:
@@ -217,6 +266,13 @@ electric:
     secondary: '#623108'
     tertiary: '#C16200'
     unibody: '#F2BD4B'
+
+  # 145 - electric, flying, legendary
+  zapdos:
+    primary: '#A38B47'
+    secondary: '#0C0A0A'
+    tertiary: '#EDB45D'
+    unibody: '#FAD666'
 
 ground:
   # 027 - ground
@@ -249,6 +305,34 @@ fairy:
     unibody: '#FAC7D6'
 
 normal:
+  # 016 - flying, normal
+  pidgey:
+    primary: '#F3EAB7'
+    secondary: '#0A0A08'
+    tertiary: '#AC8992'
+    unibody: '#9E6B35'
+
+  # 017 - flying, normal
+  pidgeotto:
+    primary: '#A3733C'
+    secondary: '#C25046'
+    tertiary: '#A48554'
+    unibody: '#F7F3B0'
+
+  # 018 - flying, normal
+  pidgeot:
+    primary: '#A48554'
+    secondary: '#C25046'
+    tertiary: '#A48554'
+    unibody: '#F2EAB7'
+
+  # 019 - normal
+  rattata:
+    primary: '#453444'
+    secondary: '#F6F0F6'
+    tertiary: '#050405'
+    unibody: '#A662A4'
+
   # 039 - fairy, normal
   jigglypuff:
     primary: '#279C9A'
@@ -331,6 +415,20 @@ ice:
     unibody: '#73A9DB'
 
 dragon:
+  # 147 - dragon
+  dratini:
+    primary: '#5577BB'
+    secondary: '#F4FBFF'
+    tertiary: '#D9D9D9'
+    unibody: '#97BDE4'
+
+  # 148 - dragon
+  dragonair:
+    primary: '#5577BB'
+    secondary: '#E8F0F4'
+    tertiary: '#D9D9D9'
+    unibody: '#77A2D5'
+
   # 149 - dragon, flying
   dragonite:
     primary: '#2EAD9C'
@@ -345,6 +443,13 @@ legendary:
     secondary: '#151F29'
     tertiary: '#5F6973'
     unibody: '#73A9DB'
+
+  # 145 - electric, flying, legendary
+  zapdos:
+    primary: '#A38B47'
+    secondary: '#0C0A0A'
+    tertiary: '#EDB45D'
+    unibody: '#FAD666'
 
   # 146 - fire, flying, legendary
   moltres:
