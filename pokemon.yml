@@ -93,12 +93,47 @@ pokemon:
     tertiary: '#F4D89A'
     unibody: '#978DC1'
 
+  # 013
+  weedle:
+    primary: '#EDF5EA'
+    secondary: '#EDF5EA'
+    tertiary: '#A547A5'
+    unibody: '#D09D4C'
+
   # 014
   kakuna:
     primary: '#F4E089'
     secondary: '#292722'
     tertiary: '#A547A5'
     unibody: '#D8C173'
+
+  # 016
+  pidgey:
+    primary: '#F3EAB7'
+    secondary: '#0A0A08'
+    tertiary: '#AC8992'
+    unibody: '#9E6B35'
+
+  # 017
+  pidgeotto:
+    primary: '#A3733C'
+    secondary: '#C25046'
+    tertiary: '#A48554'
+    unibody: '#F7F3B0'
+
+  # 018
+  pidgeot:
+    primary: '#A48554'
+    secondary: '#C25046'
+    tertiary: '#A48554'
+    unibody: '#F2EAB7'
+
+  # 019
+  rattata:
+    primary: '#453444'
+    secondary: '#F6F0F6'
+    tertiary: '#050405'
+    unibody: '#A662A4'
 
   # 023
   ekans:
@@ -205,6 +240,13 @@ pokemon:
     tertiary: '#5F6973'
     unibody: '#73A9DB'
 
+  # 145
+  zapdos:
+    primary: '#A38B47'
+    secondary: '#0C0A0A'
+    tertiary: '#EDB45D'
+    unibody: '#FAD666'
+
   # 146
   moltres:
     primary: '#D63427'
@@ -212,12 +254,26 @@ pokemon:
     tertiary: '#834BAB'
     unibody: '#F8C979'
 
+  # 147
+  dratini:
+    primary: '#5577BB'
+    secondary: '#F4FBFF'
+    tertiary: '#D9D9D9'
+    unibody: '#97BDE4'
+
+  # 147
+  dragonair:
+    primary: '#5577BB'
+    secondary: '#E8F0F4'
+    tertiary: '#D9D9D9'
+    unibody: '#77A2D5'
+
   # 149
   dragonite:
-    primary: '#2EAD9C'
+    primary: '#1E4D91'
     secondary: '#4C351B'
     tertiary: '#6D42BE'
-    unibody: '#F1B26C'
+    unibody: '#77A2D5'
 
   # 150
   mewtwo:
