@@ -72,6 +72,13 @@ pokemon:
     tertiary: '#B7D9FF'
     unibody: '#85ACD7'
 
+  # 010
+  caterpie:
+    primary: '#F47B59'
+    secondary: '#63583E'
+    tertiary: '#F2DF9C'
+    unibody: '#8CC979'
+
   # 011
   metapod:
     primary: '#77A052'
@@ -205,6 +212,13 @@ pokemon:
     tertiary: '#834BAB'
     unibody: '#F8C979'
 
+  # 149
+  dragonite:
+    primary: '#2EAD9C'
+    secondary: '#4C351B'
+    tertiary: '#6D42BE'
+    unibody: '#F1B26C'
+
   # 150
   mewtwo:
     primary: '#9B7D97'
@@ -219,12 +233,7 @@ pokemon:
     tertiary: '#BA5F79'
     unibody: '#F4C6D3'
 
-  # 152
-  caterpie:
-    primary: '#F47B59'
-    secondary: '#63583E'
-    tertiary: '#F2DF9C'
-    unibody: '#8CC979'
+
 
 
 ##

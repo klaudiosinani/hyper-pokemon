@@ -2,7 +2,7 @@ const fs = require('fs');
 const yaml = require('js-yaml');
 const homeDir = require('home-dir');
 
-const path = homeDir('/.hyper_plugins/local/hyper-pokemon/backgrounds/');
+const path = homeDir('/.hyper_plugins/node_modules/hyper-pokemon/backgrounds/');
 const extension = '.png';
 
 exports.decorateConfig = config => {
@@ -16,14 +16,14 @@ exports.decorateConfig = config => {
 	// Load color palettes from yaml files
 	const pokemonYml = yaml.safeLoad(
 		fs.readFileSync(
-			homeDir('/.hyper_plugins/local/hyper-pokemon/pokemon.yml'),
+			homeDir('/.hyper_plugins/node_modules/hyper-pokemon/pokemon.yml'),
 			'utf8'
 		)
 	);
 
 	const typesYml = yaml.safeLoad(
 		fs.readFileSync(
-			homeDir('/.hyper_plugins/local/hyper-pokemon/types.yml'),
+			homeDir('/.hyper_plugins/node_modules/hyper-pokemon/types.yml'),
 			'utf8'
 		)
 	);
