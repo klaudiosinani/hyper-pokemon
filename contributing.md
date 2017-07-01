@@ -40,7 +40,7 @@ You may find an issue is assigned, or has the [`assigned` label](https://github.
 
 ### Say hi!
 
-Come over and say hi anytime you feel like on [Gitter](https://gitter.im/hyper-pokemon/Lobby)!
+Come over and say hi anytime you feel like on [Gitter](https://gitter.im/hyper-pokemon/Lobby) or send us a tweet at [@Hyper_Pokemon](https://twitter.com/hyper_pokemon)!
 
 ### Submitting an issue
 
