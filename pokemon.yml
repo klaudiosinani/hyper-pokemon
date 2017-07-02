@@ -142,6 +142,13 @@ pokemon:
     tertiary: '#050405'
     unibody: '#A662A4'
 
+  # 020
+  raticate:
+    primary: '#A28091'
+    secondary: '#2E2300'
+    tertiary: '#21C8D8'
+    unibody: '#CB9652'
+
   # 023
   ekans:
     primary: '#F9E994'
