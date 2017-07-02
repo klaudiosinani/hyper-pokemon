@@ -165,6 +165,13 @@ fire:
     tertiary: '#834BAB'
     unibody: '#F8C979'
 
+  # 038 - fire
+  ninetales:
+    primary: '#DDCA6B'
+    secondary: '#737358'
+    tertiary: '#AA7BD9'
+    unibody: '#F2F3BA'
+
 flying:
   # 006 - fire, flying
   charizard:
