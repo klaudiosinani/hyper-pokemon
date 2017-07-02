@@ -409,6 +409,13 @@ fairy:
     tertiary: '#FF58FF'
     unibody: '#F6CED6'
 
+  # 040 - normal, fairy
+  wigglytuff:
+    primary: '#226689'
+    secondary: '#3B262A'
+    tertiary: '#CC5B6F'
+    unibody: '#F8B9C4'
+
 normal:
   # 016 - flying, normal
   pidgey:
@@ -479,6 +486,13 @@ normal:
      secondary: '#301515'
      tertiary: '#E5C0C0'
      unibody: '#AD7542'
+
+  # 040 - normal, fairy
+  wigglytuff:
+    primary: '#226689'
+    secondary: '#3B262A'
+    tertiary: '#CC5B6F'
+    unibody: '#F8B9C4'
 
 psychic:
   # 055 - psychic, water
