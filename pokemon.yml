@@ -282,6 +282,13 @@ pokemon:
     tertiary: '#279C94'
     unibody: '#FAC7D6'
 
+  # 040
+  wigglytuff:
+    primary: '#226689'
+    secondary: '#3B262A'
+    tertiary: '#CC5B6F'
+    unibody: '#F8B9C4'
+
   # 055
   psyduck:
     primary: '#66431b'
