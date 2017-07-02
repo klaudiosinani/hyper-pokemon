@@ -247,6 +247,13 @@ pokemon:
     tertiary: '#89D7BF'
     unibody: '#A86EA1'
 
+  # 035
+  clefairy:
+    primary: '#D9AFBD'
+    secondary: '#4F3A3E'
+    tertiary: '#FF58FF'
+    unibody: '#F6CED6'
+
   # 036
   clefable:
     primary: '#C694A0'
