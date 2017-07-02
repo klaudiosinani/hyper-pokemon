@@ -73,6 +73,13 @@ poison:
     tertiary: '#BB4477'
     unibody: '#4B294A'
 
+  # 024 - poison
+  arbok:
+    primary: '#3A3839'
+    secondary: '#F5F5F5'
+    tertiary: '#BB4477'
+    unibody: '#A7A1BD'
+
 fire:
   # 003 - fire, starter
   charmander:
