@@ -142,6 +142,13 @@ pokemon:
     tertiary: '#DAB5DD'
     unibody: '#8D6891'
 
+  # 024
+  arbok:
+    primary: '#3A3839'
+    secondary: '#F5F5F5'
+    tertiary: '#BB4477'
+    unibody: '#A7A1BD'
+
   # 025
   pikachu:
     primary: '#F6BD20'
