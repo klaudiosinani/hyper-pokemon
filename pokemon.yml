@@ -149,6 +149,13 @@ pokemon:
     tertiary: '#21C8D8'
     unibody: '#CB9652'
 
+  # 021
+  spearow:
+    primary: '#E07978'
+    secondary: '#301515'
+    tertiary: '#E5C0C0'
+    unibody: '#9C6C55'
+
   # 023
   ekans:
     primary: '#F9E994'
