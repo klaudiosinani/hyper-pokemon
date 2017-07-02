@@ -205,6 +205,27 @@ pokemon:
     tertiary: '#987F42'
     unibody: '#E4C674'
 
+  # 029
+  nidoran-female:
+    primary: '#494989'
+    secondary: '#2B1E47'
+    tertiary: '#BE00E6'
+    unibody: '#BEC7E6'
+
+  # 030
+  nidorina:
+    primary: '#527B99'
+    secondary: '#22303D'
+    tertiary: '#BE00E6'
+    unibody: '#94B9C1'
+
+  # 031
+  nidoqueen:
+    primary: '#597E98'
+    secondary: '#111742'
+    tertiary: '#AD7561'
+    unibody: '#81ABC3'
+
   # 036
   clefable:
     primary: '#C694A0'
