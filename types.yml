@@ -129,6 +129,20 @@ poison:
     tertiary: '#89D7BF'
     unibody: '#A86EA1'
 
+  # 041 - poison, flying
+  zubat:
+    primary: '#874E83'
+    secondary: '#F5F56E'
+    tertiary: '#5C421B'
+    unibody: '#5486A9'
+
+  # 042 - poison, flying
+  golbat:
+    primary: '#82487A'
+    secondary: '#F5F56E'
+    tertiary: '#5C421B'
+    unibody: '#306E93'
+
 fire:
   # 003 - fire, starter
   charmander:
@@ -249,6 +263,20 @@ flying:
      secondary: '#301515'
      tertiary: '#E5C0C0'
      unibody: '#AD7542'
+
+  # 041 - poison, flying
+  zubat:
+    primary: '#874E83'
+    secondary: '#F5F56E'
+    tertiary: '#5C421B'
+    unibody: '#5486A9'
+
+  # 042 - poison, flying
+  golbat:
+    primary: '#82487A'
+    secondary: '#F5F56E'
+    tertiary: '#5C421B'
+    unibody: '#306E93'
 
 water:
   # 007 - water, starter
