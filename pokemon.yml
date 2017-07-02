@@ -289,6 +289,20 @@ pokemon:
     tertiary: '#CC5B6F'
     unibody: '#F8B9C4'
 
+  # 041
+  zubat:
+    primary: '#874E83'
+    secondary: '#F5F56E'
+    tertiary: '#5C421B'
+    unibody: '#5486A9'
+
+  # 042
+  golbat:
+    primary: '#82487A'
+    secondary: '#F5F56E'
+    tertiary: '#5C421B'
+    unibody: '#306E93'
+
   # 055
   psyduck:
     primary: '#66431b'
