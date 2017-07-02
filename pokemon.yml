@@ -226,6 +226,27 @@ pokemon:
     tertiary: '#AD7561'
     unibody: '#81ABC3'
 
+  # 032
+  nidoran-male:
+    primary: '#1A756C'
+    secondary: '#3A243E'
+    tertiary: '#89D7BF'
+    unibody: '#845F8B'
+
+  # 033
+  nidorino:
+    primary: '#6AA19E'
+    secondary: '#3A243E'
+    tertiary: '#89D7BF'
+    unibody: '#A47DA9'
+
+  # 034
+  nidoking:
+    primary: '#518286'
+    secondary: '#3A243E'
+    tertiary: '#89D7BF'
+    unibody: '#A86EA1'
+
   # 036
   clefable:
     primary: '#C694A0'
