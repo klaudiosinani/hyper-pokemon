@@ -80,6 +80,13 @@ poison:
     tertiary: '#BB4477'
     unibody: '#A7A1BD'
 
+  # 015 - bug, poison
+  beedrill:
+    primary: '#656281'
+    secondary: '#302910'
+    tertiary: '#3680A8'
+    unibody: '#EDCE64'
+
 fire:
   # 003 - fire, starter
   charmander:
@@ -258,6 +265,13 @@ bug:
     secondary: '#262330'
     tertiary: '#F4D89A'
     unibody: '#978DC1'
+
+  # 015 - bug, poison
+  beedrill:
+    primary: '#656281'
+    secondary: '#302910'
+    tertiary: '#3680A8'
+    unibody: '#EDCE64'
 
 electric:
   # 025 - electric, starter
