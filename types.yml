@@ -345,6 +345,13 @@ ground:
     tertiary: '#987F42'
     unibody: '#E4C674'
 
+  # 031 - poison, ground
+  nidoqueen:
+    primary: '#597E98'
+    secondary: '#111742'
+    tertiary: '#AD7561'
+    unibody: '#81ABC3'
+
 fairy:
   # 036 - fairy
   clefable:
