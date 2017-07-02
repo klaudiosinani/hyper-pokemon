@@ -368,12 +368,19 @@ normal:
     tertiary: '#FFD0F7'
     unibody: '#CB91C1'
 
-  # 000 normal, bird
+  # 000 normal
   missingno:
     primary: '#6E6E6E'
     secondary: '#43B28F'
     tertiary: '#BB4477'
     unibody:  '#000000'
+
+  # 020 normal
+  raticate:
+    primary: '#A28091'
+    secondary: '#2E2300'
+    tertiary: '#21C8D8'
+    unibody: '#CB9652'
 
 psychic:
   # 055 - psychic, water
