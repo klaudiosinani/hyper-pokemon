@@ -277,10 +277,10 @@ pokemon:
 
   # 149
   dragonite:
-    primary: '#1E4D91'
+    primary: '#2DAD9C'
     secondary: '#4C351B'
     tertiary: '#6D42BE'
-    unibody: '#77A2D5'
+    unibody: '#F2B36E'
 
   # 150
   mewtwo:
@@ -295,9 +295,6 @@ pokemon:
     secondary: '#4C363D'
     tertiary: '#BA5F79'
     unibody: '#F4C6D3'
-
-
-
 
 ##
 # Default values

@@ -175,10 +175,10 @@ flying:
 
   # 149 - dragon, flying
   dragonite:
-    primary: '#2EAD9C'
+    primary: '#2DAD9C'
     secondary: '#4C351B'
     tertiary: '#6D42BE'
-    unibody: '#F1B26C'
+    unibody: '#F2B36E'
 
 water:
   # 007 - water, starter
@@ -438,10 +438,10 @@ dragon:
 
   # 149 - dragon, flying
   dragonite:
-    primary: '#2EAD9C'
+    primary: '#2DAD9C'
     secondary: '#4C351B'
     tertiary: '#6D42BE'
-    unibody: '#F1B26C'
+    unibody: '#F2B36E'
 
 legendary:
   # 144 - ice, flying, legendary
