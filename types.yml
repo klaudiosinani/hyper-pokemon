@@ -108,6 +108,27 @@ poison:
     tertiary: '#AD7561'
     unibody: '#81ABC3'
 
+  # 032 - poison
+  nidoran-male:
+    primary: '#1A756C'
+    secondary: '#3A243E'
+    tertiary: '#89D7BF'
+    unibody: '#845F8B'
+
+  # 033 - poison
+  nidorino:
+    primary: '#6AA19E'
+    secondary: '#3A243E'
+    tertiary: '#89D7BF'
+    unibody: '#A47DA9'
+
+  # 034 - poison, ground
+  nidoking:
+    primary: '#518286'
+    secondary: '#3A243E'
+    tertiary: '#89D7BF'
+    unibody: '#A86EA1'
+
 fire:
   # 003 - fire, starter
   charmander:
