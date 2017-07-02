@@ -156,6 +156,13 @@ pokemon:
     tertiary: '#E5C0C0'
     unibody: '#9C6C55'
 
+  # 022
+  fearow:
+    primary: '#DC6859'
+    secondary: '#301515'
+    tertiary: '#E5C0C0'
+    unibody: '#AD7542'
+
   # 023
   ekans:
     primary: '#F9E994'
