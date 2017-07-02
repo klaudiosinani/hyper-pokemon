@@ -395,6 +395,13 @@ fairy:
     tertiary: '#279C94'
     unibody: '#FAC7D6'
 
+  # 035 - fairy
+  clefairy:
+    primary: '#D9AFBD'
+    secondary: '#4F3A3E'
+    tertiary: '#FF58FF'
+    unibody: '#F6CED6'
+
 normal:
   # 016 - flying, normal
   pidgey:
