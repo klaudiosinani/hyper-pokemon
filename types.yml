@@ -187,6 +187,13 @@ flying:
     tertiary: '#6D42BE'
     unibody: '#F2B36E'
 
+  # 021 - normal, flying
+  spearow:
+    primary: '#E07978'
+    secondary: '#301515'
+    tertiary: '#E5C0C0'
+    unibody: '#9C6C55'
+
 water:
   # 007 - water, starter
   squirtle:
@@ -381,6 +388,13 @@ normal:
     secondary: '#2E2300'
     tertiary: '#21C8D8'
     unibody: '#CB9652'
+
+  # 021 - normal, flying
+  spearow:
+    primary: '#E07978'
+    secondary: '#301515'
+    tertiary: '#E5C0C0'
+    unibody: '#9C6C55'
 
 psychic:
   # 055 - psychic, water
