@@ -107,6 +107,13 @@ pokemon:
     tertiary: '#A547A5'
     unibody: '#D8C173'
 
+  # 015
+  beedrill:
+    primary: '#656281'
+    secondary: '#302910'
+    tertiary: '#3680A8'
+    unibody: '#EDCE64'
+
   # 016
   pidgey:
     primary: '#F3EAB7'
