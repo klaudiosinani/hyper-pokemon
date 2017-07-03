@@ -200,6 +200,20 @@ fire:
     tertiary: '#AA7BD9'
     unibody: '#F2F3BA'
 
+  # 077 - fire
+  ponyta:
+    primary: '#E86946'
+    secondary: '#1F1C15'
+    tertiary: '#715DD1'
+    unibody: '#EADCB7'
+
+  # 078 - fire
+  rapidash:
+    primary: '#DF533C'
+    secondary: '#1F1C15'
+    tertiary: '#5B4BA8'
+    unibody: '#F5EFBF'
+
 flying:
   # 006 - fire, flying
   charizard:
