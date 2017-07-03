@@ -373,6 +373,20 @@ pokemon:
     tertiary: '#C22C2E'
     unibody: '#9DAEC0'
 
+  # 072
+  tentacool:
+    primary: '#9B233E'
+    secondary: '#102029'
+    tertiary: '#991E82'
+    unibody: '#6EB5DF'
+
+  # 073
+  tentacruel:
+    primary: '#2997BC'
+    secondary: '#FFFFFF'
+    tertiary: '#CF607C'
+    unibody: '#000000'
+
   # 079
   slowpoke:
     primary: '#C491A2'
