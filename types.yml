@@ -278,6 +278,13 @@ flying:
     tertiary: '#5C421B'
     unibody: '#306E93'
 
+  # 142 - rock, flying
+  aerodactyl:
+    primary: '#8167AE'
+    secondary: '#20153B'
+    tertiary: '#E9E2FF'
+    unibody: '#A5B2DC'
+
 water:
   # 007 - water, starter
   squirtle:
@@ -608,6 +615,13 @@ rock:
     secondary: '#291F19'
     tertiary: '#89E3B5'
     unibody: '#B2927D'
+
+  # 142 - rock, flying
+  aerodactyl:
+    primary: '#8167AE'
+    secondary: '#20153B'
+    tertiary: '#E9E2FF'
+    unibody: '#A5B2DC'
 
 ice:
   # 144 - ice, flying, legendary
