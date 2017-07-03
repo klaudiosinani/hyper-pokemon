@@ -408,6 +408,20 @@ pokemon:
     tertiary: '#FFBCD3'
     unibody: '#898E88'
 
+  # 077
+  ponyta:
+    primary: '#E86946'
+    secondary: '#1F1C15'
+    tertiary: '#715DD1'
+    unibody: '#EADCB7'
+
+  # 078
+  rapidash:
+    primary: '#DF533C'
+    secondary: '#1F1C15'
+    tertiary: '#5B4BA8'
+    unibody: '#F5EFBF'
+
   # 079
   slowpoke:
     primary: '#C491A2'
