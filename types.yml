@@ -143,6 +143,20 @@ poison:
     tertiary: '#5C421B'
     unibody: '#306E93'
 
+  # 072 - water, poison
+  tentacool:
+    primary: '#9B233E'
+    secondary: '#102029'
+    tertiary: '#991E82'
+    unibody: '#6EB5DF'
+
+  # 073 - water, poison
+  tentacruel:
+    primary: '#2997BC'
+    secondary: '#FFFFFF'
+    tertiary: '#CF607C'
+    unibody: '#000000'
+
 fire:
   # 003 - fire, starter
   charmander:
@@ -348,6 +362,20 @@ water:
     secondary: '#060329'
     tertiary: '#94C6FF'
     unibody: '#5B86B9'
+
+  # 072 - water, poison
+  tentacool:
+    primary: '#9B233E'
+    secondary: '#102029'
+    tertiary: '#991E82'
+    unibody: '#6EB5DF'
+
+  # 073 - water, poison
+  tentacruel:
+    primary: '#2997BC'
+    secondary: '#FFFFFF'
+    tertiary: '#CF607C'
+    unibody: '#000000'
 
 bug:
   # 010 - bug
