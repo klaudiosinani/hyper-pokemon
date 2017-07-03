@@ -579,6 +579,20 @@ psychic:
     tertiary: '#8F6DA6'
     unibody: '#DFD9E3'
 
+  # 063 - psychic
+  abra:
+    primary: '#DAC25E'
+    secondary: '#4F4A34'
+    tertiary: '#A5978B'
+    unibody: '#F1D95F'
+
+  # 064 - psychic
+  kadabra:
+    primary: '#CAB43A'
+    secondary: '#4F4A34'
+    tertiary: '#A5978B'
+    unibody: '#F4E154'
+
 ghost:
   # 094 - ghost,	poison
   gengar:
