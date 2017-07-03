@@ -331,6 +331,20 @@ pokemon:
     tertiary: '#94C6FF'
     unibody: '#5B86B9'
 
+  # 063
+  abra:
+    primary: '#DAC25E'
+    secondary: '#4F4A34'
+    tertiary: '#A5978B'
+    unibody: '#F1D95F'
+
+  # 064
+  kadabra:
+    primary: '#CAB43A'
+    secondary: '#4F4A34'
+    tertiary: '#A5978B'
+    unibody: '#F4E154'
+
   # 065
   alakazam:
     primary: '#D8BF58'
