@@ -456,6 +456,20 @@ electric:
     tertiary: '#EDB45D'
     unibody: '#FAD666'
 
+  # 081 - electric, steel
+  magnemite:
+    primary: '#93928E'
+    secondary: '#1A2342'
+    tertiary: '#7E6A85'
+    unibody: '#9DBBC5'
+
+  # 082 - electric, steel
+  magneton:
+    primary: '#91918F'
+    secondary: '#1A2342'
+    tertiary: '#6A155A'
+    unibody: '#A3BEC7'
+
 ground:
   # 027 - ground
   sandshrew:
@@ -786,6 +800,21 @@ fighting:
     secondary: '#1F1B17'
     tertiary: '#FFF9F2'
     unibody: '#C2B5A5'
+
+steel:
+  # 081 - electric, steel
+  magnemite:
+    primary: '#93928E'
+    secondary: '#1A2342'
+    tertiary: '#7E6A85'
+    unibody: '#9DBBC5'
+
+  # 082 - electric, steel
+  magneton:
+    primary: '#91918F'
+    secondary: '#1A2342'
+    tertiary: '#6A155A'
+    unibody: '#A3BEC7'
 
 legendary:
   # 144 - ice, flying, legendary
