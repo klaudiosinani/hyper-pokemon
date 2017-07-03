@@ -625,6 +625,14 @@ dragon:
     tertiary: '#6D42BE'
     unibody: '#F2B36E'
 
+fighting:
+  # 062 - water, fighting
+  poliwrath:
+    primary: '#E4EDF6'
+    secondary: '#060329'
+    tertiary: '#94C6FF'
+    unibody: '#5B86B9'
+
 legendary:
   # 144 - ice, flying, legendary
   articuno:
