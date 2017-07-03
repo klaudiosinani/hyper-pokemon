@@ -429,6 +429,20 @@ pokemon:
     tertiary: '#7B2031'
     unibody: '#E5A6B9'
 
+  # 081
+  magnemite:
+    primary: '#93928E'
+    secondary: '#1A2342'
+    tertiary: '#7E6A85'
+    unibody: '#9DBBC5'
+
+  # 082
+  magneton:
+    primary: '#91918F'
+    secondary: '#1A2342'
+    tertiary: '#B5249A'
+    unibody: '#A3BEC7'
+
   # 094
   gengar:
     primary: '#EF735B'
