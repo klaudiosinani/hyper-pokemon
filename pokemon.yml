@@ -387,6 +387,20 @@ pokemon:
     tertiary: '#BB4477'
     unibody: '#4B294A'
 
+  # 106
+  hitmonlee:
+    primary: '#302C2B'
+    secondary: '#171210'
+    tertiary: '#43D2B4'
+    unibody: '#9F8880'
+
+  # 107
+  hitmonchan:
+    primary: '#C66961'
+    secondary: '#1F1B17'
+    tertiary: '#FFF9F2'
+    unibody: '#C2B5A5'
+
   # 132
   ditto:
     primary: '#040607'
