@@ -352,6 +352,27 @@ pokemon:
     tertiary: '#A5978B'
     unibody: '#EAD055'
 
+  # 066
+  machop:
+    primary: '#94ADB2'
+    secondary: '#202C2E'
+    tertiary: '#C22C2E'
+    unibody: '#A6C7CE'
+
+  # 067
+  machoke:
+    primary: '#818493'
+    secondary: '#202C2E'
+    tertiary: '#C22C2E'
+    unibody: '#9C9EB5'
+
+  # 068
+  machamp:
+    primary: '#8A9AA9'
+    secondary: '#202C2E'
+    tertiary: '#C22C2E'
+    unibody: '#9DAEC0'
+
   # 079
   slowpoke:
     primary: '#C491A2'
