@@ -647,6 +647,27 @@ fighting:
     tertiary: '#94C6FF'
     unibody: '#5B86B9'
 
+  # 066 - fighting
+  machop:
+    primary: '#94ADB2'
+    secondary: '#202C2E'
+    tertiary: '#C22C2E'
+    unibody: '#A6C7CE'
+
+  # 067 - fighting
+  machoke:
+    primary: '#818493'
+    secondary: '#202C2E'
+    tertiary: '#C22C2E'
+    unibody: '#9C9EB5'
+
+  # 068 - fighting
+  machamp:
+    primary: '#8A9AA9'
+    secondary: '#202C2E'
+    tertiary: '#C22C2E'
+    unibody: '#9DAEC0'
+
 legendary:
   # 144 - ice, flying, legendary
   articuno:
