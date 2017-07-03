@@ -471,6 +471,27 @@ ground:
     tertiary: '#89D7BF'
     unibody: '#A86EA1'
 
+  # 074 - rock, ground
+  geodude:
+    primary: '#505833'
+    secondary: '#382C00'
+    tertiary: '#A6552D'
+    unibody: '#B5A66D'
+
+  # 075 - rock, ground
+  graveler:
+    primary: '#84847A'
+    secondary: '#3A3B30'
+    tertiary: '#8DFFFF'
+    unibody: '#B4B5A5'
+
+  # 076 - rock, ground
+  golem:
+    primary: '#494441'
+    secondary: '#B74345'
+    tertiary: '#FFBCD3'
+    unibody: '#898E88'
+
 fairy:
   # 036 - fairy
   clefable:
@@ -657,6 +678,27 @@ rock:
     secondary: '#20153B'
     tertiary: '#E9E2FF'
     unibody: '#A5B2DC'
+
+  # 074 - rock, ground
+  geodude:
+    primary: '#505833'
+    secondary: '#382C00'
+    tertiary: '#A6552D'
+    unibody: '#B5A66D'
+
+  # 075 - rock, ground
+  graveler:
+    primary: '#84847A'
+    secondary: '#3A3B30'
+    tertiary: '#8DFFFF'
+    unibody: '#B4B5A5'
+
+  # 076 - rock, ground
+  golem:
+    primary: '#494441'
+    secondary: '#B74345'
+    tertiary: '#FFBCD3'
+    unibody: '#898E88'
 
 ice:
   # 144 - ice, flying, legendary
