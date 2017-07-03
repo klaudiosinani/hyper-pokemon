@@ -422,6 +422,13 @@ pokemon:
     tertiary: '#E9E2FF'
     unibody: '#A5B2DC'
 
+  # 143
+  snorlax:
+    primary: '#F5EF7C'
+    secondary: '#1A2927'
+    tertiary: '#40C9B2'
+    unibody: '#4A736B'
+
   # 144
   articuno:
     primary: '#246F96'
