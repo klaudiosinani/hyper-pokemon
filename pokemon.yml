@@ -387,6 +387,27 @@ pokemon:
     tertiary: '#CF607C'
     unibody: '#000000'
 
+  # 074
+  geodude:
+    primary: '#505833'
+    secondary: '#382C00'
+    tertiary: '#A6552D'
+    unibody: '#B5A66D'
+
+  # 075
+  graveler:
+    primary: '#84847A'
+    secondary: '#3A3B30'
+    tertiary: '#8DFFFF'
+    unibody: '#B4B5A5'
+
+  # 076
+  golem:
+    primary: '#494441'
+    secondary: '#B74345'
+    tertiary: '#FFBCD3'
+    unibody: '#898E88'
+
   # 079
   slowpoke:
     primary: '#C491A2'
