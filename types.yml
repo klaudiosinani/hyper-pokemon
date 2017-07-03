@@ -550,6 +550,13 @@ normal:
     tertiary: '#CC5B6F'
     unibody: '#F8B9C4'
 
+  # 143 - normal
+  snorlax:
+    primary: '#F5EF7C'
+    secondary: '#1A2927'
+    tertiary: '#40C9B2'
+    unibody: '#4A736B'
+
 psychic:
   # 055 - psychic, water
   psyduck:
