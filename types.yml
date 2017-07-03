@@ -668,6 +668,20 @@ fighting:
     tertiary: '#C22C2E'
     unibody: '#9DAEC0'
 
+  # 106 - fighting
+  hitmonlee:
+    primary: '#302C2B'
+    secondary: '#171210'
+    tertiary: '#43D2B4'
+    unibody: '#9F8880'
+
+  # 107 - fighting
+  hitmonchan:
+    primary: '#C66961'
+    secondary: '#1F1B17'
+    tertiary: '#FFF9F2'
+    unibody: '#C2B5A5'
+
 legendary:
   # 144 - ice, flying, legendary
   articuno:
