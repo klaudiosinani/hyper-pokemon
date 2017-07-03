@@ -310,6 +310,27 @@ pokemon:
     tertiary: '#C16200'
     unibody: '#FFD54B'
 
+  # 060
+  poliwag:
+    primary: '#C8DAE8'
+    secondary: '#060329'
+    tertiary: '#94C6FF'
+    unibody: '#5B89BD'
+
+  # 061
+  poliwhirl:
+    primary: '#E0E4EF'
+    secondary: '#060329'
+    tertiary: '#94C6FF'
+    unibody: '#5C86B8'
+
+  # 062
+  poliwrath:
+    primary: '#E4EDF6'
+    secondary: '#060329'
+    tertiary: '#94C6FF'
+    unibody: '#5B86B9'
+
   # 065
   alakazam:
     primary: '#D8BF58'
