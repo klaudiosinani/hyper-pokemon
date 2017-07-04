@@ -256,6 +256,20 @@ fire:
     tertiary: '#5B4BA8'
     unibody: '#F5EFBF'
 
+  # 058 - fire
+  growlithe:
+    primary: '#8B7963'
+    secondary: '#4F3215'
+    tertiary: '#285DB2'
+    unibody: '#DB9651'
+
+  # 059 - fire
+  arcanine:
+    primary: '#EA5F24'
+    secondary: '#665836'
+    tertiary: '#FF9C04'
+    unibody: '#FEE3A0'
+
 flying:
   # 006 - fire, flying
   charizard:
