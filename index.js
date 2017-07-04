@@ -28,6 +28,13 @@ exports.decorateConfig = config => {
 		)
 	);
 
+	const trainersYml = yaml.safeLoad(
+		fs.readFileSync(
+			homeDir('/.hyper_plugins/node_modules/hyper-pokemon/trainers.yml'),
+			'utf8'
+		)
+	);
+
 	// Determine theme color palette
 	if (pokemonTheme === 'random') {
 		keys = Object.keys(pokemonYml.pokemon);
@@ -111,6 +118,10 @@ exports.decorateConfig = config => {
 		pokemonTheme = keys[index];
 	} else if (pokemonTheme === 'starter') {
 		keys = Object.keys(typesYml.starter);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'ash') {
+		keys = Object.keys(trainersYml.ash);
 		index = Math.floor(Math.random() * (keys.length));
 		pokemonTheme = keys[index];
 	}
