@@ -506,6 +506,13 @@ pokemon:
     tertiary: '#FFF9F2'
     unibody: '#C2B5A5'
 
+  # 122
+  mr.mime:
+    primary: '#183F5E'
+    secondary: '#C4798B'
+    tertiary: '#73696B'
+    unibody: '#F9E4E9'
+
   # 125
   electabuzz:
     primary: '#0A162C'
