@@ -245,3 +245,32 @@ koga:
     secondary: '#1D300C'
     tertiary: '#4C57B8'
     unibody: '#80C342'
+
+sabrina:
+ # 063
+  abra:
+    primary: '#DAC25E'
+    secondary: '#4F4A34'
+    tertiary: '#A5978B'
+    unibody: '#F1D95F'
+
+  # 064
+  kadabra:
+    primary: '#CAB43A'
+    secondary: '#4F4A34'
+    tertiary: '#A5978B'
+    unibody: '#F4E154'
+
+  # 065
+  alakazam:
+    primary: '#D8BF58'
+    secondary: '#4F4A34'
+    tertiary: '#A5978B'
+    unibody: '#EAD055'
+
+  # 122
+  mr.mime:
+    primary: '#183F5E'
+    secondary: '#C4798B'
+    tertiary: '#73696B'
+    unibody: '#F9E4E9'
