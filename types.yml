@@ -23,6 +23,27 @@ grass:
     tertiary: '#142625'
     unibody: '#58A7A2'
 
+  # 069 - grass, poison
+  bellsprout:
+    primary: '#93CF9C'
+    secondary: '#1F1E0C'
+    tertiary: '#0078FC'
+    unibody: '#DEDA6C'
+
+  # 070 - grass, poison
+  weepinbell:
+    primary: '#79B47C'
+    secondary: '#786548'
+    tertiary: '#0078FC'
+    unibody: '#EBEB73'
+
+  # 071 - grass, poison
+  victreebel:
+    primary: '#88CA8D'
+    secondary: '#DB8570'
+    tertiary: '#66916C'
+    unibody: '#EAEA6E'
+
 poison:
   # 001 - grass, poison, starter
   bulbasaur:
@@ -156,6 +177,27 @@ poison:
     secondary: '#FFFFFF'
     tertiary: '#CF607C'
     unibody: '#000000'
+
+  # 069 - grass, poison
+  bellsprout:
+    primary: '#93CF9C'
+    secondary: '#1F1E0C'
+    tertiary: '#0078FC'
+    unibody: '#DEDA6C'
+
+  # 070 - grass, poison
+  weepinbell:
+    primary: '#79B47C'
+    secondary: '#786548'
+    tertiary: '#0078FC'
+    unibody: '#EBEB73'
+
+  # 071 - grass, poison
+  victreebel:
+    primary: '#88CA8D'
+    secondary: '#DB8570'
+    tertiary: '#66916C'
+    unibody: '#EAEA6E'
 
 fire:
   # 003 - fire, starter
