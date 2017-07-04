@@ -49,6 +49,62 @@ exports.decorateConfig = config => {
 		keys = Object.keys(typesYml.poison);
 		index = Math.floor(Math.random() * (keys.length));
 		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'flying') {
+		keys = Object.keys(typesYml.flying);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'bug') {
+		keys = Object.keys(typesYml.bug);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'electric') {
+		keys = Object.keys(typesYml.electric);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'ground') {
+		keys = Object.keys(typesYml.ground);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'fairy') {
+		keys = Object.keys(typesYml.fairy);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'normal') {
+		keys = Object.keys(typesYml.normal);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'fairy') {
+		keys = Object.keys(typesYml.fairy);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'psychic') {
+		keys = Object.keys(typesYml.psychic);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'ghost') {
+		keys = Object.keys(typesYml.ghost);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'rock') {
+		keys = Object.keys(typesYml.rock);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'ice') {
+		keys = Object.keys(typesYml.ice);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'dragon') {
+		keys = Object.keys(typesYml.dragon);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'fighting') {
+		keys = Object.keys(typesYml.fighting);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'steel') {
+		keys = Object.keys(typesYml.steel);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
 	} else if (pokemonTheme === 'legendary') {
 		keys = Object.keys(typesYml.legendary);
 		index = Math.floor(Math.random() * (keys.length));
