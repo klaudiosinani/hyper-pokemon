@@ -450,6 +450,13 @@ pokemon:
     tertiary: '#7B2031'
     unibody: '#E5A6B9'
 
+  # 080
+  slowbro:
+    primary: '#BACBD2'
+    secondary: '#8B5A18'
+    tertiary: '#7B2031'
+    unibody: '#DD9DAE'
+
   # 081
   magnemite:
     primary: '#93928E'
