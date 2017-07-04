@@ -303,6 +303,27 @@ pokemon:
     tertiary: '#5C421B'
     unibody: '#306E93'
 
+  # 043
+  oddish:
+    primary: '#4D9242'
+    secondary: '#19242C'
+    tertiary: '#FFFFFF'
+    unibody: '#587D9A'
+
+  # 044
+  gloom:
+    primary: '#A04041'
+    secondary: '#000000'
+    tertiary: '#FFFFFF'
+    unibody: '#7796CD'
+
+  # 045
+  vileplume:
+    primary: '#D56C7D'
+    secondary: '#FFFFEB'
+    tertiary: '#332424'
+    unibody: '#485683'
+
   # 055
   psyduck:
     primary: '#66431b'
