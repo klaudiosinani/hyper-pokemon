@@ -526,6 +526,13 @@ electric:
     tertiary: '#6A155A'
     unibody: '#A3BEC7'
 
+  # 125 - electric
+  electabuzz:
+    primary: '#0A162C'
+    secondary: '#377B9C'
+    tertiary: '#FCFBD8'
+    unibody: '#F8D871'
+
 ground:
   # 027 - ground
   sandshrew:
