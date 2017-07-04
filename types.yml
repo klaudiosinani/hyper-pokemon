@@ -255,6 +255,20 @@ poison:
     tertiary: '#332424'
     unibody: '#485683'
 
+  # 048 - bug, poison
+  venonat:
+    primary: '#C5598B'
+    secondary: '#1E1B33'
+    tertiary: '#51275C'
+    unibody: '#615A90'
+
+  # 049 - bug, poison
+  venomoth:
+    primary: '#6E6991'
+    secondary: '#373737'
+    tertiary: '#FFFFFF'
+    unibody: '#A59CC7'
+
 fire:
   # 003 - fire, starter
   charmander:
@@ -587,6 +601,20 @@ bug:
     secondary: '#000000'
     tertiary: '#5E563E'
     unibody: '#D88738'
+
+  # 048 - bug, poison
+  venonat:
+    primary: '#C5598B'
+    secondary: '#1E1B33'
+    tertiary: '#51275C'
+    unibody: '#615A90'
+
+  # 049 - bug, poison
+  venomoth:
+    primary: '#6E6991'
+    secondary: '#373737'
+    tertiary: '#FFFFFF'
+    unibody: '#A59CC7'
 
 electric:
   # 025 - electric, starter
