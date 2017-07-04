@@ -310,6 +310,20 @@ pokemon:
     tertiary: '#C16200'
     unibody: '#FFD54B'
 
+  # 058
+  growlithe:
+    primary: '#8B7963'
+    secondary: '#4F3215'
+    tertiary: '#285DB2'
+    unibody: '#DB9651'
+
+  # 059
+  arcanine:
+    primary: '#EA5F24'
+    secondary: '#665836'
+    tertiary: '#FF9C04'
+    unibody: '#FEE3A0'
+
   # 060
   poliwag:
     primary: '#C8DAE8'
