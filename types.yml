@@ -711,6 +711,13 @@ normal:
     tertiary: '#40C9B2'
     unibody: '#4A736B'
 
+  # 128 - normal
+  tauros:
+    primary: '#6E6852'
+    secondary: '#3D2914'
+    tertiary: '#23809D'
+    unibody: '#EAA763'
+
 psychic:
   # 055 - psychic, water
   psyduck:
