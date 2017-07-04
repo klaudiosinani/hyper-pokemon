@@ -65,6 +65,20 @@ grass:
     tertiary: '#332424'
     unibody: '#485683'
 
+  # 046 - bug, grass
+  paras:
+    primary: '#C68133'
+    secondary: '#000000'
+    tertiary: '#5E563E'
+    unibody: '#D99238'
+
+  # 047 - bug, grass
+  parasect:
+    primary: '#C77936'
+    secondary: '#000000'
+    tertiary: '#5E563E'
+    unibody: '#D88738'
+
 poison:
   # 001 - grass, poison, starter
   bulbasaur:
@@ -559,6 +573,20 @@ bug:
     secondary: '#1D300C'
     tertiary: '#4C57B8'
     unibody: '#80C342'
+
+  # 046 - bug, grass
+  paras:
+    primary: '#C68133'
+    secondary: '#000000'
+    tertiary: '#5E563E'
+    unibody: '#D99238'
+
+  # 047 - bug, grass
+  parasect:
+    primary: '#C77936'
+    secondary: '#000000'
+    tertiary: '#5E563E'
+    unibody: '#D88738'
 
 electric:
   # 025 - electric, starter
