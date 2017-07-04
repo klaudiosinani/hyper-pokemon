@@ -394,6 +394,20 @@ pokemon:
     tertiary: '#A60060'
     unibody: '#7EB1E0'
 
+  # 056
+  mankey:
+    primary: '#C8B7A5'
+    secondary: '#3B2A29'
+    tertiary: '#3B6D8F'
+    unibody: '#F6E5D5'
+
+  # 057
+  primeape:
+    primary: '#F38C8D'
+    secondary:  '#4A71B5'
+    tertiary: '#3B2F42'
+    unibody: '#F6E5C7'
+
   # 058
   growlithe:
     primary: '#8B7963'
