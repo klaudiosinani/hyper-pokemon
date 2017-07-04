@@ -373,6 +373,27 @@ pokemon:
     tertiary: '#C22C2E'
     unibody: '#9DAEC0'
 
+  # 069
+  bellsprout:
+    primary: '#93CF9C'
+    secondary: '#1F1E0C'
+    tertiary: '#0078FC'
+    unibody: '#DEDA6C'
+
+  # 070
+  weepinbell:
+    primary: '#79B47C'
+    secondary: '#786548'
+    tertiary: '#0078FC'
+    unibody: '#EBEB73'
+
+  # 071
+  victreebel:
+    primary: '#88CA8D'
+    secondary: '#DB8570'
+    tertiary: '#66916C'
+    unibody: '#EAEA6E'
+
   # 072
   tentacool:
     primary: '#9B233E'
