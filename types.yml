@@ -369,6 +369,13 @@ flying:
     tertiary: '#E9E2FF'
     unibody: '#A5B2DC'
 
+ # 123 - bug, flying
+  scyther:
+    primary: '#6A9B40'
+    secondary: '#1D300C'
+    tertiary: '#4C57B8'
+    unibody: '#80C342'
+
 water:
   # 007 - water, starter
   squirtle:
@@ -503,6 +510,13 @@ bug:
     secondary: '#60067D'
     tertiary: '#FFFFFF'
     unibody: '#B7A8A5'
+
+ # 123 - bug, flying
+  scyther:
+    primary: '#6A9B40'
+    secondary: '#1D300C'
+    tertiary: '#4C57B8'
+    unibody: '#80C342'
 
 electric:
   # 025 - electric, starter
