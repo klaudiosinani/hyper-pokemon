@@ -172,3 +172,33 @@ misty:
     secondary: '#060329'
     tertiary: '#94C6FF'
     unibody: '#5C86B8'
+
+lt.surge:
+  # 025
+  pikachu:
+    primary: '#F6BD20'
+    secondary: '#4C1803'
+    tertiary: '#DE7329'
+    unibody: '#F7DE82'
+
+  # 026
+  raichu:
+    primary: '#66431b'
+    secondary: '#623108'
+    tertiary: '#C16200'
+    unibody: '#F2BD4B'
+
+  # 125
+  electabuzz:
+    primary: '#0A162C'
+    secondary: '#377B9C'
+    tertiary: '#FCFBD8'
+    unibody: '#F8D871'
+
+  # 082
+  magneton:
+    primary: '#91918F'
+    secondary: '#1A2342'
+    tertiary: '#B5249A'
+    unibody: '#A3BEC7'
+
