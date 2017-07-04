@@ -520,6 +520,13 @@ pokemon:
     tertiary: '#73696B'
     unibody: '#F9E4E9'
 
+  # 123
+  scyther:
+    primary: '#6A9B40'
+    secondary: '#1D300C'
+    tertiary: '#4C57B8'
+    unibody: '#80C342'
+
   # 125
   electabuzz:
     primary: '#0A162C'
