@@ -1060,6 +1060,20 @@ fighting:
     tertiary: '#FFF9F2'
     unibody: '#C2B5A5'
 
+  # 056 - fighting
+  mankey:
+    primary: '#C8B7A5'
+    secondary: '#3B2A29'
+    tertiary: '#3B6D8F'
+    unibody: '#F6E5D5'
+
+  # 057 - fighting
+  primeape:
+    primary: '#F38C8D'
+    secondary:  '#4A71B5'
+    tertiary: '#3B2F42'
+    unibody: '#F6E5C7'
+
 steel:
   # 081 - electric, steel
   magnemite:
