@@ -492,6 +492,13 @@ pokemon:
     tertiary: '#FFF9F2'
     unibody: '#C2B5A5'
 
+  # 127
+  pinsir:
+    primary: '#6C6260'
+    secondary: '#60067D'
+    tertiary: '#FFFFFF'
+    unibody: '#B7A8A5'
+
   # 132
   ditto:
     primary: '#040607'
