@@ -1,0 +1,102 @@
+##
+# Pokémon Trainers
+##
+
+ash:
+  # 025
+  pikachu:
+    primary: '#F6BD20'
+    secondary: '#4C1803'
+    tertiary: '#DE7329'
+    unibody: '#F7DE82'
+
+  # 010
+  caterpie:
+    primary: '#F47B59'
+    secondary: '#63583E'
+    tertiary: '#F2DF9C'
+    unibody: '#8CC979'
+
+  # 011
+  metapod:
+    primary: '#77A052'
+    secondary: '#230729'
+    tertiary: '#DDFEAC'
+    unibody: '#85B243'
+
+  # 012
+  butterfree:
+    primary: '#7FBBC5'
+    secondary: '#262330'
+    tertiary: '#F4D89A'
+    unibody: '#978DC1'
+
+  # 016
+  pidgey:
+    primary: '#F3EAB7'
+    secondary: '#0A0A08'
+    tertiary: '#AC8992'
+    unibody: '#9E6B35'
+
+  # 017
+  pidgeotto:
+    primary: '#A3733C'
+    secondary: '#C25046'
+    tertiary: '#A48554'
+    unibody: '#F7F3B0'
+
+  # 001
+  bulbasaur:
+    primary: '#5B9C71'
+    secondary: '#0F2C33'
+    tertiary: '#F8DEA0'
+    unibody: '#77AC98'
+
+  # 004
+  charmander:
+    primary: '#96191B'
+    secondary: '#35261D'
+    tertiary: '#F6DFD1'
+    unibody: '#F4B186'
+
+  # 005
+  charmeleon:
+    primary: '#BE5B55'
+    secondary: '#532924'
+    tertiary: '#EAD3D1'
+    unibody: '#D3675A'
+
+  # 006
+  charizard:
+    primary: '#CF844B'
+    secondary: '#4C1803'
+    tertiary: '#DBD8AE'
+    unibody: '#DC8E4C'
+
+  # 007
+  squirtle:
+    primary: '#916A5B'
+    secondary: '#832900'
+    tertiary: '#B4E6EE'
+    unibody: '#84C1D4'
+
+  # 020
+  raticate:
+    primary: '#A28091'
+    secondary: '#2E2300'
+    tertiary: '#21C8D8'
+    unibody: '#CB9652'
+
+  # 128
+  tauros:
+    primary: '#6E6852'
+    secondary: '#3D2914'
+    tertiary: '#23809D'
+    unibody: '#EAA763'
+
+  # 143
+  snorlax:
+    primary: '#F5EF7C'
+    secondary: '#1A2927'
+    tertiary: '#40C9B2'
+    unibody: '#4A736B'
