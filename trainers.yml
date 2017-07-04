@@ -230,3 +230,18 @@ erika:
     secondary: '#C9F3F1'
     tertiary: '#142625'
     unibody: '#58A7A2'
+
+koga:
+  # 042
+  golbat:
+    primary: '#82487A'
+    secondary: '#F5F56E'
+    tertiary: '#5C421B'
+    unibody: '#306E93'
+
+  # 123
+  scyther:
+    primary: '#6A9B40'
+    secondary: '#1D300C'
+    tertiary: '#4C57B8'
+    unibody: '#80C342'
