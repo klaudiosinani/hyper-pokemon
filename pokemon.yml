@@ -520,6 +520,13 @@ pokemon:
     tertiary: '#FFFFFF'
     unibody: '#B7A8A5'
 
+  # 128
+  tauros:
+    primary: '#6E6852'
+    secondary: '#3D2914'
+    tertiary: '#23809D'
+    unibody: '#EAA763'
+
   # 132
   ditto:
     primary: '#040607'
