@@ -338,6 +338,20 @@ pokemon:
     tertiary: '#5E563E'
     unibody: '#D88738'
 
+  # 048
+  venonat:
+    primary: '#C5598B'
+    secondary: '#1E1B33'
+    tertiary: '#51275C'
+    unibody: '#615A90'
+
+  # 049
+  venomoth:
+    primary: '#6E6991'
+    secondary: '#373737'
+    tertiary: '#FFFFFF'
+    unibody: '#A59CC7'
+
   # 055
   psyduck:
     primary: '#66431b'
