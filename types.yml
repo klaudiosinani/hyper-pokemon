@@ -716,6 +716,20 @@ ground:
     tertiary: '#4E7378'
     unibody: '#9B9AA2'
 
+  # 050 - ground
+  diglett:
+    primary: '#E6B5D3'
+    secondary: '#634B3B'
+    tertiary: '#FFFFFF'
+    unibody: '#A88975'
+
+  # 051 - ground
+  dugtrio:
+    primary: '#E1AECD'
+    secondary: '#38291E'
+    tertiary: '#FFFFFF'
+    unibody: '#92745C'
+
 fairy:
   # 036 - fairy
   clefable:
