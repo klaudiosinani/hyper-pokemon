@@ -44,6 +44,27 @@ grass:
     tertiary: '#66916C'
     unibody: '#EAEA6E'
 
+  # 043 - grass, poison
+  oddish:
+    primary: '#4D9242'
+    secondary: '#19242C'
+    tertiary: '#FFFFFF'
+    unibody: '#587D9A'
+
+  # 044 - grass, poison
+  gloom:
+    primary: '#A04041'
+    secondary: '#000000'
+    tertiary: '#C9C95A'
+    unibody: '#7796CD'
+
+  # 045 - grass, poison
+  vileplume:
+    primary: '#D56C7D'
+    secondary: '#FFFFEB'
+    tertiary: '#332424'
+    unibody: '#485683'
+
 poison:
   # 001 - grass, poison, starter
   bulbasaur:
@@ -198,6 +219,27 @@ poison:
     secondary: '#DB8570'
     tertiary: '#66916C'
     unibody: '#EAEA6E'
+
+  # 043 - grass, poison
+  oddish:
+    primary: '#4D9242'
+    secondary: '#19242C'
+    tertiary: '#FFFFFF'
+    unibody: '#587D9A'
+
+  # 044 - grass, poison
+  gloom:
+    primary: '#A04041'
+    secondary: '#000000'
+    tertiary: '#C9C95A'
+    unibody: '#7796CD'
+
+  # 045 - grass, poison
+  vileplume:
+    primary: '#D56C7D'
+    secondary: '#FFFFEB'
+    tertiary: '#332424'
+    unibody: '#485683'
 
 fire:
   # 003 - fire, starter
