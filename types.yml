@@ -597,6 +597,13 @@ ground:
     tertiary: '#FFBCD3'
     unibody: '#898E88'
 
+  # 095 - rock, ground
+  onix:
+    primary: '#4B494E'
+    secondary: '#E8E8D6'
+    tertiary: '#4E7378'
+    unibody: '#9B9AA2'
+
 fairy:
   # 036 - fairy
   clefable:
@@ -832,6 +839,13 @@ rock:
     secondary: '#B74345'
     tertiary: '#FFBCD3'
     unibody: '#898E88'
+
+  # 095 - rock, ground
+  onix:
+    primary: '#4B494E'
+    secondary: '#E8E8D6'
+    tertiary: '#4E7378'
+    unibody: '#9B9AA2'
 
 ice:
   # 144 - ice, flying, legendary
