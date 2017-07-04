@@ -352,6 +352,20 @@ pokemon:
     tertiary: '#FFFFFF'
     unibody: '#A59CC7'
 
+  # 050
+  diglett:
+    primary: '#E6B5D3'
+    secondary: '#634B3B'
+    tertiary: '#FFFFFF'
+    unibody: '#A88975'
+
+  # 051
+  dugtrio:
+    primary: '#E1AECD'
+    secondary: '#38291E'
+    tertiary: '#FFFFFF'
+    unibody: '#92745C'
+
   # 055
   psyduck:
     primary: '#66431b'
