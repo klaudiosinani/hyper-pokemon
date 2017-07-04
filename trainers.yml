@@ -100,3 +100,53 @@ ash:
     secondary: '#1A2927'
     tertiary: '#40C9B2'
     unibody: '#4A736B'
+
+brock:
+  # 095
+  onix:
+    primary: '#4B494E'
+    secondary: '#E8E8D6'
+    tertiary: '#4E7378'
+    unibody: '#9B9AA2'
+
+  # 074
+  geodude:
+    primary: '#505833'
+    secondary: '#382C00'
+    tertiary: '#A6552D'
+    unibody: '#B5A66D'
+
+  # 041
+  zubat:
+    primary: '#874E83'
+    secondary: '#F5F56E'
+    tertiary: '#5C421B'
+    unibody: '#5486A9'
+
+  # 042
+  golbat:
+    primary: '#82487A'
+    secondary: '#F5F56E'
+    tertiary: '#5C421B'
+    unibody: '#306E93'
+
+  # 037
+  vulpix:
+    primary: '#723822'
+    secondary: '#421402'
+    tertiary: '#f2a485'
+    unibody: '#c08672'
+
+  # 038
+  ninetales:
+    primary: '#DDCA6B'
+    secondary: '#737358'
+    tertiary: '#AA7BD9'
+    unibody: '#F2F3BA'
+
+  # 081
+  magnemite:
+    primary: '#93928E'
+    secondary: '#1A2342'
+    tertiary: '#7E6A85'
+    unibody: '#9DBBC5'
