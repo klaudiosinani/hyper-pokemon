@@ -433,6 +433,13 @@ water:
     tertiary: '#CF607C'
     unibody: '#000000'
 
+  # 080 - psychic, water
+  slowbro:
+    primary: '#BACBD2'
+    secondary: '#8B5A18'
+    tertiary: '#7B2031'
+    unibody: '#DD9DAE'
+
 bug:
   # 010 - bug
   caterpie:
@@ -725,6 +732,13 @@ psychic:
     secondary: '#4F4A34'
     tertiary: '#A5978B'
     unibody: '#F4E154'
+
+  # 080 - psychic, water
+  slowbro:
+    primary: '#BACBD2'
+    secondary: '#8B5A18'
+    tertiary: '#7B2031'
+    unibody: '#DD9DAE'
 
 ghost:
   # 094 - ghost,	poison
