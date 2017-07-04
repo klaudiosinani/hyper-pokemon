@@ -324,6 +324,20 @@ pokemon:
     tertiary: '#332424'
     unibody: '#485683'
 
+  # 046
+  paras:
+    primary: '#C68133'
+    secondary: '#000000'
+    tertiary: '#5E563E'
+    unibody: '#D99238'
+
+  # 047
+  parasect:
+    primary: '#C77936'
+    secondary: '#000000'
+    tertiary: '#5E563E'
+    unibody: '#D88738'
+
   # 055
   psyduck:
     primary: '#66431b'
