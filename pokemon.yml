@@ -380,12 +380,19 @@ pokemon:
     tertiary: '#000000'
     unibody: '#F4E2B2'
 
-  # 055
+  # 054
   psyduck:
     primary: '#66431b'
     secondary: '#623108'
     tertiary: '#C16200'
     unibody: '#FFD54B'
+
+  # 055
+  golduck:
+    primary: '#73A4C5'
+    secondary: '#243240'
+    tertiary: '#A60060'
+    unibody: '#7EB1E0'
 
   # 058
   growlithe:
