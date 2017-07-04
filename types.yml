@@ -626,6 +626,13 @@ fairy:
     tertiary: '#CC5B6F'
     unibody: '#F8B9C4'
 
+  # 122 - psychic, fairy
+  mr.mime:
+    primary: '#183F5E'
+    secondary: '#C4798B'
+    tertiary: '#73696B'
+    unibody: '#F9E4E9'
+
 normal:
   # 016 - flying, normal
   pidgey:
@@ -774,6 +781,13 @@ psychic:
     secondary: '#8B5A18'
     tertiary: '#7B2031'
     unibody: '#DD9DAE'
+
+  # 122 - psychic, fairy
+  mr.mime:
+    primary: '#183F5E'
+    secondary: '#C4798B'
+    tertiary: '#73696B'
+    unibody: '#F9E4E9'
 
 ghost:
   # 094 - ghost,	poison
