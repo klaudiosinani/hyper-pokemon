@@ -483,6 +483,13 @@ bug:
     tertiary: '#3680A8'
     unibody: '#EDCE64'
 
+  # 127 - bug
+  pinsir:
+    primary: '#6C6260'
+    secondary: '#60067D'
+    tertiary: '#FFFFFF'
+    unibody: '#B7A8A5'
+
 electric:
   # 025 - electric, starter
   pikachu:
