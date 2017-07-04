@@ -468,7 +468,7 @@ water:
     tertiary: '#B7D9FF'
     unibody: '#85ACD7'
 
-  # 055 - psychic, water
+  # 054 - water
   psyduck:
     primary: '#66431b'
     secondary: '#623108'
@@ -530,6 +530,13 @@ water:
     secondary: '#8B5A18'
     tertiary: '#7B2031'
     unibody: '#DD9DAE'
+
+  # 055 - water
+  golduck:
+    primary: '#73A4C5'
+    secondary: '#243240'
+    tertiary: '#A60060'
+    unibody: '#7EB1E0'
 
 bug:
   # 010 - bug
@@ -873,13 +880,6 @@ normal:
     unibody: '#F4E2B2'
 
 psychic:
-  # 055 - psychic, water
-  psyduck:
-    primary: '#66431b'
-    secondary: '#623108'
-    tertiary: '#C16200'
-    unibody: '#FFD54B'
-
   # 065 psychic
   alakazam:
     primary: '#D8BF58'
