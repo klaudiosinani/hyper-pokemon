@@ -858,6 +858,20 @@ normal:
     tertiary: '#23809D'
     unibody: '#EAA763'
 
+  # 052 - normal
+  meowth:
+    primary: '#434343'
+    secondary: '#0048C4'
+    tertiary: '#000000'
+    unibody: '#F4EDD1'
+
+  # 053 - normal
+  persian:
+    primary: '#514A40'
+    secondary: '#0048C4'
+    tertiary: '#000000'
+    unibody: '#F4E2B2'
+
 psychic:
   # 055 - psychic, water
   psyduck:
