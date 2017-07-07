@@ -433,3 +433,32 @@ agatha:
     secondary: '#F5F5F5'
     tertiary: '#BB4477'
     unibody: '#A7A1BD'
+
+lance:
+  # 148
+  dragonair:
+    primary: '#5577BB'
+    secondary: '#E8F0F4'
+    tertiary: '#D9D9D9'
+    unibody: '#77A2D5'
+
+  # 149
+  dragonite:
+    primary: '#2DAD9C'
+    secondary: '#4C351B'
+    tertiary: '#6D42BE'
+    unibody: '#F2B36E'
+
+  # 142
+  aerodactyl:
+    primary: '#8167AE'
+    secondary: '#20153B'
+    tertiary: '#E9E2FF'
+    unibody: '#A5B2DC'
+
+  # 006
+  charizard:
+    primary: '#CF844B'
+    secondary: '#4C1803'
+    tertiary: '#DBD8AE'
+    unibody: '#DC8E4C'
