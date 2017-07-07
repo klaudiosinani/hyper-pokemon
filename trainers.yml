@@ -411,3 +411,25 @@ bruno:
     secondary: '#B74345'
     tertiary: '#FFBCD3'
     unibody: '#898E88'
+
+agatha:
+  # 094
+  gengar:
+    primary: '#EF735B'
+    secondary: '#43B28F'
+    tertiary: '#BB4477'
+    unibody: '#4B294A'
+
+  # 042
+  golbat:
+    primary: '#82487A'
+    secondary: '#F5F56E'
+    tertiary: '#5C421B'
+    unibody: '#306E93'
+
+  # 024
+  arbok:
+    primary: '#3A3839'
+    secondary: '#F5F5F5'
+    tertiary: '#BB4477'
+    unibody: '#A7A1BD'
