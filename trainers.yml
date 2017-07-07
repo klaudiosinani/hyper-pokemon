@@ -274,3 +274,39 @@ sabrina:
     secondary: '#C4798B'
     tertiary: '#73696B'
     unibody: '#F9E4E9'
+
+blaine:
+  # 038
+  ninetales:
+    primary: '#DDCA6B'
+    secondary: '#737358'
+    tertiary: '#AA7BD9'
+    unibody: '#F2F3BA'
+
+  # 058
+  growlithe:
+    primary: '#8B7963'
+    secondary: '#4F3215'
+    tertiary: '#285DB2'
+    unibody: '#DB9651'
+
+  # 059
+  arcanine:
+    primary: '#EA5F24'
+    secondary: '#665836'
+    tertiary: '#FF9C04'
+    unibody: '#FEE3A0'
+
+  # 077
+  ponyta:
+    primary: '#E86946'
+    secondary: '#1F1C15'
+    tertiary: '#715DD1'
+    unibody: '#EADCB7'
+
+  # 078
+  rapidash:
+    primary: '#DF533C'
+    secondary: '#1F1C15'
+    tertiary: '#5B4BA8'
+    unibody: '#F5EFBF'
