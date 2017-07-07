@@ -368,3 +368,46 @@ lorelei:
     secondary: '#8B5A18'
     tertiary: '#7B2031'
     unibody: '#DD9DAE'
+
+bruno:
+  # 095
+  onix:
+    primary: '#4B494E'
+    secondary: '#E8E8D6'
+    tertiary: '#4E7378'
+    unibody: '#9B9AA2'
+
+  # 106
+  hitmonlee:
+    primary: '#302C2B'
+    secondary: '#171210'
+    tertiary: '#43D2B4'
+    unibody: '#9F8880'
+
+  # 107
+  hitmonchan:
+    primary: '#C66961'
+    secondary: '#1F1B17'
+    tertiary: '#FFF9F2'
+    unibody: '#C2B5A5'
+
+  # 068
+  machamp:
+    primary: '#8A9AA9'
+    secondary: '#202C2E'
+    tertiary: '#C22C2E'
+    unibody: '#9DAEC0'
+
+  # 066
+  machop:
+    primary: '#94ADB2'
+    secondary: '#202C2E'
+    tertiary: '#C22C2E'
+    unibody: '#A6C7CE'
+
+  # 076
+  golem:
+    primary: '#494441'
+    secondary: '#B74345'
+    tertiary: '#FFBCD3'
+    unibody: '#898E88'
