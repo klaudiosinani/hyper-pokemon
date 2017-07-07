@@ -360,3 +360,11 @@ giovanni:
     secondary: '#38291E'
     tertiary: '#FFFFFF'
     unibody: '#92745C'
+
+lorelei:
+  # 080
+  slowbro:
+    primary: '#BACBD2'
+    secondary: '#8B5A18'
+    tertiary: '#7B2031'
+    unibody: '#DD9DAE'
