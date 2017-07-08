@@ -1012,6 +1012,13 @@ normal:
     tertiary: '#459C64'
     unibody: '#FBD3DC'
 
+  # 137 - normal
+  porygon:
+    primary: '#4A9CA7'
+    secondary: '#1C070A'
+    tertiary: '#FFCF00'
+    unibody: '#D14353'
+
 psychic:
   # 065 psychic
   alakazam:
