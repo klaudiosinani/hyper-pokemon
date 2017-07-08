@@ -11,7 +11,7 @@
 ## Contents
 
 - [Description](#description)
-- [Poll - Choose the next Pokémon Region!](poll---choose-the-next-pokémon-region!)
+- [Poll - Choose the next Pokémon Region!](#poll---choose-the-next-pokémon-region)
 - [Install](#install)
 - [Usage](#usage)
 - [Options](#options)
