@@ -772,6 +772,13 @@ pokemon:
     tertiary: '#FFD0F7'
     unibody: '#CB91C1'
 
+  # 137
+  porygon:
+    primary: '#4A9CA7'
+    secondary: '#1C070A'
+    tertiary: '#FFCF00'
+    unibody: '#D14353'
+
   # 141
   kabutops:
     primary: '#92786b'
