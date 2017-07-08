@@ -1069,6 +1069,13 @@ psychic:
     tertiary: '#73696B'
     unibody: '#F9E4E9'
 
+  # 124 - ice, psychic
+  jynx:
+    primary: '#CB313B'
+    secondary: '#110919'
+    tertiary: '#28A651'
+    unibody: '#552B7F'
+
 ghost:
   # 094 - ghost,	poison
   gengar:
@@ -1141,6 +1148,13 @@ ice:
     secondary: '#48416B'
     tertiary: '#FFFF00'
     unibody: '#837A95'
+
+  # 124 - ice, psychic
+  jynx:
+    primary: '#CB313B'
+    secondary: '#110919'
+    tertiary: '#28A651'
+    unibody: '#552B7F'
 
 dragon:
   # 147 - dragon
