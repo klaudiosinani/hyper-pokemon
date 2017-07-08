@@ -688,6 +688,20 @@ pokemon:
     tertiary: '#FFF9F2'
     unibody: '#C2B5A5'
 
+  # 110
+  voltorb:
+    primary: '#000000'
+    secondary: '#000000'
+    tertiary: '#BAB608'
+    unibody: '#ED2225'
+
+  # 111
+  electrode:
+    primary: '#EC1D23'
+    secondary: '#000000'
+    tertiary: '#009BFF'
+    unibody: '#FFF'
+
   # 122
   mr.mime:
     primary: '#183F5E'
