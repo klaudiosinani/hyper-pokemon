@@ -601,6 +601,20 @@ water:
     tertiary: '#FFFF00'
     unibody: '#837A95'
 
+  # 118 - water
+  goldeen:
+    primary: '#DE6339'
+    secondary: '#000000'
+    tertiary: '#006FB2'
+    unibody: '#F4F1F8'
+
+  # 119 - water
+  seaking:
+    primary: '#0C0608'
+    secondary: '#115239'
+    tertiary: '#DED100'
+    unibody: '#D55F41'
+
 bug:
   # 010 - bug
   caterpie:
