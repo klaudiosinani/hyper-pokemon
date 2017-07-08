@@ -700,7 +700,7 @@ pokemon:
     primary: '#EC1D23'
     secondary: '#000000'
     tertiary: '#009BFF'
-    unibody: '#FFF'
+    unibody: '#FFFFFF'
 
   # 122
   mr.mime:

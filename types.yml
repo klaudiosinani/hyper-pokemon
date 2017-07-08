@@ -729,6 +729,20 @@ electric:
     tertiary: '#FCFBD8'
     unibody: '#F8D871'
 
+  # 110 - electric
+  voltorb:
+    primary: '#000000'
+    secondary: '#000000'
+    tertiary: '#BAB608'
+    unibody: '#ED2225'
+
+  # 111 - electric
+  electrode:
+    primary: '#EC1D23'
+    secondary: '#000000'
+    tertiary: '#009BFF'
+    unibody: '#FFFFFF'
+
 ground:
   # 027 - ground
   sandshrew:
