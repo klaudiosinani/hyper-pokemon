@@ -604,6 +604,20 @@ pokemon:
     tertiary: '#006AD4'
     unibody: '#C99877'
 
+  # 086
+  seel:
+    primary: '#D4DDEC'
+    secondary: '#33373B'
+    tertiary: '#FF6482'
+    unibody: '#EAEFF3'
+
+  # 087
+  dewgong:
+    primary: '#BFC1D6'
+    secondary: '#282B32'
+    tertiary: '#FF6482'
+    unibody: '#D6DCEA'
+
   # 094
   gengar:
     primary: '#EF735B'
