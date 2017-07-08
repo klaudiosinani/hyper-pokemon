@@ -587,6 +587,20 @@ water:
     tertiary: '#FF6482'
     unibody: '#D6DCEA'
 
+  # 090 - water
+  shellder:
+    primary: '#221E1F'
+    secondary: '#48416B'
+    tertiary: '#FFFFFF'
+    unibody: '#867DB2'
+
+  # 091 - water, ice
+  cloyster:
+    primary: '#262336'
+    secondary: '#48416B'
+    tertiary: '#FFFF00'
+    unibody: '#837A95'
+
 bug:
   # 010 - bug
   caterpie:
@@ -1071,6 +1085,13 @@ ice:
     secondary: '#282B32'
     tertiary: '#FF6482'
     unibody: '#D6DCEA'
+
+  # 091 - water, ice
+  cloyster:
+    primary: '#262336'
+    secondary: '#48416B'
+    tertiary: '#FFFF00'
+    unibody: '#837A95'
 
 dragon:
   # 147 - dragon
