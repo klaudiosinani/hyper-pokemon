@@ -660,6 +660,13 @@ pokemon:
     tertiary: '#4E7378'
     unibody: '#9B9AA2'
 
+  # 102
+  exeggcute:
+    primary: '#D0B5BB'
+    secondary: '#4F6666'
+    tertiary: '#0CA8A8'
+    unibody: '#F6D6D9'
+
   # 104
   cubone:
     primary: '#000000'
