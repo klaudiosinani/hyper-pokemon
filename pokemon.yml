@@ -590,6 +590,20 @@ pokemon:
     tertiary: '#0052A6'
     unibody: '#B2927D'
 
+  # 084
+  doduo:
+    primary: '#45464A'
+    secondary: '#FFFFFF'
+    tertiary: '#006AD4'
+    unibody: '#CB9573'
+
+  # 085
+  dodrio:
+    primary: '#484647'
+    secondary: '#FFFFFF'
+    tertiary: '#006AD4'
+    unibody: '#C99877'
+
   # 094
   gengar:
     primary: '#EF735B'
