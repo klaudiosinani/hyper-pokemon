@@ -11,6 +11,7 @@
 ## Contents
 
 - [Description](#description)
+- [Poll - Choose the next Pokémon Region!](poll---choose-the-next-pokémon-region!)
 - [Install](#install)
 - [Usage](#usage)
 - [Options](#options)
@@ -32,6 +33,22 @@ Come over to our [Gitter](https://gitter.im/hyper-pokemon/Lobby) chat or [Twitte
 Track the creation/progress of all themes on our [Trello board](https://trello.com/b/pg3NWkan)!
 
 Inspired by the original [Pokemon-Terminal](https://github.com/LazoCoder/Pokemon-Terminal) project.
+
+## Poll - Choose the next Pokémon Region!
+
+**Vote for the Pokémon Region you want to see themes from next!**<br/>
+In essence, this poll will determine the creation order of all Pokémon Regions!<br/>
+The poll will be kept alive until the project's completion, when all **600+** themes will be available! :tada:
+
+Trainers make your choice!
+
+[![](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Johto)](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Johto/vote)
+[![](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Hoenn)](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Hoenn/vote)
+[![](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Sinnoh)](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Sinnoh/vote)
+[![](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Unova)](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Unova/vote)
+[![](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Kalos)](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Kalos/vote)
+
+Poll powered by [tj/gh-polls](https://github.com/tj/gh-polls) ❤
 
 ## Install
 
