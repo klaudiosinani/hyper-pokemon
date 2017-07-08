@@ -618,6 +618,20 @@ pokemon:
     tertiary: '#FF6482'
     unibody: '#D6DCEA'
 
+  # 088
+  grimer:
+    primary: '#6E5F80'
+    secondary: '#2F2533'
+    tertiary: '#B8A785'
+    unibody: '#8D7B95'
+
+  # 089
+  muk:
+    primary: '#775A92'
+    secondary: '#23182E'
+    tertiary: '#DEC9A0'
+    unibody: '#8D6DAC'
+
   # 094
   gengar:
     primary: '#EF735B'
