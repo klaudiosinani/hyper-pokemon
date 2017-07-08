@@ -583,6 +583,13 @@ pokemon:
     tertiary: '#B5249A'
     unibody: '#A3BEC7'
 
+  # 083
+  farfetchd:
+    primary: '#F9B820'
+    secondary: '#FFFFF2'
+    tertiary: '#0052A6'
+    unibody: '#B2927D'
+
   # 094
   gengar:
     primary: '#EF735B'
