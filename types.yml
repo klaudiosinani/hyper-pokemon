@@ -269,6 +269,20 @@ poison:
     tertiary: '#FFFFFF'
     unibody: '#A59CC7'
 
+  # 088 - poison
+  grimer:
+    primary: '#6E5F80'
+    secondary: '#2F2533'
+    tertiary: '#B8A785'
+    unibody: '#8D7B95'
+
+  # 089 - poison
+  muk:
+    primary: '#775A92'
+    secondary: '#23182E'
+    tertiary: '#DEC9A0'
+    unibody: '#8D6DAC'
+
 fire:
   # 003 - fire, starter
   charmander:
