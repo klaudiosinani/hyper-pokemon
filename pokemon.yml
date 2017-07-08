@@ -660,6 +660,20 @@ pokemon:
     tertiary: '#4E7378'
     unibody: '#9B9AA2'
 
+  # 104
+  cubone:
+    primary: '#000000'
+    secondary: '#000000'
+    tertiary: '#084CBD'
+    unibody: '#E0AA3D'
+
+  # 105
+  marowak:
+    primary: '#000000'
+    secondary: '#000000'
+    tertiary: '#084CBD'
+    unibody: '#D1A341'
+
   # 106
   hitmonlee:
     primary: '#302C2B'
