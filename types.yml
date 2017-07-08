@@ -800,6 +800,20 @@ ground:
     tertiary: '#FFFFFF'
     unibody: '#92745C'
 
+  # 104 - ground
+  cubone:
+    primary: '#000000'
+    secondary: '#000000'
+    tertiary: '#084CBD'
+    unibody: '#E0AA3D'
+
+  # 105 - ground
+  marowak:
+    primary: '#000000'
+    secondary: '#000000'
+    tertiary: '#084CBD'
+    unibody: '#D1A341'
+
 fairy:
   # 036 - fairy
   clefable:
