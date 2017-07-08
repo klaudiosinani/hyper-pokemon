@@ -446,6 +446,13 @@ flying:
     tertiary: '#4C57B8'
     unibody: '#80C342'
 
+  # 083 - normal, flying
+  farfetchd:
+    primary: '#F9B820'
+    secondary: '#FFFFF2'
+    tertiary: '#0052A6'
+    unibody: '#B2927D'
+
 water:
   # 007 - water, starter
   squirtle:
@@ -878,6 +885,13 @@ normal:
     secondary: '#0048C4'
     tertiary: '#000000'
     unibody: '#F4E2B2'
+
+  # 083 - normal, flying
+  farfetchd:
+    primary: '#F9B820'
+    secondary: '#FFFFF2'
+    tertiary: '#0052A6'
+    unibody: '#B2927D'
 
 psychic:
   # 065 psychic
