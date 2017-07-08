@@ -632,6 +632,20 @@ pokemon:
     tertiary: '#DEC9A0'
     unibody: '#8D6DAC'
 
+  # 090
+  shellder:
+    primary: '#221E1F'
+    secondary: '#48416B'
+    tertiary: '#FFFFFF'
+    unibody: '#867DB2'
+
+  # 091
+  cloyster:
+    primary: '#262336'
+    secondary: '#48416B'
+    tertiary: '#FFFF00'
+    unibody: '#837A95'
+
   # 094
   gengar:
     primary: '#EF735B'
