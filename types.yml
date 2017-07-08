@@ -559,6 +559,20 @@ water:
     tertiary: '#A60060'
     unibody: '#7EB1E0'
 
+  # 086 - water
+  seel:
+    primary: '#D4DDEC'
+    secondary: '#33373B'
+    tertiary: '#FF6482'
+    unibody: '#EAEFF3'
+
+  # 087 - water, ice
+  dewgong:
+    primary: '#BFC1D6'
+    secondary: '#282B32'
+    tertiary: '#FF6482'
+    unibody: '#D6DCEA'
+
 bug:
   # 010 - bug
   caterpie:
@@ -1036,6 +1050,13 @@ ice:
     secondary: '#151F29'
     tertiary: '#5F6973'
     unibody: '#73A9DB'
+
+  # 087 - water, ice
+  dewgong:
+    primary: '#BFC1D6'
+    secondary: '#282B32'
+    tertiary: '#FF6482'
+    unibody: '#D6DCEA'
 
 dragon:
   # 147 - dragon
