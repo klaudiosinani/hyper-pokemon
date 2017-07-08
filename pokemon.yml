@@ -737,6 +737,13 @@ pokemon:
     tertiary: '#4C57B8'
     unibody: '#80C342'
 
+  # 124
+  jynx:
+    primary: '#CB313B'
+    secondary: '#110919'
+    tertiary: '#28A651'
+    unibody: '#552B7F'
+
   # 125
   electabuzz:
     primary: '#0A162C'
