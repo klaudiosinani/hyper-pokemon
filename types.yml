@@ -1005,6 +1005,13 @@ normal:
     tertiary: '#006AD4'
     unibody: '#C99877'
 
+  # 113 - normal
+  chansey:
+    primary: '#E99DA9'
+    secondary: '#733E49'
+    tertiary: '#459C64'
+    unibody: '#FBD3DC'
+
 psychic:
   # 065 psychic
   alakazam:
