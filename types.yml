@@ -453,6 +453,20 @@ flying:
     tertiary: '#0052A6'
     unibody: '#B2927D'
 
+  # 084 - normal, flying
+  doduo:
+    primary: '#45464A'
+    secondary: '#FFFFFF'
+    tertiary: '#006AD4'
+    unibody: '#CB9573'
+
+  # 085 - normal, flying
+  dodrio:
+    primary: '#484647'
+    secondary: '#FFFFFF'
+    tertiary: '#006AD4'
+    unibody: '#C99877'
+
 water:
   # 007 - water, starter
   squirtle:
@@ -892,6 +906,20 @@ normal:
     secondary: '#FFFFF2'
     tertiary: '#0052A6'
     unibody: '#B2927D'
+
+  # 084 - normal, flying
+  doduo:
+    primary: '#45464A'
+    secondary: '#FFFFFF'
+    tertiary: '#006AD4'
+    unibody: '#CB9573'
+
+  # 085 - normal, flying
+  dodrio:
+    primary: '#484647'
+    secondary: '#FFFFFF'
+    tertiary: '#006AD4'
+    unibody: '#C99877'
 
 psychic:
   # 065 psychic
