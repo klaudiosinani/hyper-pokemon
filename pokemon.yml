@@ -702,6 +702,13 @@ pokemon:
     tertiary: '#009BFF'
     unibody: '#FFFFFF'
 
+  # 113
+  chansey:
+    primary: '#E99DA9'
+    secondary: '#733E49'
+    tertiary: '#459C64'
+    unibody: '#FBD3DC'
+
   # 118
   goldeen:
     primary: '#DE6339'
