@@ -702,6 +702,20 @@ pokemon:
     tertiary: '#009BFF'
     unibody: '#FFFFFF'
 
+  # 118
+  goldeen:
+    primary: '#DE6339'
+    secondary: '#000000'
+    tertiary: '#006FB2'
+    unibody: '#F4F1F8'
+
+  # 119
+  seaking:
+    primary: '#0C0608'
+    secondary: '#115239'
+    tertiary: '#DED100'
+    unibody: '#D55F41'
+
   # 122
   mr.mime:
     primary: '#183F5E'
