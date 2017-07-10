@@ -233,10 +233,16 @@ exports.decorateConfig = config => {
           color: ${secondary};
           border: 0;
         }
+        .tab_icon {
+          color: ${secondary};
+        }
+        .tab_icon:hover {
+          background-color: ${secondary};
+        }
         .tabs_nav .tabs_list .tab_tab:not(.tab_active) {
           background-color: rgba(0,0,0,0.1);
         }
-        .tabs_nav .tabs_list .tab_tab:not(.tab_active):hover {
+        .tabs_nav .tabs_list {
           color: ${primary};
         }
         .tabs_nav .tabs_list .tab_active .tab_text {
