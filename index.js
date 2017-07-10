@@ -136,6 +136,7 @@ exports.decorateConfig = config => {
 	const primary = (unibodyFlag === true) ? theme.unibody : theme.primary;
 	const secondary = theme.secondary;
 	const tertiary = theme.tertiary;
+	const selectedColor = theme.primary;
 
 	const syntax = {
 		dark: {
@@ -205,7 +206,7 @@ exports.decorateConfig = config => {
 			termCSS: `
           ${config.termCSS || ''}
           ::selection {
-            background: ${primary} !important;
+            background: ${selectedColor} !important;
           }
           ::-webkit-scrollbar-thumb {
             background-color: ${secondary};
