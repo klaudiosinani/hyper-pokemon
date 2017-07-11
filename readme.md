@@ -50,6 +50,8 @@ Trainers make your choice!
 
 Poll powered by [tj/gh-polls](https://github.com/tj/gh-polls) ❤
 
+[:arrow_up:Back to top!](#contents)
+
 ## Install
 
 ### Using the plugin manager - `hpm-cli`
@@ -86,7 +88,7 @@ Once you have installed `hyper-pokemon`, it's time to set your favorite theme!
 
 Go to your `~/.hyper.js` and add the `pokemon` and `pokemonSyntax` options below the `colors` object, and define your theme of choice!
 
-Here is a quick example, where we choose the `gengar` theme, with a `unibody` color for the window header & dark terminal tabs! 👻
+Here is a quick example, where we choose the `gengar` ![](media/pokecons/094.gif) theme, with a `unibody` color for the window header & dark terminal tabs!
 
 ```js
 config: {
@@ -160,33 +162,35 @@ Here is a list, grouped by Pokémon regions, of all the available Pokémon theme
 
 <details>
 <summary>Kanto Region</summary>
-List of Kanto region Pokémon themes :tada:
 
-* Bulbasaur 🌱
-* Ivysaur 🌱
-* Venusaur 🌱
-* Charmander 🔥
-* Charmeleon 🔥
-* Charizard 🔥
-* Squirtle 🌊
-* Wartortle 🌊
-* Blastoise 🌊
-* Metapod 🐛
-* Kakuna 🐛
-* Ekans 🐍
-* Pikachu ⚡
-* Raichu ⚡
-* Sandshrew 🐭
-* Sandslash 🐭
-* Clefable 🌟
-* Vulpix 🔥
-* Jigglypuff 🎤
-* Psyduck 🌊
-* Alakazam 🍴
-* Slowpoke 🌊
-* Gengar 👻
-* Ditto 🌟
-* Kabutops ✂
+<br/>
+
+> List of Kanto region Pokémon themes :tada:
+
+* Bulbasaur ![](media/pokecons/001.gif)
+* Ivysaur ![](media/pokecons/002.gif)
+* Venusaur ![](media/pokecons/003.gif)
+* Charmander ![](media/pokecons/004.gif)
+* Charmeleon ![](media/pokecons/005.gif)
+* Charizard ![](media/pokecons/006.gif)
+* Squirtle ![](media/pokecons/007.gif)
+* Wartortle ![](media/pokecons/008.gif)
+* Blastoise ![](media/pokecons/009.gif)
+* Metapod ![](media/pokecons/011.gif)
+* Kakuna ![](media/pokecons/014.gif)
+* Ekans ![](media/pokecons/023.gif)
+* Pikachu ![](media/pokecons/025.gif)
+* Raichu ![](media/pokecons/026.gif)
+* Sandshrew ![](media/pokecons/027.gif)
+* Clefable ![](media/pokecons/036.gif)
+* Vulpix ![](media/pokecons/037.gif)
+* Jigglypuff ![](media/pokecons/039.gif)
+* Psyduck ![](media/pokecons/054.gif)
+* Alakazam ![](media/pokecons/065.gif)
+* Slowpoke ![](media/pokecons/079.gif)
+* Gengar ![](media/pokecons/094.gif)
+* Ditto ![](media/pokecons/132.gif)
+* Kabutops ![](media/pokecons/141.gif)
 
 </details><br/>
 
