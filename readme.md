@@ -116,13 +116,13 @@ Using this option you can choose your pokémon background along with it's tailor
 
 The assignable values are:
 
-- `pokemon name` - choose any of the [available Pokémon themes](#available-themes) by defining the Pokémon name.<br/><br/>**i.e.** `pokemon: "charizard"`, `pokemon: "pikachu"`, `pokemon: "blastoise"` **etc**
+- `pokemon name` - choose any of the [available Pokémon themes](#available-themes) by defining the Pokémon name.<br/><br/>**i.e.** `pokemon: 'charizard'`, `pokemon: 'pikachu'`, `pokemon: 'blastoise'` **etc**
 
 - `random` - randomly selects a Pokémon theme from the **whole list** of available Pokémons, each time you fire up a new Hyper terminal session.<br/><br/>
-**i.e.** `pokemon: "random"`
+**i.e.** `pokemon: 'random'`
 
 - `pokemon type` - randomly selects a Pokémon theme from only a **specific Pokémon type**, each time you fire up a new Hyper terminal session.<br/><br/>
-**i.e.** `pokemon: "fire"`, `pokemon: "water"`, `pokemon: "grass"` **etc**<br/><br/>
+**i.e.** `pokemon: 'fire'`, `pokemon: 'water'`, `pokemon: 'grass'` **etc**<br/><br/>
 The available choices up to this moment (*all types will be supported really soon*) are the following:
 
 	- `fire`
@@ -137,7 +137,7 @@ Here you can define the color of the terminal tabs.
 The assignable values are:
 
 - `light` - choose it if your pokémon theme is of a more light color
-- `dark` - go for it if you are going with a darker pokémon theme
+- `dark` - go for it if you are using a darker pokémon theme
 
 ![Pokemon Syntax](media/pokemon-syntax.png)
 
@@ -148,7 +148,7 @@ Choose whether or not you want the Hyper windows header color to be the same as 
 The assignable values are:
 
 - `true` - choose it for a unibody color theme
-- `false` - go for it if you like you window header colorful
+- `false` - go for it if you like your terminal more colorful
 
 In addition, completely omitting the `unibody` option from your `.hyper.js` will have the same effect as defining it and setting it to `true`.
 
