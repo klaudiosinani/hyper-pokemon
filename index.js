@@ -9,7 +9,8 @@ exports.decorateConfig = config => {
 	let theme;
 	let keys;
 	let index;
-	let pokemonTheme = config.pokemon.toLowerCase();
+	let pokemonTheme = Array.isArray(config.pokemon)?config.pokemon[Math.floor(Math.random()*config.pokemon.length)]:config.pokemon.toLowerCase();
+
 	const unibody = config.unibody;
 	const unibodyFlag = unibody !== 'false';
 
