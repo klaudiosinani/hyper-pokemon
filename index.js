@@ -3,7 +3,7 @@ const yaml = require('js-yaml');
 const homeDir = require('home-dir');
 
 const path = homeDir('/.hyper_plugins/node_modules/hyper-pokemon/backgrounds/');
-const pokecursorDir = homeDir('/.hyper_plugins/node_modules/hyper-pokemon/pokecursors/')
+const pokecursorDir = homeDir('/.hyper_plugins/node_modules/hyper-pokemon/pokecursors/');
 const extension = '.png';
 const pokecursorExtension = '.gif';
 
@@ -210,7 +210,7 @@ exports.decorateConfig = config => {
 	}
 
 	// Set pokecursor settings
-	const cursorVisibility =  (pokecursorFlag === true) ? 'transparent' : secondary;
+	const cursorVisibility = (pokecursorFlag === true) ? 'transparent' : secondary;
 	const cursorContent = (pokecursorFlag === true) ? pathToPokecursor : '';
 	const cursorSize = (pokecursorFlag === true) ? pokecursorSize : 16;
 
@@ -218,8 +218,8 @@ exports.decorateConfig = config => {
 		(config.pokemonSyntax === 'light') ?
 		syntax.light :
 		syntax.dark, {
-		cursorColor: cursorVisibility,
-		termCSS: `
+			cursorColor: cursorVisibility,
+			termCSS: `
           ${config.termCSS || ''}
           .cursor-node::after {
           	content: url(${cursorContent});
