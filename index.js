@@ -3,7 +3,9 @@ const yaml = require('js-yaml');
 const homeDir = require('home-dir');
 
 const path = homeDir('/.hyper_plugins/node_modules/hyper-pokemon/backgrounds/');
+const pokecursorDir = homeDir('/.hyper_plugins/node_modules/hyper-pokemon/pokecursors/');
 const extension = '.png';
+const pokecursorExtension = '.gif';
 
 exports.decorateConfig = config => {
 	let theme;
@@ -13,6 +15,22 @@ exports.decorateConfig = config => {
 	let pokemonTheme = getTheme.toLowerCase();
 	const unibody = config.unibody;
 	const unibodyFlag = unibody !== 'false';
+	let pokecursorFlag;
+	const pokecursor = config.pokecursor;
+
+	switch (pokecursor) {
+		case 'true':
+			pokecursorFlag = true;
+			break;
+
+		case 'false':
+			pokecursorFlag = false;
+			break;
+
+		default:
+			pokecursorFlag = false;
+
+	}
 
 	// Load color palettes from yaml files
 	const pokemonYml = yaml.safeLoad(
@@ -192,20 +210,36 @@ exports.decorateConfig = config => {
 	};
 
 	let pathToTheme;
+	let pathToPokecursor;
 	const assemblePath = path + pokemonTheme + extension;
+	const assemblePokecursorPath = pokecursorDir + pokemonTheme + pokecursorExtension;
 
 	if (process.platform === 'win32') {
 		pathToTheme = assemblePath.replace(/\\/g, '/');
+		pathToPokecursor = assemblePokecursorPath.replace(/\\/g, '/');
 	} else {
 		pathToTheme = assemblePath;
+		pathToPokecursor = assemblePokecursorPath;
 	}
+
+	// Set theme pokecursor
+	const cursorVisibility = (pokecursorFlag === true) ? 'transparent' : secondary;
+	const cursorContent = (pokecursorFlag === true) ? pathToPokecursor : '';
 
 	return Object.assign({}, config,
 		(config.pokemonSyntax === 'light') ?
 		syntax.light :
 		syntax.dark, {
+			cursorColor: cursorVisibility,
 			termCSS: `
           ${config.termCSS || ''}
+          .cursor-node::after {
+          	content: url(${cursorContent});
+          	position: absolute;
+          	left: 0;
+          	right: 0;
+          	bottom: 0;
+          }
           ::selection {
             background: ${selectedColor} !important;
           }
