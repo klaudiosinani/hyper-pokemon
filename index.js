@@ -17,7 +17,6 @@ exports.decorateConfig = config => {
 	const unibodyFlag = unibody !== 'false';
 	let pokecursorFlag;
 	const pokecursor = config.pokecursor;
-	const pokecursorSize = config.pokecursorSize;
 
 	switch (pokecursor) {
 		case 'true':
@@ -223,10 +222,9 @@ exports.decorateConfig = config => {
 		pathToPokecursor = assemblePokecursorPath;
 	}
 
-	// Set pokecursor settings
+	// Set theme pokecursor
 	const cursorVisibility = (pokecursorFlag === true) ? 'transparent' : secondary;
 	const cursorContent = (pokecursorFlag === true) ? pathToPokecursor : '';
-	const cursorSize = (pokecursorFlag === true) ? pokecursorSize : 16;
 
 	return Object.assign({}, config,
 		(config.pokemonSyntax === 'light') ?
@@ -237,7 +235,6 @@ exports.decorateConfig = config => {
           ${config.termCSS || ''}
           .cursor-node::after {
           	content: url(${cursorContent});
-          	font-size: ${cursorSize}px;
           	position: absolute;
           	left: 0;
           	right: 0;
