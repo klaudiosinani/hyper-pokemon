@@ -1259,12 +1259,26 @@ psychic:
     unibody: '#A297B7'
 
 ghost:
-  # 094 - ghost,	poison
+  # 094 - ghost, poison
   gengar:
     primary: '#EF735B'
     secondary: '#43B28F'
     tertiary: '#BB4477'
     unibody: '#4B294A'
+
+  # 092 - ghost, poison
+  gastly:
+    primary: '#0C0D22'
+    secondary: '#7A0046'
+    tertiary: '#FFBC00'
+    unibody: '#7D6EB3'
+
+  # 093 - ghost, poison
+  haunter:
+    primary: '#ED779A'
+    secondary: '#242033'
+    tertiary: '#FFBC00'
+    unibody: '#7D6EB3'
 
 rock:
   # 141 - rock, water
