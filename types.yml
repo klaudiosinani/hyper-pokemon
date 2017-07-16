@@ -741,6 +741,20 @@ water:
     tertiary: '#CC7A86'
     unibody: '#7FC2DC'
 
+  # 138 - water, rock
+  omanyte:
+    primary: '#E1DDAE'
+    secondary: '#F6FCFF'
+    tertiary: '#C24939'
+    unibody: '#97CCDC'
+
+  # 139 - water, rock
+  omastar:
+    primary: '#E1DBB7'
+    secondary: '#1F434C'
+    tertiary: '#BD4738'
+    unibody: '#6CBED4'
+
 bug:
   # 010 - bug
   caterpie:
@@ -1364,6 +1378,20 @@ rock:
     secondary: '#434957'
     tertiary: '#00FAE9'
     unibody: '#99A0B0'
+
+  # 138 - water, rock
+  omanyte:
+    primary: '#E1DDAE'
+    secondary: '#F6FCFF'
+    tertiary: '#C24939'
+    unibody: '#97CCDC'
+
+  # 139 - water, rock
+  omastar:
+    primary: '#E1DBB7'
+    secondary: '#1F434C'
+    tertiary: '#BD4738'
+    unibody: '#6CBED4'
 
 ice:
   # 144 - ice, flying, legendary
