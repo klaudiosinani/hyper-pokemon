@@ -1131,6 +1131,13 @@ normal:
     tertiary: '#FFCF00'
     unibody: '#D14353'
 
+  # 108 - normal
+  lickitung:
+    primary: '#E4B9CA'
+    secondary: '#693F45'
+    tertiary: '#589196'
+    unibody: '#EBA5B0'
+
 psychic:
   # 065 psychic
   alakazam:
