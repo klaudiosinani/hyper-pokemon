@@ -856,6 +856,13 @@ pokemon:
     tertiary: '#FCFBD8'
     unibody: '#F8D871'
 
+  # 126
+  magmar:
+    primary: '#F9DC64'
+    secondary: '#07050F'
+    tertiary: '#003985'
+    unibody: '#D84E27'
+
   # 127
   pinsir:
     primary: '#6C6260'
