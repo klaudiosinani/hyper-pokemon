@@ -382,6 +382,13 @@ fire:
     tertiary: '#FF9C04'
     unibody: '#FEE3A0'
 
+  # 126 - fire
+  magmar:
+    primary: '#F9DC64'
+    secondary: '#07050F'
+    tertiary: '#003985'
+    unibody: '#D84E27'
+
 flying:
   # 006 - fire, flying
   charizard:
