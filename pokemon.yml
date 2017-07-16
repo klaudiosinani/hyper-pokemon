@@ -758,6 +758,20 @@ pokemon:
     tertiary: '#009BFF'
     unibody: '#FFFFFF'
 
+  # 111
+  rhyhorn:
+    primary: '#958F99'
+    secondary: '#3C393E'
+    tertiary: '#FF7700'
+    unibody: '#B6ADBE'
+
+  # 112
+  rhydon:
+    primary: '#E7CEB8'
+    secondary: '#434957'
+    tertiary: '#00FAE9'
+    unibody: '#99A0B0'
+
   # 113
   chansey:
     primary: '#E99DA9'
