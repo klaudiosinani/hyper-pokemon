@@ -674,6 +674,20 @@ pokemon:
     tertiary: '#CB4D4D'
     unibody: '#F9D855'
 
+  # 098
+  krabby:
+    primary: '#E78A4F'
+    secondary: '#292929'
+    tertiary: '#367382'
+    unibody: '#F4E5E0'
+
+  # 099
+  kingler:
+    primary: '#D06628'
+    secondary: '#306573'
+    tertiary: '#43B28F'
+    unibody: '#F2E0CA'
+
   # 102
   exeggcute:
     primary: '#D0B5BB'
