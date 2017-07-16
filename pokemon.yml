@@ -744,6 +744,13 @@ pokemon:
     tertiary: '#FFF9F2'
     unibody: '#C2B5A5'
 
+  # 108
+  lickitung:
+    primary: '#E4B9CA'
+    secondary: '#693F45'
+    tertiary: '#589196'
+    unibody: '#EBA5B0'
+
   # 109
   koffing:
     primary: '#726487'
