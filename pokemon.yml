@@ -786,6 +786,13 @@ pokemon:
     tertiary: '#459C64'
     unibody: '#FBD3DC'
 
+  # 114
+  tangela:
+    primary: '#DF775E'
+    secondary: '#1C384F'
+    tertiary: '#FFFCFF'
+    unibody: '#6697C0'
+
   # 116
   horsea:
     primary: '#65AECF'
