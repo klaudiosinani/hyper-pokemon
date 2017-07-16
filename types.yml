@@ -755,6 +755,13 @@ water:
     tertiary: '#BD4738'
     unibody: '#6CBED4'
 
+  # 140 - water, rock
+  kabuto:
+    primary: '#B88B61'
+    secondary: '#FFFFFF'
+    tertiary: '#66226E'
+    unibody: '#010101'
+
 bug:
   # 010 - bug
   caterpie:
@@ -1392,6 +1399,13 @@ rock:
     secondary: '#1F434C'
     tertiary: '#BD4738'
     unibody: '#6CBED4'
+
+  # 140 - water, rock
+  kabuto:
+    primary: '#B88B61'
+    secondary: '#FFFFFF'
+    tertiary: '#66226E'
+    unibody: '#010101'
 
 ice:
   # 144 - ice, flying, legendary
