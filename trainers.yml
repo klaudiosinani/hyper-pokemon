@@ -529,6 +529,20 @@ giovanni:
     tertiary: '#FFFFFF'
     unibody: '#92745C'
 
+  # 111
+  rhyhorn:
+    primary: '#958F99'
+    secondary: '#3C393E'
+    tertiary: '#FF7700'
+    unibody: '#B6ADBE'
+
+  # 115
+  kangaskhan:
+    primary: '#EFE9AB'
+    secondary: '#000000'
+    tertiary: '#D98067'
+    unibody: '#8D746D'
+
 lorelei:
   # 080
   slowbro:
