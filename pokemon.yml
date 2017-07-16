@@ -877,6 +877,13 @@ pokemon:
     tertiary: '#B2454B'
     unibody: '#307BA5'
 
+  # 131
+  lapras:
+    primary: '#157397'
+    secondary: '#00222E'
+    tertiary: '#C26837'
+    unibody: '#0793C6'
+
   # 132
   ditto:
     primary: '#040607'
