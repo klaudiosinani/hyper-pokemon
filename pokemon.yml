@@ -660,6 +660,20 @@ pokemon:
     tertiary: '#4E7378'
     unibody: '#9B9AA2'
 
+  # 096
+  drowzee:
+    primary: '#595450'
+    secondary: '#FFFFFF'
+    tertiary: '#CB4D4D'
+    unibody: '#ECC44A'
+
+  # 097
+  hypno:
+    primary: '#979B9A'
+    secondary: '#292929'
+    tertiary: '#CB4D4D'
+    unibody: '#F9D855'
+
   # 102
   exeggcute:
     primary: '#D0B5BB'
