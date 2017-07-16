@@ -422,6 +422,13 @@ sabrina:
     tertiary: '#73696B'
     unibody: '#F9E4E9'
 
+  # 049
+  venomoth:
+    primary: '#6E6991'
+    secondary: '#373737'
+    tertiary: '#FFFFFF'
+    unibody: '#A59CC7'
+
 blaine:
   # 038
   ninetales:
