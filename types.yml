@@ -706,6 +706,13 @@ water:
     tertiary: '#FFFFFF'
     unibody: '#A297B7'
 
+  # 131 - water, ice
+  lapras:
+    primary: '#157397'
+    secondary: '#00222E'
+    tertiary: '#C26837'
+    unibody: '#0793C6'
+
 bug:
   # 010 - bug
   caterpie:
@@ -1316,6 +1323,13 @@ ice:
     secondary: '#110919'
     tertiary: '#28A651'
     unibody: '#552B7F'
+
+  # 131 - water, ice
+  lapras:
+    primary: '#157397'
+    secondary: '#00222E'
+    tertiary: '#C26837'
+    unibody: '#0793C6'
 
 dragon:
   # 147 - dragon
