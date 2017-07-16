@@ -1097,6 +1097,20 @@ psychic:
     tertiary: '#0CA8A8'
     unibody: '#F6D6D9'
 
+  # 096 - psychic
+  drowzee:
+    primary: '#595450'
+    secondary: '#FFFFFF'
+    tertiary: '#CB4D4D'
+    unibody: '#ECC44A'
+
+  # 097 - psychic
+  hypno:
+    primary: '#979B9A'
+    secondary: '#292929'
+    tertiary: '#CB4D4D'
+    unibody: '#F9D855'
+
 ghost:
   # 094 - ghost,	poison
   gengar:
