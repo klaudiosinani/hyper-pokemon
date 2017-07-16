@@ -622,6 +622,20 @@ water:
     tertiary: '#DED100'
     unibody: '#D55F41'
 
+  # 098 - water
+  krabby:
+    primary: '#E78A4F'
+    secondary: '#292929'
+    tertiary: '#367382'
+    unibody: '#F4E5E0'
+
+  # 099 - water
+  kingler:
+    primary: '#D06628'
+    secondary: '#306573'
+    tertiary: '#43B28F'
+    unibody: '#F2E0CA'
+
 bug:
   # 010 - bug
   caterpie:
