@@ -708,6 +708,20 @@ lance:
     tertiary: '#DBD8AE'
     unibody: '#DC8E4C'
 
+  # 129
+  magikarp:
+    primary: '#F8C471'
+    secondary: '#632A1E'
+    tertiary: '#000000'
+    unibody: '#F17960'
+
+  # 130
+  gyarados:
+    primary: '#2E7090'
+    secondary: '#113F58'
+    tertiary: '#B2454B'
+    unibody: '#307BA5'
+
 gary:
   # 007
   squirtle:
