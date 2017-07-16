@@ -297,6 +297,20 @@ poison:
     tertiary: '#DEC9A0'
     unibody: '#8D6DAC'
 
+  # 109 - poison
+  koffing:
+    primary: '#726487'
+    secondary: '#472F6B'
+    tertiary: '#BA517F'
+    unibody: '#A793C6'
+
+  # 110 - poison
+  weezing:
+    primary: '#897B88'
+    secondary: '#3B3345'
+    tertiary: '#FFF9B4'
+    unibody: '#B1A4C2'
+
 fire:
   # 003 - fire, starter
   charmander:
