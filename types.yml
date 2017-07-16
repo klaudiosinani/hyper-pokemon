@@ -396,6 +396,13 @@ fire:
     tertiary: '#003985'
     unibody: '#D84E27'
 
+  # 136 - fire
+  flareon:
+    primary: '#060709'
+    secondary: '#6E3921'
+    tertiary: '#0760A8'
+    unibody: '#E8813E'
+
 flying:
   # 006 - fire, flying
   charizard:
@@ -727,6 +734,13 @@ water:
     tertiary: '#C26837'
     unibody: '#0793C6'
 
+  # 134 - water
+  vaporeon:
+    primary: '#2B536D'
+    secondary: '#0A1114'
+    tertiary: '#CC7A86'
+    unibody: '#7FC2DC'
+
 bug:
   # 010 - bug
   caterpie:
@@ -868,6 +882,13 @@ electric:
     secondary: '#000000'
     tertiary: '#009BFF'
     unibody: '#FFFFFF'
+
+  # 135 - electric
+  jolteon:
+    primary: '#080607'
+    secondary: '#3189C0'
+    tertiary: '#720073'
+    unibody: '#F3D156'
 
 ground:
   # 027 - ground
@@ -1158,6 +1179,13 @@ normal:
     secondary: '#000000'
     tertiary: '#D98067'
     unibody: '#8D746D'
+
+  # 133 - normal
+  eevee:
+    primary: '#603E18'
+    secondary: '#000000'
+    tertiary: '#4D3C9E'
+    unibody: '#C08C5C'
 
 psychic:
   # 065 psychic
