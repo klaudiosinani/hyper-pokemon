@@ -779,6 +779,20 @@ pokemon:
     tertiary: '#459C64'
     unibody: '#FBD3DC'
 
+  # 116
+  horsea:
+    primary: '#65AECF'
+    secondary: '#3D616B'
+    tertiary: '#D18CA1'
+    unibody: '#86D4EB'
+
+  # 117
+  seadra:
+    primary: '#4D809B'
+    secondary: '#0E171C'
+    tertiary: '#FF8187'
+    unibody: '#88C9E9'
+
   # 118
   goldeen:
     primary: '#DE6339'
