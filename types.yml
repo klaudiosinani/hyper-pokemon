@@ -509,6 +509,13 @@ flying:
     tertiary: '#006AD4'
     unibody: '#C99877'
 
+  # 130 - water, flying
+  gyrados:
+    primary: '#2E7090'
+    secondary: '#113F58'
+    tertiary: '#B2454B'
+    unibody: '#307BA5'
+
 water:
   # 007 - water, starter
   squirtle:
@@ -656,6 +663,20 @@ water:
     secondary: '#306573'
     tertiary: '#43B28F'
     unibody: '#F2E0CA'
+
+  # 129 - water
+  magikarp:
+    primary: '#F8C471'
+    secondary: '#632A1E'
+    tertiary: '#000000'
+    unibody: '#F17960'
+
+  # 130 - water, flying
+  gyrados:
+    primary: '#2E7090'
+    secondary: '#113F58'
+    tertiary: '#B2454B'
+    unibody: '#307BA5'
 
 bug:
   # 010 - bug
