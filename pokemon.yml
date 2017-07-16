@@ -730,6 +730,20 @@ pokemon:
     tertiary: '#FFF9F2'
     unibody: '#C2B5A5'
 
+  # 109
+  koffing:
+    primary: '#726487'
+    secondary: '#472F6B'
+    tertiary: '#BA517F'
+    unibody: '#A793C6'
+
+  # 110
+  weezing:
+    primary: '#897B88'
+    secondary: '#3B3345'
+    tertiary: '#FFF9B4'
+    unibody: '#B1A4C2'
+
   # 110
   voltorb:
     primary: '#000000'
