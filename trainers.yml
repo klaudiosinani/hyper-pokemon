@@ -208,6 +208,41 @@ misty:
     tertiary: '#94C6FF'
     unibody: '#5C86B8'
 
+  # 118
+  goldeen:
+    primary: '#DE6339'
+    secondary: '#000000'
+    tertiary: '#006FB2'
+    unibody: '#F4F1F8'
+
+  # 120
+  staryu:
+    primary: '#9E7438'
+    secondary: '#2B1F0A'
+    tertiary: '#FFFFFF'
+    unibody: '#B1853C'
+
+  # 121
+  starmie:
+    primary: '#8B869A'
+    secondary: '#131117'
+    tertiary: '#FFFFFF'
+    unibody: '#A297B7'
+
+  # 116
+  horsea:
+    primary: '#65AECF'
+    secondary: '#3D616B'
+    tertiary: '#D18CA1'
+    unibody: '#86D4EB'
+
+  # 130
+  gyarados:
+    primary: '#2E7090'
+    secondary: '#113F58'
+    tertiary: '#B2454B'
+    unibody: '#307BA5'
+
 lt.surge:
   # 025
   pikachu:
