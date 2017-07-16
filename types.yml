@@ -531,7 +531,7 @@ flying:
     unibody: '#C99877'
 
   # 130 - water, flying
-  gyrados:
+  gyarados:
     primary: '#2E7090'
     secondary: '#113F58'
     tertiary: '#B2454B'
@@ -693,7 +693,7 @@ water:
     unibody: '#F17960'
 
   # 130 - water, flying
-  gyrados:
+  gyarados:
     primary: '#2E7090'
     secondary: '#113F58'
     tertiary: '#B2454B'
