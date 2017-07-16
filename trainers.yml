@@ -551,6 +551,48 @@ lorelei:
     tertiary: '#7B2031'
     unibody: '#DD9DAE'
 
+  # 087
+  dewgong:
+    primary: '#BFC1D6'
+    secondary: '#282B32'
+    tertiary: '#FF6482'
+    unibody: '#D6DCEA'
+
+  # 091
+  cloyster:
+    primary: '#262336'
+    secondary: '#48416B'
+    tertiary: '#FFFF00'
+    unibody: '#837A95'
+
+  # 124
+  jynx:
+    primary: '#CB313B'
+    secondary: '#110919'
+    tertiary: '#28A651'
+    unibody: '#552B7F'
+
+  # 131
+  lapras:
+    primary: '#157397'
+    secondary: '#00222E'
+    tertiary: '#C26837'
+    unibody: '#0793C6'
+
+  # 086
+  seel:
+    primary: '#D4DDEC'
+    secondary: '#33373B'
+    tertiary: '#FF6482'
+    unibody: '#EAEFF3'
+
+  # 090
+  shellder:
+    primary: '#221E1F'
+    secondary: '#48416B'
+    tertiary: '#FFFFFF'
+    unibody: '#867DB2'
+
 bruno:
   # 095
   onix:
