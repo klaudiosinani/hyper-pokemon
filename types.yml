@@ -692,6 +692,20 @@ water:
     tertiary: '#FF8187'
     unibody: '#88C9E9'
 
+  # 120 - water
+  staryu:
+    primary: '#9E7438'
+    secondary: '#2B1F0A'
+    tertiary: '#FFFFFF'
+    unibody: '#B1853C'
+
+  # 121 - water, psychic
+  starmie:
+    primary: '#8B869A'
+    secondary: '#131117'
+    tertiary: '#FFFFFF'
+    unibody: '#A297B7'
+
 bug:
   # 010 - bug
   caterpie:
@@ -1194,6 +1208,13 @@ psychic:
     secondary: '#292929'
     tertiary: '#CB4D4D'
     unibody: '#F9D855'
+
+  # 121 - water, psychic
+  starmie:
+    primary: '#8B869A'
+    secondary: '#131117'
+    tertiary: '#FFFFFF'
+    unibody: '#A297B7'
 
 ghost:
   # 094 - ghost,	poison
