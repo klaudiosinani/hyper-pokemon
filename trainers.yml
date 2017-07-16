@@ -792,3 +792,38 @@ gary:
     secondary: '#4F4A34'
     tertiary: '#A5978B'
     unibody: '#EAD055'
+
+  # 133
+  eevee:
+    primary: '#603E18'
+    secondary: '#000000'
+    tertiary: '#4D3C9E'
+    unibody: '#C08C5C'
+
+  # 098
+  krabby:
+    primary: '#E78A4F'
+    secondary: '#292929'
+    tertiary: '#367382'
+    unibody: '#F4E5E0'
+
+  # 084
+  doduo:
+    primary: '#45464A'
+    secondary: '#FFFFFF'
+    tertiary: '#006AD4'
+    unibody: '#CB9573'
+
+  # 085
+  dodrio:
+    primary: '#484647'
+    secondary: '#FFFFFF'
+    tertiary: '#006AD4'
+    unibody: '#C99877'
+
+  # 126
+  magmar:
+    primary: '#F9DC64'
+    secondary: '#07050F'
+    tertiary: '#003985'
+    unibody: '#D84E27'
