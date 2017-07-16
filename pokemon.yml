@@ -933,6 +933,34 @@ pokemon:
     tertiary: '#FFD0F7'
     unibody: '#CB91C1'
 
+  # 133
+  eevee:
+    primary: '#603E18'
+    secondary: '#000000'
+    tertiary: '#4D3C9E'
+    unibody: '#C08C5C'
+
+  # 134
+  vaporeon:
+    primary: '#2B536D'
+    secondary: '#0A1114'
+    tertiary: '#CC7A86'
+    unibody: '#7FC2DC'
+
+  # 135
+  jolteon:
+    primary: '#080607'
+    secondary: '#3189C0'
+    tertiary: '#720073'
+    unibody: '#F3D156'
+
+  # 136
+  flareon:
+    primary: '#060709'
+    secondary: '#6E3921'
+    tertiary: '#0760A8'
+    unibody: '#E8813E'
+
   # 137
   porygon:
     primary: '#4A9CA7'
