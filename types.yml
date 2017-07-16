@@ -678,6 +678,20 @@ water:
     tertiary: '#B2454B'
     unibody: '#307BA5'
 
+  # 116 - water
+  horsea:
+    primary: '#65AECF'
+    secondary: '#3D616B'
+    tertiary: '#D18CA1'
+    unibody: '#86D4EB'
+
+  # 117 - water
+  seadra:
+    primary: '#4D809B'
+    secondary: '#0E171C'
+    tertiary: '#FF8187'
+    unibody: '#88C9E9'
+
 bug:
   # 010 - bug
   caterpie:
