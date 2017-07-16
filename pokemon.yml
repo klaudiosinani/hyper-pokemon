@@ -646,6 +646,20 @@ pokemon:
     tertiary: '#FFFF00'
     unibody: '#837A95'
 
+  # 092
+  gastly:
+    primary: '#0C0D22'
+    secondary: '#7A0046'
+    tertiary: '#FFBC00'
+    unibody: '#7D6EB3'
+
+  # 093
+  haunter:
+    primary: '#ED779A'
+    secondary: '#242033'
+    tertiary: '#FFBC00'
+    unibody: '#7D6EB3'
+
   # 094
   gengar:
     primary: '#EF735B'
