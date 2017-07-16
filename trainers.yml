@@ -101,6 +101,41 @@ ash:
     tertiary: '#40C9B2'
     unibody: '#4A736B'
 
+  # 131
+  lapras:
+    primary: '#157397'
+    secondary: '#00222E'
+    tertiary: '#C26837'
+    unibody: '#0793C6'
+
+  # 098
+  krabby:
+    primary: '#E78A4F'
+    secondary: '#292929'
+    tertiary: '#367382'
+    unibody: '#F4E5E0'
+
+  # 099
+  kingler:
+    primary: '#D06628'
+    secondary: '#306573'
+    tertiary: '#43B28F'
+    unibody: '#F2E0CA'
+
+  # 057
+  primeape:
+    primary: '#F38C8D'
+    secondary:  '#4A71B5'
+    tertiary: '#3B2F42'
+    unibody: '#F6E5C7'
+
+  # 089
+  muk:
+    primary: '#775A92'
+    secondary: '#23182E'
+    tertiary: '#DEC9A0'
+    unibody: '#8D6DAC'
+
 brock:
   # 095
   onix:
