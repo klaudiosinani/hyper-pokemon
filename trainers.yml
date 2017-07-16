@@ -636,6 +636,13 @@ bruno:
     tertiary: '#FFBCD3'
     unibody: '#898E88'
 
+  # 090
+  shellder:
+    primary: '#221E1F'
+    secondary: '#48416B'
+    tertiary: '#FFFFFF'
+    unibody: '#867DB2'
+
 agatha:
   # 094
   gengar:
