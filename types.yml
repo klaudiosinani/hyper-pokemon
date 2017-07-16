@@ -1152,6 +1152,13 @@ normal:
     tertiary: '#589196'
     unibody: '#EBA5B0'
 
+  # 115 - normal
+  kangaskhan:
+    primary: '#EFE9AB'
+    secondary: '#000000'
+    tertiary: '#D98067'
+    unibody: '#8D746D'
+
 psychic:
   # 065 psychic
   alakazam:
