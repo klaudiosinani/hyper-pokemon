@@ -93,6 +93,13 @@ grass:
     tertiary: '#5BCCA3'
     unibody: '#9D927E'
 
+  # 114 - grass
+  tangela:
+    primary: '#DF775E'
+    secondary: '#1C384F'
+    tertiary: '#FFFCFF'
+    unibody: '#6697C0'
+
 poison:
   # 001 - grass, poison, starter
   bulbasaur:
