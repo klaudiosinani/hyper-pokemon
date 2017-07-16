@@ -793,6 +793,13 @@ pokemon:
     tertiary: '#FFFCFF'
     unibody: '#6697C0'
 
+  # 115
+  kangaskhan:
+    primary: '#EFE9AB'
+    secondary: '#000000'
+    tertiary: '#D98067'
+    unibody: '#8D746D'
+
   # 116
   horsea:
     primary: '#65AECF'
