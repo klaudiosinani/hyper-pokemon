@@ -688,6 +688,20 @@ pokemon:
     tertiary: '#43B28F'
     unibody: '#F2E0CA'
 
+  # 100
+  voltorb:
+    primary: '#000000'
+    secondary: '#000000'
+    tertiary: '#BAB608'
+    unibody: '#ED2225'
+
+  # 101
+  electrode:
+    primary: '#EC1D23'
+    secondary: '#000000'
+    tertiary: '#009BFF'
+    unibody: '#FFFFFF'
+
   # 102
   exeggcute:
     primary: '#D0B5BB'
@@ -743,20 +757,6 @@ pokemon:
     secondary: '#3B3345'
     tertiary: '#FFF9B4'
     unibody: '#B1A4C2'
-
-  # 110
-  voltorb:
-    primary: '#000000'
-    secondary: '#000000'
-    tertiary: '#BAB608'
-    unibody: '#ED2225'
-
-  # 111
-  electrode:
-    primary: '#EC1D23'
-    secondary: '#000000'
-    tertiary: '#009BFF'
-    unibody: '#FFFFFF'
 
   # 111
   rhyhorn:

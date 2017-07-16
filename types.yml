@@ -785,14 +785,14 @@ electric:
     tertiary: '#FCFBD8'
     unibody: '#F8D871'
 
-  # 110 - electric
+  # 100 - electric
   voltorb:
     primary: '#000000'
     secondary: '#000000'
     tertiary: '#BAB608'
     unibody: '#ED2225'
 
-  # 111 - electric
+  # 101 - electric
   electrode:
     primary: '#EC1D23'
     secondary: '#000000'
