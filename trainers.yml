@@ -308,6 +308,41 @@ erika:
     tertiary: '#142625'
     unibody: '#58A7A2'
 
+  # 114
+  tangela:
+    primary: '#DF775E'
+    secondary: '#1C384F'
+    tertiary: '#FFFCFF'
+    unibody: '#6697C0'
+
+  # 044
+  gloom:
+    primary: '#A04041'
+    secondary: '#000000'
+    tertiary: '#FFFFFF'
+    unibody: '#7796CD'
+
+  # 069
+  bellsprout:
+    primary: '#93CF9C'
+    secondary: '#1F1E0C'
+    tertiary: '#0078FC'
+    unibody: '#DEDA6C'
+
+  # 102
+  exeggcute:
+    primary: '#D0B5BB'
+    secondary: '#4F6666'
+    tertiary: '#0CA8A8'
+    unibody: '#F6D6D9'
+
+  # 043
+  oddish:
+    primary: '#4D9242'
+    secondary: '#19242C'
+    tertiary: '#FFFFFF'
+    unibody: '#587D9A'
+
 koga:
   # 042
   golbat:
