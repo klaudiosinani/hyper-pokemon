@@ -982,6 +982,13 @@ pokemon:
     tertiary: '#BD4738'
     unibody: '#6CBED4'
 
+  # 140
+  kabuto:
+    primary: '#B88B61'
+    secondary: '#FFFFFF'
+    tertiary: '#66226E'
+    unibody: '#010101'
+
   # 141
   kabutops:
     primary: '#92786b'
