@@ -265,6 +265,13 @@ lt.surge:
     tertiary: '#FCFBD8'
     unibody: '#F8D871'
 
+  # 100 - electric
+  voltorb:
+    primary: '#000000'
+    secondary: '#000000'
+    tertiary: '#BAB608'
+    unibody: '#ED2225'
+
   # 082
   magneton:
     primary: '#91918F'
