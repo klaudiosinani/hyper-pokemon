@@ -835,6 +835,20 @@ pokemon:
     tertiary: '#23809D'
     unibody: '#EAA763'
 
+  # 129
+  magikarp:
+    primary: '#F8C471'
+    secondary: '#632A1E'
+    tertiary: '#000000'
+    unibody: '#F17960'
+
+  # 130
+  gyrados:
+    primary: '#2E7090'
+    secondary: '#113F58'
+    tertiary: '#B2454B'
+    unibody: '#307BA5'
+
   # 132
   ditto:
     primary: '#040607'
