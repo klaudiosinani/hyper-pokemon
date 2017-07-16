@@ -884,6 +884,20 @@ ground:
     tertiary: '#084CBD'
     unibody: '#D1A341'
 
+  # 111 - ground, rock
+  rhyhorn:
+    primary: '#958F99'
+    secondary: '#3C393E'
+    tertiary: '#FF7700'
+    unibody: '#B6ADBE'
+
+  # 112 - ground, rock
+  rhydon:
+    primary: '#E7CEB8'
+    secondary: '#434957'
+    tertiary: '#00FAE9'
+    unibody: '#99A0B0'
+
 fairy:
   # 036 - fairy
   clefable:
@@ -1196,6 +1210,20 @@ rock:
     secondary: '#E8E8D6'
     tertiary: '#4E7378'
     unibody: '#9B9AA2'
+
+  # 111 - ground, rock
+  rhyhorn:
+    primary: '#958F99'
+    secondary: '#3C393E'
+    tertiary: '#FF7700'
+    unibody: '#B6ADBE'
+
+  # 112 - ground, rock
+  rhydon:
+    primary: '#E7CEB8'
+    secondary: '#434957'
+    tertiary: '#00FAE9'
+    unibody: '#99A0B0'
 
 ice:
   # 144 - ice, flying, legendary
