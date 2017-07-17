@@ -827,3 +827,25 @@ gary:
     secondary: '#07050F'
     tertiary: '#003985'
     unibody: '#D84E27'
+
+jessie:
+  # 108
+  lickitung:
+    primary: '#E4B9CA'
+    secondary: '#693F45'
+    tertiary: '#589196'
+    unibody: '#EBA5B0'
+
+  # 052
+  meowth:
+    primary: '#434343'
+    secondary: '#0048C4'
+    tertiary: '#000000'
+    unibody: '#F4EDD1'
+
+  # 024
+  arbok:
+    primary: '#3A3839'
+    secondary: '#F5F5F5'
+    tertiary: '#BB4477'
+    unibody: '#A7A1BD'
