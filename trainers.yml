@@ -849,3 +849,60 @@ jessie:
     secondary: '#F5F5F5'
     tertiary: '#BB4477'
     unibody: '#A7A1BD'
+
+james:
+  # 052
+  meowth:
+    primary: '#434343'
+    secondary: '#0048C4'
+    tertiary: '#000000'
+    unibody: '#F4EDD1'
+
+  # 058
+  growlithe:
+    primary: '#8B7963'
+    secondary: '#4F3215'
+    tertiary: '#285DB2'
+    unibody: '#DB9651'
+
+  # 109
+  koffing:
+    primary: '#726487'
+    secondary: '#472F6B'
+    tertiary: '#BA517F'
+    unibody: '#A793C6'
+
+  # 110
+  weezing:
+    primary: '#897B88'
+    secondary: '#3B3345'
+    tertiary: '#FFF9B4'
+    unibody: '#B1A4C2'
+
+  # 129
+  magikarp:
+    primary: '#F8C471'
+    secondary: '#632A1E'
+    tertiary: '#000000'
+    unibody: '#F17960'
+
+  # 130
+  gyarados:
+    primary: '#2E7090'
+    secondary: '#113F58'
+    tertiary: '#B2454B'
+    unibody: '#307BA5'
+
+  # 070
+  weepinbell:
+    primary: '#79B47C'
+    secondary: '#786548'
+    tertiary: '#0078FC'
+    unibody: '#EBEB73'
+
+  # 071
+  victreebel:
+    primary: '#88CA8D'
+    secondary: '#DB8570'
+    tertiary: '#66916C'
+    unibody: '#EAEA6E'
