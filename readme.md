@@ -121,14 +121,8 @@ The assignable values are:
 - `random` - randomly selects a Pokémon theme from the **whole list** of available Pokémons, each time you fire up a new Hyper terminal session.<br/><br/>
 **i.e.** `pokemon: 'random'`
 
-- `pokemon type` - randomly selects a Pokémon theme from only a **specific Pokémon type**, each time you fire up a new Hyper terminal session.<br/><br/>
+- `pokemon type` - randomly selects a Pokémon theme from only a **specific Pokémon type**, each time you fire up a new Hyper terminal session. You can view all available Pokémon types [here!](#available-themes)<br/><br/>
 **i.e.** `pokemon: 'fire'`, `pokemon: 'water'`, `pokemon: 'grass'` **etc**<br/><br/>
-The available choices up to this moment (*all types will be supported really soon*) are the following:
-
-	- `fire`
-	- `water`
-	- `grass`
-	- `poison`
 
 ### `pokemonSyntax`
 
@@ -158,14 +152,16 @@ In addition, completely omitting the `unibody` option from your `.hyper.js` will
 
 ## Available Themes
 
-Here is a list, grouped by Pokémon regions, of all the available Pokémon themes up to now!
+#### Pokémon Regions
+
+> Here is a list, grouped by Pokémon regions, of all the available Pokémon themes up to now!
 
 <details>
 <summary>Kanto Region</summary>
 
 <br/>
 
-> List of all Kanto region Pokémon themes :tada:
+> Table of all Kanto region Pokémon themes :tada:
 
 ![](media/sprites/missingno.png) | ![](media/sprites/bulbasaur.png) | ![](media/sprites/ivysaur.png) | ![](media/sprites/venusaur.png) | ![](media/sprites/charmander.png) | ![](media/sprites/charmeleon.png) | ![](media/sprites/charizard.png) | ![](media/sprites/squirtle.png)
 --- | --- | --- | --- | --- | --- | --- | ---
@@ -242,6 +238,39 @@ Flareon ![](media/pokecons/136.gif) | Porygon ![](media/pokecons/137.gif) | Oman
 ![](media/sprites/articuno.png) | ![](media/sprites/zapdos.png) | ![](media/sprites/moltres.png) | ![](media/sprites/dratini.png) | ![](media/sprites/dragonair.png) | ![](media/sprites/dragonite.png) | ![](media/sprites/mewtwo.png) | ![](media/sprites/mew.png)
 --- | --- | --- | --- | --- | --- | --- | ---
 Articuno ![](media/pokecons/144.gif) | Zapdos ![](media/pokecons/145.gif) | Moltres ![](media/pokecons/146.gif) | Dratini ![](media/pokecons/147.gif) | Dragonair ![](media/pokecons/148.gif) | Dragonite ![](media/pokecons/149.gif) | Mewtwo ![](media/pokecons/150.gif) | Mew ![](media/pokecons/151.gif)
+
+</details><br/>
+
+#### Pokemon Types
+
+> List of all available Pokémon types!
+
+<details>
+<summary>Pokémon Types</summary>
+
+<br/>
+
+* **Legendary** :star2:
+* **Starter** :heart:
+* **Fire** :fire:
+* **Water** :ocean:
+* **Grass** :seedling:
+* **Poison** :skull:
+* **Flying** :bird:
+* **Bug** :beetle:
+* **Electric** :zap:
+* **Ground** :earth_asia:
+* **Fairy** :star:
+* **Normal** :sunglasses:
+* **Psychic** :sparkles:
+* **Ghost** :ghost:
+* **Rock** :metal:
+* **Ice** :snowflake:
+* **Dragon** :dragon_face:
+* **Fighting** :muscle:
+* **Steel** :nut_and_bolt:
+
+<br/>
 
 </details><br/>
 
