@@ -322,13 +322,6 @@ erika:
     tertiary: '#FFFFFF'
     unibody: '#7796CD'
 
-  # 069
-  bellsprout:
-    primary: '#93CF9C'
-    secondary: '#1F1E0C'
-    tertiary: '#0078FC'
-    unibody: '#DEDA6C'
-
   # 102
   exeggcute:
     primary: '#D0B5BB'
