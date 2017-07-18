@@ -127,6 +127,12 @@ The assignable values are:
 - `pokemon trainer` - randomly selects a Pokémon theme from only a **specific Pokémon Trainer's party**, each time you fire up a new Hyper terminal session. You can view all available Pokémon Trainer [here!](#available-themes)<br/><br/>
 **i.e.** `pokemon: 'ash'`, `pokemon: 'jessie'`, `pokemon: 'gary'`, `pokemon: 'erika'` **etc**<br/><br/>
 
+- `pokemon party` - randomly selects a Pokémon theme/theme option from a **defined array** holding **custom multiple themes/theme options**, each time you fire up a new Hyper terminal session. Any from the available Pokémon **themes**, **types** & **trainers** can be choosen!<br/><br/>
+**i.e.**
+	- `pokemon: ['articuno', 'zapdos', 'moltres', 'mewtwo', 'mew']`
+	- `pokemon: ['random', 'fire', 'water', 'grass', 'ash', 'pikachu']`
+	- `pokemon: ['lance', 'brock', 'bruno', 'gary', 'legendary', 'dragonite']` **etc**<br/><br/>
+
 ### `pokemonSyntax`
 
 Here you can define the color of the terminal tabs.
