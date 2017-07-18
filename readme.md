@@ -97,8 +97,10 @@ config: {
     //...
     },
     pokemon: 'gengar', // Define your favorite pokemon theme!
+    pokecursor: 'true', // Activate your theme's pokecursor!
     pokemonSyntax: 'dark', // Define the color of the terminal tabs!
     unibody: 'true', // Define the color of the Hyper window header!
+    //...
 }
 ```
 
@@ -133,14 +135,34 @@ The assignable values are:
 	- `pokemon: ['random', 'fire', 'water', 'grass', 'ash', 'pikachu']`
 	- `pokemon: ['lance', 'brock', 'bruno', 'gary', 'legendary', 'dragonite']` **etc**<br/><br/>
 
+### `pokecursor`
+
+Replace the regular terminal cursor with an animated `.gif` that matches the current pokemon theme!
+
+The assignable values are:
+
+- `pokecursor: 'true'` - enable your theme's pokecursor 
+- `pokecursor: 'false'` - revert to the cursor's original appearence
+
+Also, completely omitting the `pokecursor` option from your `.hyper.js` will have the same effect as defining it and setting it to `false`. (**default state**)
+
+<div align="center">
+		<br/>
+			<a href="">
+				<img src="https://cdn.rawgit.com/hyper-pokemon/hyper-pokemon/bf531f10/media/pokecursor.gif" alt="Hyper Pokemon - Pokecursor" width="80%">
+			</a>
+		<br/>
+		<br/>
+</div>
+
 ### `pokemonSyntax`
 
 Here you can define the color of the terminal tabs.
 
 The assignable values are:
 
-- `light` - choose it if your pokémon theme is of a more light color
-- `dark` - go for it if you are using a darker pokémon theme
+- `pokemonSyntax: 'light'` - choose it if your pokémon theme is of a more light color
+- `pokemonSyntax: 'dark'` - go for it if you are using a darker pokémon theme
 
 ![Pokemon Syntax](media/pokemon-syntax.png)
 
@@ -150,10 +172,10 @@ Choose whether or not you want the Hyper windows header color to be the same as 
 
 The assignable values are:
 
-- `true` - choose it for a unibody color theme
-- `false` - go for it if you like your terminal more colorful
+- `unibody: 'true'` - choose it for a unibody color theme
+- `unibody: 'false'` - go for it if you like your terminal more colorful
 
-In addition, completely omitting the `unibody` option from your `.hyper.js` will have the same effect as defining it and setting it to `true`.
+In addition, completely omitting the `unibody` option from your `.hyper.js` will have the same effect as defining it and setting it to `true`. (**default state**)
 
 ![Unibody](media/unibody.png)
 
