@@ -116,13 +116,16 @@ Using this option you can choose your pokémon background along with it's tailor
 
 The assignable values are:
 
-- `pokemon name` - choose any of the [available Pokémon themes](#available-themes) by defining the Pokémon name.<br/><br/>**i.e.** `pokemon: 'charizard'`, `pokemon: 'pikachu'`, `pokemon: 'blastoise'` **etc**
+- `pokemon name` - choose any of the [available Pokémon themes](#available-themes) by defining the Pokémon name.<br/><br/>**i.e.** `pokemon: 'charizard'`, `pokemon: 'pikachu'`, `pokemon: 'blastoise'` **etc**<br/><br/>
 
 - `random` - randomly selects a Pokémon theme from the **whole list** of available Pokémons, each time you fire up a new Hyper terminal session.<br/><br/>
-**i.e.** `pokemon: 'random'`
+**i.e.** `pokemon: 'random'`<br/><br/>
 
 - `pokemon type` - randomly selects a Pokémon theme from only a **specific Pokémon type**, each time you fire up a new Hyper terminal session. You can view all available Pokémon types [here!](#available-themes)<br/><br/>
 **i.e.** `pokemon: 'fire'`, `pokemon: 'water'`, `pokemon: 'grass'` **etc**<br/><br/>
+
+- `pokemon trainer` - randomly selects a Pokémon theme from only a **specific Pokémon Trainer's party**, each time you fire up a new Hyper terminal session. You can view all available Pokémon Trainer [here!](#available-themes)<br/><br/>
+**i.e.** `pokemon: 'ash'`, `pokemon: 'jessie'`, `pokemon: 'gary'`, `pokemon: 'erika'` **etc**<br/><br/>
 
 ### `pokemonSyntax`
 
@@ -269,6 +272,27 @@ Articuno ![](media/pokecons/144.gif) | Zapdos ![](media/pokecons/145.gif) | Molt
 * **Dragon** :dragon_face:
 * **Fighting** :muscle:
 * **Steel** :nut_and_bolt:
+
+<br/>
+
+</details><br/>
+
+#### Pokemon Trainers
+
+> List of all available Pokémon trainers!
+
+<details>
+<summary>Pokémon Trainers</summary>
+
+<br/>
+
+![](media/trainers/ash.png) | ![](media/trainers/agatha.png) | ![](media/trainers/blaine.png) | ![](media/trainers/brock.png) | ![](media/trainers/bruno.png) | ![](media/trainers/erika.png) | ![](media/trainers/gary.png) | ![](media/trainers/giovanni.png)
+--- | --- | --- | --- | --- | --- | --- | ---
+Ash | Agatha | Blaine | Brock | Bruno | Erika | Gary | Giovanni
+
+![](media/trainers/james.png) | ![](media/trainers/jessie.png) | ![](media/trainers/koga.png) | ![](media/trainers/lance.png) | ![](media/trainers/lorelei.png) | ![](media/trainers/surge.png) | ![](media/trainers/misty.png) | ![](media/trainers/sabrina.png)
+--- | --- | --- | --- | --- | --- | --- | ---
+James | Jessie | Koga | Lance | Lorelei | Lt.Surge | Misty | Sabrina
 
 <br/>
 
