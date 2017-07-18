@@ -165,32 +165,83 @@ Here is a list, grouped by Pokémon regions, of all the available Pokémon theme
 
 <br/>
 
-> List of Kanto region Pokémon themes :tada:
+> List of all Kanto region Pokémon themes :tada:
 
-* Bulbasaur ![](media/pokecons/001.gif)
-* Ivysaur ![](media/pokecons/002.gif)
-* Venusaur ![](media/pokecons/003.gif)
-* Charmander ![](media/pokecons/004.gif)
-* Charmeleon ![](media/pokecons/005.gif)
-* Charizard ![](media/pokecons/006.gif)
-* Squirtle ![](media/pokecons/007.gif)
-* Wartortle ![](media/pokecons/008.gif)
-* Blastoise ![](media/pokecons/009.gif)
-* Metapod ![](media/pokecons/011.gif)
-* Kakuna ![](media/pokecons/014.gif)
-* Ekans ![](media/pokecons/023.gif)
-* Pikachu ![](media/pokecons/025.gif)
-* Raichu ![](media/pokecons/026.gif)
-* Sandshrew ![](media/pokecons/027.gif)
-* Clefable ![](media/pokecons/036.gif)
-* Vulpix ![](media/pokecons/037.gif)
-* Jigglypuff ![](media/pokecons/039.gif)
-* Psyduck ![](media/pokecons/054.gif)
-* Alakazam ![](media/pokecons/065.gif)
-* Slowpoke ![](media/pokecons/079.gif)
-* Gengar ![](media/pokecons/094.gif)
-* Ditto ![](media/pokecons/132.gif)
-* Kabutops ![](media/pokecons/141.gif)
+![](media/sprites/missingno.png) | ![](media/sprites/bulbasaur.png) | ![](media/sprites/ivysaur.png) | ![](media/sprites/venusaur.png) | ![](media/sprites/charmander.png) | ![](media/sprites/charmeleon.png) | ![](media/sprites/charizard.png) | ![](media/sprites/squirtle.png)
+--- | --- | --- | --- | --- | --- | --
+Missingno ![](media/pokecons/000.gif) | Bulbasaur ![](media/pokecons/001.gif) | Ivysaur ![](media/pokecons/002.gif) | Venusaur ![](media/pokecons/003.gif) | Charmander ![](media/pokecons/004.gif) | Charmeleon ![](media/pokecons/005.gif) | Charizard ![](media/pokecons/006.gif) | Squirtle ![](media/pokecons/007.gif)
+
+![](media/sprites/wartortle.png) | ![](media/sprites/blastoise.png) | ![](media/sprites/caterpie.png) | ![](media/sprites/metapod.png) | ![](media/sprites/butterfree.png) | ![](media/sprites/weedle.png) | ![](media/sprites/kakuna.png) | ![](media/sprites/beedrill.png)
+--- | --- | --- | --- | --- | --- | --
+Wartortle ![](media/pokecons/008.gif) | Blastoise ![](media/pokecons/009.gif) | Caterpie ![](media/pokecons/010.gif) | Metapod ![](media/pokecons/011.gif) | Butterfree ![](media/pokecons/012.gif) | Weedle ![](media/pokecons/013.gif) | Kakuna ![](media/pokecons/014.gif) | Beedrill ![](media/pokecons/015.gif)
+
+![](media/sprites/pidgey.png) | ![](media/sprites/pidgeotto.png) | ![](media/sprites/pidgeot.png) | ![](media/sprites/rattata.png) | ![](media/sprites/raticate.png) | ![](media/sprites/spearow.png) | ![](media/sprites/fearow.png) | ![](media/sprites/ekans.png)
+--- | --- | --- | --- | --- | --- | --
+Pidgey ![](media/pokecons/016.gif) | Pidgeotto ![](media/pokecons/017.gif) | Pidgeot ![](media/pokecons/018.gif) | Rattata ![](media/pokecons/019.gif) | Raticate ![](media/pokecons/020.gif) | Spearow ![](media/pokecons/021.gif) | Fearow ![](media/pokecons/022.gif) | Ekans ![](media/pokecons/023.gif)
+
+![](media/sprites/arbok.png) | ![](media/sprites/pikachu.png) | ![](media/sprites/raichu.png) | ![](media/sprites/sandshrew.png) | ![](media/sprites/sandslash.png) | ![](media/sprites/nidoranf.png) | ![](media/sprites/nidorina.png) | ![](media/sprites/nidoqueen.png)
+--- | --- | --- | --- | --- | --- | --
+Arbok ![](media/pokecons/024.gif) | Pikachu ![](media/pokecons/025.gif) | Raichu ![](media/pokecons/026.gif) | Sandshrew ![](media/pokecons/027.gif) | Sandslash ![](media/pokecons/028.gif) | Nidoran-female ![](media/pokecons/029.gif) | Nidorina ![](media/pokecons/030.gif) | Nidoqueen ![](media/pokecons/031.gif)
+
+![](media/sprites/nidoranm.png) | ![](media/sprites/nidorino.png) | ![](media/sprites/nidoking.png) | ![](media/sprites/clefairy.png) | ![](media/sprites/clefable.png) | ![](media/sprites/vulpix.png) | ![](media/sprites/ninetales.png) | ![](media/sprites/jigglypuff.png)
+--- | --- | --- | --- | --- | --- | --
+Nidoran-male ![](media/pokecons/032.gif) | Nidorino ![](media/pokecons/033.gif) | Nidoking ![](media/pokecons/034.gif) | Clefairy ![](media/pokecons/035.gif) | Clefable ![](media/pokecons/036.gif) | Vulpix ![](media/pokecons/037.gif) | Ninetales ![](media/pokecons/038.gif) | Jigglypuff ![](media/pokecons/039.gif)
+
+![](media/sprites/wigglytuff.png) | ![](media/sprites/zubat.png) | ![](media/sprites/golbat.png) | ![](media/sprites/oddish.png) | ![](media/sprites/gloom.png) | ![](media/sprites/vileplume.png) | ![](media/sprites/paras.png) | ![](media/sprites/parasect.png)
+--- | --- | --- | --- | --- | --- | --
+Wigglytuff ![](media/pokecons/040.gif) | Zubat ![](media/pokecons/041.gif) | Golbat ![](media/pokecons/042.gif) | Oddish ![](media/pokecons/043.gif) | Gloom ![](media/pokecons/044.gif) | Vileplume ![](media/pokecons/045.gif) | Paras ![](media/pokecons/046.gif) | Parasect ![](media/pokecons/047.gif)
+
+![](media/sprites/venonat.png) | ![](media/sprites/venomoth.png) | ![](media/sprites/diglett.png) | ![](media/sprites/dugtrio.png) | ![](media/sprites/meowth.png) | ![](media/sprites/persian.png) | ![](media/sprites/psyduck.png) | ![](media/sprites/golduck.png)
+--- | --- | --- | --- | --- | --- | --
+Venonat ![](media/pokecons/048.gif) | Venomoth ![](media/pokecons/049.gif) | Diglett ![](media/pokecons/050.gif) | Dugtrio ![](media/pokecons/051.gif) | Meowth ![](media/pokecons/052.gif) | Persian ![](media/pokecons/053.gif) | Psyduck ![](media/pokecons/054.gif) | olduck ![](media/pokecons/055.gif)
+
+![](media/sprites/mankey.png) | ![](media/sprites/primeape.png) | ![](media/sprites/growlithe.png) | ![](media/sprites/arcanine.png) | ![](media/sprites/poliwag.png) | ![](media/sprites/poliwhirl.png) | ![](media/sprites/poliwrath.png) | ![](media/sprites/abra.png)
+--- | --- | --- | --- | --- | --- | --
+Mankey ![](media/pokecons/056.gif) | Primeape ![](media/pokecons/057.gif) | Growlithe ![](media/pokecons/058.gif) | Arcanine ![](media/pokecons/059.gif) | Poliwag ![](media/pokecons/060.gif) | Poliwhirl ![](media/pokecons/061.gif) | Poliwrath ![](media/pokecons/062.gif) | Abra ![](media/pokecons/063.gif)
+
+![](media/sprites/kadabra.png) | ![](media/sprites/alakazam.png) | ![](media/sprites/machop.png) | ![](media/sprites/machoke.png) | ![](media/sprites/machamp.png) | ![](media/sprites/bellsprout.png) | ![](media/sprites/weepinbell.png) | ![](media/sprites/victreebel.png)
+--- | --- | --- | --- | --- | --- | --
+Kadabra ![](media/pokecons/064.gif) | Alakazam ![](media/pokecons/065.gif) | Machop ![](media/pokecons/066.gif) | Machoke ![](media/pokecons/067.gif) | Machamp ![](media/pokecons/068.gif) | Bellsprout ![](media/pokecons/069.gif) | Weepinbell ![](media/pokecons/070.gif) | Victreebel ![](media/pokecons/071.gif)
+
+![](media/sprites/tentacool.png) | ![](media/sprites/tentacruel.png) | ![](media/sprites/geodude.png) | ![](media/sprites/graveler.png) | ![](media/sprites/golem.png) | ![](media/sprites/ponyta.png) | ![](media/sprites/rapidash.png) | ![](media/sprites/slowpoke.png)
+--- | --- | --- | --- | --- | --- | --
+Tentacool ![](media/pokecons/072.gif) | Tentacruel ![](media/pokecons/073.gif) | Geodude ![](media/pokecons/074.gif) | Graveler ![](media/pokecons/075.gif) | Golem ![](media/pokecons/076.gif) | Ponyta ![](media/pokecons/077.gif) | Rapidash ![](media/pokecons/078.gif) | Slowpoke ![](media/pokecons/079.gif)
+
+![](media/sprites/slowbro.png) | ![](media/sprites/magnemite.png) | ![](media/sprites/magneton.png) | ![](media/sprites/farfetchd.png) | ![](media/sprites/doduo.png) | ![](media/sprites/dodrio.png) | ![](media/sprites/seel.png) | ![](media/sprites/dewgong.png)
+--- | --- | --- | --- | --- | --- | --
+Slowbro ![](media/pokecons/080.gif) | Magnemite ![](media/pokecons/081.gif) | Magneton ![](media/pokecons/082.gif) | Farfetchd ![](media/pokecons/083.gif) | Doduo ![](media/pokecons/084.gif) | Dodrio ![](media/pokecons/085.gif) | Seel ![](media/pokecons/086.gif) | Dewgong ![](media/pokecons/087.gif)
+
+![](media/sprites/grimer.png) | ![](media/sprites/muk.png) | ![](media/sprites/shellder.png) | ![](media/sprites/cloyster.png) | ![](media/sprites/gastly.png) | ![](media/sprites/haunter.png) | ![](media/sprites/gengar.png) | ![](media/sprites/onix.png)
+--- | --- | --- | --- | --- | --- | --
+Grimer ![](media/pokecons/088.gif) | Muk ![](media/pokecons/089.gif) | Shellder ![](media/pokecons/090.gif) | Cloyster ![](media/pokecons/091.gif) | Gastly ![](media/pokecons/092.gif) | Haunter ![](media/pokecons/093.gif) | Gengar ![](media/pokecons/094.gif) | Onix ![](media/pokecons/095.gif)
+
+![](media/sprites/drowzee.png) | ![](media/sprites/hypno.png) | ![](media/sprites/krabby.png) | ![](media/sprites/kingler.png) | ![](media/sprites/voltorb.png) | ![](media/sprites/electrode.png) | ![](media/sprites/exeggcute.png) | ![](media/sprites/exeggutor.png)
+--- | --- | --- | --- | --- | --- | --
+Drowzee ![](media/pokecons/096.gif) | Hypno ![](media/pokecons/097.gif) | Krabby ![](media/pokecons/098.gif) | Kingler ![](media/pokecons/099.gif) | Voltorb ![](media/pokecons/100.gif) | Electrode ![](media/pokecons/101.gif) | Exeggcute ![](media/pokecons/102.gif) | Exeggutor ![](media/pokecons/103.gif)
+
+![](media/sprites/cubone.png) | ![](media/sprites/marowak.png) | ![](media/sprites/hitmonlee.png) | ![](media/sprites/hitmonchan.png) | ![](media/sprites/lickitung.png) | ![](media/sprites/koffing.png) | ![](media/sprites/weezing.png) | ![](media/sprites/rhyhorn.png)
+--- | --- | --- | --- | --- | --- | --
+Cubone ![](media/pokecons/104.gif) | Marowak ![](media/pokecons/105.gif) | Hitmonlee ![](media/pokecons/106.gif) | Hitmonchan ![](media/pokecons/107.gif) | Lickitung ![](media/pokecons/108.gif) | Koffing ![](media/pokecons/109.gif) | Weezing ![](media/pokecons/110.gif) | Rhyhorn ![](media/pokecons/111.gif)
+
+![](media/sprites/rhydon.png) | ![](media/sprites/chansey.png) | ![](media/sprites/tangela.png) | ![](media/sprites/kangaskhan.png) | ![](media/sprites/horsea.png) | ![](media/sprites/seadra.png) | ![](media/sprites/goldeen.png) | ![](media/sprites/seaking.png)
+--- | --- | --- | --- | --- | --- | --
+Rhydon ![](media/pokecons/112.gif) | Chansey ![](media/pokecons/113.gif) | Tangela ![](media/pokecons/114.gif) | Kangaskhan ![](media/pokecons/115.gif) | Horsea ![](media/pokecons/116.gif) | Seadra ![](media/pokecons/117.gif) | Goldeen ![](media/pokecons/118.gif) | Seaking ![](media/pokecons/119.gif)
+
+![](media/sprites/staryu.png) | ![](media/sprites/starmie.png) | ![](media/sprites/mrmime.png) | ![](media/sprites/scyther.png) | ![](media/sprites/jynx.png) | ![](media/sprites/electabuzz.png) | ![](media/sprites/magmar.png) | ![](media/sprites/pinsir.png)
+--- | --- | --- | --- | --- | --- | --
+Staryu ![](media/pokecons/120.gif) | Starmie ![](media/pokecons/121.gif) | Mr.Mime ![](media/pokecons/122.gif) | Scyther ![](media/pokecons/123.gif) | Jynx ![](media/pokecons/124.gif) | Electabuzz ![](media/pokecons/125.gif) | Magmar ![](media/pokecons/126.gif) | Pinsir ![](media/pokecons/127.gif)
+
+![](media/sprites/tauros.png) | ![](media/sprites/magikarp.png) | ![](media/sprites/gyarados.png) | ![](media/sprites/lapras.png) | ![](media/sprites/ditto.png) | ![](media/sprites/eevee.png) | ![](media/sprites/vaporeon.png) | ![](media/sprites/jolteon.png)
+--- | --- | --- | --- | --- | --- | --
+Tauros ![](media/pokecons/128.gif) | Magikarp ![](media/pokecons/129.gif) | Gyarados ![](media/pokecons/130.gif) | Lapras ![](media/pokecons/131.gif) | Ditto ![](media/pokecons/132.gif) | Eevee ![](media/pokecons/133.gif) | Vaporeon ![](media/pokecons/134.gif) | Jolteon ![](media/pokecons/135.gif)
+
+![](media/sprites/flareon.png) | ![](media/sprites/porygon.png) | ![](media/sprites/omanyte.png) | ![](media/sprites/omastar.png) | ![](media/sprites/kabuto.png) | ![](media/sprites/kabutops.png) | ![](media/sprites/aerodactyl.png) | ![](media/sprites/snorlax.png)
+--- | --- | --- | --- | --- | --- | --
+Flareon ![](media/pokecons/136.gif) | Porygon ![](media/pokecons/137.gif) | Omanyte ![](media/pokecons/138.gif) | Omastar ![](media/pokecons/139.gif) | Kabuto ![](media/pokecons/140.gif) | Kabutops ![](media/pokecons/141.gif) | Aerodactyl ![](media/pokecons/142.gif) | Snorlax ![](media/pokecons/143.gif)
+
+![](media/sprites/articuno.png) | ![](media/sprites/zapdos.png) | ![](media/sprites/moltres.png) | ![](media/sprites/dratini.png) | ![](media/sprites/dragonair.png) | ![](media/sprites/dragonite.png) | ![](media/sprites/mewtwo.png) | ![](media/sprites/mew.png)
+--- | --- | --- | --- | --- | --- | --
+Articuno ![](media/pokecons/144.gif) | Zapdos ![](media/pokecons/145.gif) | Moltres ![](media/pokecons/146.gif) | Dratini ![](media/pokecons/147.gif) | Dragonair ![](media/pokecons/148.gif) | Dragonite ![](media/pokecons/149.gif) | Mewtwo ![](media/pokecons/150.gif) | Mew ![](media/pokecons/151.gif)
 
 </details><br/>
 
