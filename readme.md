@@ -26,7 +26,7 @@
 
 Made for Pokémon enthusiasts by Pokémon enthusiasts ❤
 
-All of the wonderful Pokémon backgrounds were created by the amazing [Teej/TopHat](https://pldh.net/gallery/the493)!
+All of the wonderful Pokémon backgrounds were created by the amazing [Teej/TopHat](https://pldh.net/gallery/the493) & [MapleRose](https://twitter.com/PokeWalls)!
 
 Come over to our [Gitter](https://gitter.im/hyper-pokemon/Lobby) chat or [Twitter](https://twitter.com/hyper_pokemon) account to share your thoughts on the project or to just say hi!
 
@@ -272,7 +272,7 @@ Articuno ![](media/pokecons/144.gif) | Zapdos ![](media/pokecons/145.gif) | Molt
 
 </details><br/>
 
-#### Pokemon Types
+#### Pokémon Types
 
 > List of all available Pokémon types!
 
@@ -305,7 +305,7 @@ Articuno ![](media/pokecons/144.gif) | Zapdos ![](media/pokecons/145.gif) | Molt
 
 </details><br/>
 
-#### Pokemon Trainers
+#### Pokémon Trainers
 
 > List of all available Pokémon trainers!
 
