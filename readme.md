@@ -320,7 +320,7 @@ Ash | Agatha | Blaine | Brock | Bruno | Erika | Gary | Giovanni
 
 ![](media/trainers/james.png) | ![](media/trainers/jessie.png) | ![](media/trainers/koga.png) | ![](media/trainers/lance.png) | ![](media/trainers/lorelei.png) | ![](media/trainers/surge.png) | ![](media/trainers/misty.png) | ![](media/trainers/sabrina.png)
 --- | --- | --- | --- | --- | --- | --- | ---
-James | Jessie | Koga | Lance | Lorelei | Lt.Surge | Misty | Sabrina
+James | Jessie | Koga | Lance | Lorelei | Surge | Misty | Sabrina
 
 <br/>
 
