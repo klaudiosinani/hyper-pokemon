@@ -99,10 +99,6 @@ exports.decorateConfig = config => {
 		keys = Object.keys(typesYml.normal);
 		index = Math.floor(Math.random() * (keys.length));
 		pokemonTheme = keys[index];
-	} else if (pokemonTheme === 'fairy') {
-		keys = Object.keys(typesYml.fairy);
-		index = Math.floor(Math.random() * (keys.length));
-		pokemonTheme = keys[index];
 	} else if (pokemonTheme === 'psychic') {
 		keys = Object.keys(typesYml.psychic);
 		index = Math.floor(Math.random() * (keys.length));
@@ -141,6 +137,66 @@ exports.decorateConfig = config => {
 		pokemonTheme = keys[index];
 	} else if (pokemonTheme === 'ash') {
 		keys = Object.keys(trainersYml.ash);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'brock') {
+		keys = Object.keys(trainersYml.brock);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'misty') {
+		keys = Object.keys(trainersYml.misty);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'surge') {
+		keys = Object.keys(trainersYml.surge);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'erika') {
+		keys = Object.keys(trainersYml.erika);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'koga') {
+		keys = Object.keys(trainersYml.koga);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'sabrina') {
+		keys = Object.keys(trainersYml.sabrina);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'blaine') {
+		keys = Object.keys(trainersYml.blaine);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'giovanni') {
+		keys = Object.keys(trainersYml.giovanni);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'lorelei') {
+		keys = Object.keys(trainersYml.lorelei);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'bruno') {
+		keys = Object.keys(trainersYml.bruno);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'agatha') {
+		keys = Object.keys(trainersYml.agatha);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'lance') {
+		keys = Object.keys(trainersYml.lance);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'gary') {
+		keys = Object.keys(trainersYml.gary);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'jessie') {
+		keys = Object.keys(trainersYml.jessie);
+		index = Math.floor(Math.random() * (keys.length));
+		pokemonTheme = keys[index];
+	} else if (pokemonTheme === 'james') {
+		keys = Object.keys(trainersYml.james);
 		index = Math.floor(Math.random() * (keys.length));
 		pokemonTheme = keys[index];
 	}
