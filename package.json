@@ -62,13 +62,14 @@
     "syntax"
   ],
   "scripts": {
-    "test": "xo index.js"
+    "test": "xo index.js && yamllint *.yml"
   },
   "dependencies": {
     "home-dir": "^1.0.0",
     "js-yaml": "^3.8.4"
   },
   "devDependencies": {
-    "xo": "^0.18.2"
+    "xo": "^0.18.2",
+    "yaml-lint": "^0.0.4"
   }
 }
