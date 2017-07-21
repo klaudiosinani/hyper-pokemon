@@ -290,7 +290,7 @@ exports.decorateConfig = config => {
 			termCSS: `
           ${config.termCSS || ''}
           .cursor-node::after {
-          	content: url(${cursorContent});
+          	content: url(file://${cursorContent});
           	position: absolute;
           	left: 0;
           	right: 0;
@@ -310,7 +310,7 @@ exports.decorateConfig = config => {
 			css: `
         ${config.css || ''}
         .terms_terms {
-          background: url(${pathToTheme}) center;
+          background: url(file://${pathToTheme}) center;
           background-size: cover;
         }
         .header_header, .header_windowHeader {
