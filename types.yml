@@ -743,17 +743,17 @@ water:
 
   # 138 - water, rock
   omanyte:
-    primary: '#E1DDAE'
-    secondary: '#F6FCFF'
-    tertiary: '#C24939'
-    unibody: '#97CCDC'
-
-  # 139 - water, rock
-  omastar:
     primary: '#E1DBB7'
     secondary: '#1F434C'
     tertiary: '#BD4738'
     unibody: '#6CBED4'
+
+  # 139 - water, rock
+  omastar:
+    primary: '#E1DDAE'
+    secondary: '#F6FCFF'
+    tertiary: '#C24939'
+    unibody: '#97CCDC'
 
   # 140 - water, rock
   kabuto:
@@ -1388,17 +1388,17 @@ rock:
 
   # 138 - water, rock
   omanyte:
-    primary: '#E1DDAE'
-    secondary: '#F6FCFF'
-    tertiary: '#C24939'
-    unibody: '#97CCDC'
-
-  # 139 - water, rock
-  omastar:
     primary: '#E1DBB7'
     secondary: '#1F434C'
     tertiary: '#BD4738'
     unibody: '#6CBED4'
+
+  # 139 - water, rock
+  omastar:
+    primary: '#E1DDAE'
+    secondary: '#F6FCFF'
+    tertiary: '#C24939'
+    unibody: '#97CCDC'
 
   # 140 - water, rock
   kabuto:
