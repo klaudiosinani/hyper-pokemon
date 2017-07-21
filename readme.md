@@ -141,8 +141,8 @@ Replace the regular terminal cursor with an animated `.gif` that matches the cur
 
 The assignable values are:
 
-- `pokecursor: 'true'` - enable your theme's pokecursor 
-- `pokecursor: 'false'` - revert to the cursor's original appearence
+- `pokecursor: 'true'` - enable your theme's pokecursor
+- `pokecursor: 'false'` - revert to the cursor's original appearance
 
 Also, completely omitting the `pokecursor` option from your `.hyper.js` will have the same effect as defining it and setting it to `false`. (**default state**)
 
@@ -378,9 +378,9 @@ Here is an awesome list where you can find other awesome Hyper themes & plugins!
 
 Big up the Athens and London massive.<br/>
 
-[![Leonidas Avdelas](https://avatars.githubusercontent.com/u/15968096?s=130)](https://github.com/LoniasGR) | [![Panagiotis Bakos](https://avatars.githubusercontent.com/u/23611809?s=130)](https://github.com/pmpakos) | [![George Baxopoulos](https://avatars.githubusercontent.com/u/19195396?s=130)](https://github.com/georgebax) | [![Thanasis Gkanos](https://avatars.githubusercontent.com/u/18072542?s=130)](https://github.com/ThanasisGkanos) | [![Konstantinos Mitropoulos](https://avatars.githubusercontent.com/u/24499401?s=130)](https://github.com/tsikos7) | [![Klaus Sinani](https://avatars.githubusercontent.com/u/12670537?s=130)](https://github.com/klauscfhq) | [![Mario Sinani](https://avatars.githubusercontent.com/u/29512262?s=130)](https://github.com/snowmancfhq) | [![Konstantinos Skouras](https://avatars.githubusercontent.com/u/15022446?s=130)](https://github.com/SkourasKonst)
---- | --- | --- | --- | --- | --- | --- | ---
-[Leonidas Avdelas](https://github.com/LoniasGR) [:mailbox:](mailto:avdelasleonidas@gmail.com) | [Panagiotis Bakos](https://github.com/pmpakos) [:mailbox:](mailto:pmpakos@hotmail.com) | [George Baxopoulos](https://github.com/georgebax) [:mailbox:](mailto:baxopoulos.george@gmail.com) | [Thanasis Gkanos](https://github.com/ThanasisGkanos) [:mailbox:](mailto:athanasiosgkanos@hotmail.com) | [Konstantinos Mitropoulos](https://github.com/tsikos7) [:mailbox:](mailto:konsmitr@gmail.com) | [Klaus Sinani](https://github.com/klauscfhq) [:mailbox:](mailto:klauscfhq@protonmail.com) | [Mario Sinani](https://github.com/snowmancfhq) [:mailbox:](mailto:mariosinani@protonmail.ch) | [Konstantinos Skouras](https://github.com/SkourasKonst) [:mailbox:](mailto:konst.skouras@gmail.com)
+[![Leonidas Avdelas](https://avatars.githubusercontent.com/u/15968096?s=130)](https://github.com/LoniasGR) | [![Panagiotis Bakos](https://avatars.githubusercontent.com/u/23611809?s=130)](https://github.com/pmpakos) | [![George Baxopoulos](https://avatars.githubusercontent.com/u/19195396?s=130)](https://github.com/georgebax) | [![Thanasis Gkanos](https://avatars.githubusercontent.com/u/18072542?s=130)](https://github.com/ThanasisGkanos) | [![Konstantinos Mitropoulos](https://avatars.githubusercontent.com/u/24499401?s=130)](https://github.com/tsikos7) | [![Klaus Sinani](https://avatars.githubusercontent.com/u/12670537?s=130)](https://github.com/klauscfhq) | [![Mario Sinani](https://avatars.githubusercontent.com/u/29512262?s=130)](https://github.com/snowmancfhq) | [![Konstantinos Skouras](https://avatars.githubusercontent.com/u/15022446?s=130)](https://github.com/SkourasKonst) | [![Gabriel Tibúrcio](https://avatars.githubusercontent.com/u/5959178?s=130)](https://github.com/tibuurcio)
+--- | --- | --- | --- | --- | --- | --- | --- | ---
+[Leonidas Avdelas](https://github.com/LoniasGR) [:mailbox:](mailto:avdelasleonidas@gmail.com) | [Panagiotis Bakos](https://github.com/pmpakos) [:mailbox:](mailto:pmpakos@hotmail.com) | [George Baxopoulos](https://github.com/georgebax) [:mailbox:](mailto:baxopoulos.george@gmail.com) | [Thanasis Gkanos](https://github.com/ThanasisGkanos) [:mailbox:](mailto:athanasiosgkanos@hotmail.com) | [Konstantinos Mitropoulos](https://github.com/tsikos7) [:mailbox:](mailto:konsmitr@gmail.com) | [Klaus Sinani](https://github.com/klauscfhq) [:mailbox:](mailto:klauscfhq@protonmail.com) | [Mario Sinani](https://github.com/snowmancfhq) [:mailbox:](mailto:mariosinani@protonmail.ch) | [Konstantinos Skouras](https://github.com/SkourasKonst) [:mailbox:](mailto:konst.skouras@gmail.com) | [Gabriel Tibúrcio](https://github.com/tibuurcio) [:mailbox:](mailto:tibuurcio@gmail.com)
 
 [:arrow_up:Back to top!](#contents)
 
