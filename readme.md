@@ -32,7 +32,7 @@ Come over to our [Gitter](https://gitter.im/hyper-pokemon/Lobby) chat or [Twitte
 
 Track the creation/progress of all themes on our [Trello board](https://trello.com/b/pg3NWkan)!
 
-Inspired by the original [Pokemon-Terminal](https://github.com/LazoCoder/Pokemon-Terminal) project.
+Inspired by [Pokemon-Terminal](https://github.com/LazoCoder/Pokemon-Terminal).
 
 ## Poll - Choose the next Pokémon Region!
 
@@ -376,7 +376,7 @@ Here is an awesome list where you can find other awesome Hyper themes & plugins!
 
 ## Team
 
-Big up the Athens and London massive.<br/>
+Meet the team and all the [super awesome contributors](https://github.com/hyper-pokemon/hyper-pokemon/blob/master/authors.md)! ❤<br/>
 
 [![Leonidas Avdelas](https://avatars.githubusercontent.com/u/15968096?s=130)](https://github.com/LoniasGR) | [![Panagiotis Bakos](https://avatars.githubusercontent.com/u/23611809?s=130)](https://github.com/pmpakos) | [![George Baxopoulos](https://avatars.githubusercontent.com/u/19195396?s=130)](https://github.com/georgebax) | [![Thanasis Gkanos](https://avatars.githubusercontent.com/u/18072542?s=130)](https://github.com/ThanasisGkanos) | [![Konstantinos Mitropoulos](https://avatars.githubusercontent.com/u/24499401?s=130)](https://github.com/tsikos7) | [![Klaus Sinani](https://avatars.githubusercontent.com/u/12670537?s=130)](https://github.com/klauscfhq) | [![Mario Sinani](https://avatars.githubusercontent.com/u/29512262?s=130)](https://github.com/snowmancfhq) | [![Konstantinos Skouras](https://avatars.githubusercontent.com/u/15022446?s=130)](https://github.com/SkourasKonst) | [![Gabriel Tibúrcio](https://avatars.githubusercontent.com/u/5959178?s=130)](https://github.com/tibuurcio)
 --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -394,6 +394,6 @@ Big up the Athens and London massive.<br/>
 				<img src="https://cdn.rawgit.com/klauscfhq/hyper-pokemon/b589d665/media/logo.png" alt="Hyper Pokemon" width="45%">
 			</a>
 		<br>
-	 <p><b> <> with ❤ by the Hyper Pokémon team </b></p>
+	 <p><b> </> with ❤ by the Hyper Pokémon team </b></p>
 	<br>
 </div>
