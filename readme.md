@@ -394,6 +394,6 @@ Meet the team and all the [super awesome contributors](https://github.com/hyper-
 				<img src="https://cdn.rawgit.com/klauscfhq/hyper-pokemon/b589d665/media/logo.png" alt="Hyper Pokemon" width="45%">
 			</a>
 		<br>
-	 <p><b> <\/> with ❤ by the Hyper Pokémon team </b></p>
+	 <p><b> <> with ❤ by the Hyper Pokémon team </b></p>
 	<br>
 </div>
