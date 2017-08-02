@@ -11,7 +11,7 @@
 ## Contents
 
 - [Description](#description)
-- [Poll - Choose the next Pokémon Region!](#poll---choose-the-next-pokémon-region)
+- [Vote the next Pokémon Region](#vote-the-next-pokémon-region)
 - [Install](#install)
 - [Usage](#usage)
 - [Options](#options)
@@ -28,13 +28,15 @@ Made for Pokémon enthusiasts by Pokémon enthusiasts ❤
 
 All of the wonderful Pokémon backgrounds were created by the amazing [Teej/TopHat](https://pldh.net/gallery/the493) & [MapleRose](https://twitter.com/PokeWalls)!
 
+🎉 Do you enjoy this project? Maybe you love **Star Wars**, **Yoda** or **Darth Vader**? Then, you will also love our [Hyper Star Wars](https://github.com/hyper-pokemon/hyper-star-wars) theme project!<br/>Go take a peek 👀 🎉
+
 Come over to our [Gitter](https://gitter.im/hyper-pokemon/Lobby) chat or [Twitter](https://twitter.com/hyper_pokemon) account to share your thoughts on the project or to just say hi!
 
 Track the creation/progress of all themes on our [Trello board](https://trello.com/b/pg3NWkan)!
 
 Inspired by [Pokemon-Terminal](https://github.com/LazoCoder/Pokemon-Terminal).
 
-## Poll - Choose the next Pokémon Region!
+## Vote the next Pokémon Region
 
 **Vote for the Pokémon Region you want to see themes from next!**<br/>
 In essence, this poll will determine the creation order of all Pokémon Regions!<br/>
@@ -369,8 +371,9 @@ $ npm install hyper-pokemon -g
 
 Here is an awesome list where you can find other awesome Hyper themes & plugins!
 
-- [Awesome-Hyper](https://github.com/bnb/awesome-hyper)
-- [Pure](https://github.com/sindresorhus/pure)
+- [Hyper Star Wars](https://github.com/hyper-pokemon/hyper-star-wars) - 🌟🚀Super awesome, your Hyper terminal shall look.
+- [Awesome Hyper](https://github.com/bnb/awesome-hyper) - A curated list of sweet Hyper packages, themes, and resources.
+- [Pure](https://github.com/sindresorhus/pure) - Pretty, minimal and fast ZSH prompt
 
 [:arrow_up:Back to top!](#contents)
 
