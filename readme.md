@@ -28,7 +28,7 @@ Made for Pokémon enthusiasts by Pokémon enthusiasts ❤
 
 All of the wonderful Pokémon backgrounds were created by the amazing [Teej/TopHat](https://pldh.net/gallery/the493) & [MapleRose](https://twitter.com/PokeWalls)!
 
-🎉 Do you enjoy this project? Maybe you love **Star Wars**, **Yoda** or **Darth Vader**? Then, you will also love our [Hyper Star Wars](https://github.com/hyper-pokemon/hyper-star-wars) theme project!<br/>Go take a peek 👀 🎉
+🎉 Do you enjoy this project? Maybe you love **Star Wars**, **Yoda** or **Darth Vader**?<br/>Then, you will also love our [Hyper Star Wars](https://github.com/hyper-pokemon/hyper-star-wars) theme project! Go have a peek 👀
 
 Come over to our [Gitter](https://gitter.im/hyper-pokemon/Lobby) chat or [Twitter](https://twitter.com/hyper_pokemon) account to share your thoughts on the project or to just say hi!
 
