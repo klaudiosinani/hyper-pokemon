@@ -1,10 +1,3 @@
-<div align="center">
-      <a href="https://github.com/hyper-pokemon/hyper-pokemon">
-        <img src="https://cdn.rawgit.com/hyper-pokemon/hyper-pokemon/6b05739d/media/logo.png" alt="Hyper Pokemon" width="60%">
-      </a>
-</div>
-
-
 # Reporting an Issue 🚀
 
 ✨🎉 Thank you for taking the time to contribute to the Hyper Pokémon theme! ✨🎉
