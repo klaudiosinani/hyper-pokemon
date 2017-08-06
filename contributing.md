@@ -1,9 +1,3 @@
-<div align="center">
-      <a href="https://github.com/hyper-pokemon/hyper-pokemon">
-        <img src="https://cdn.rawgit.com/hyper-pokemon/hyper-pokemon/6b05739d/media/logo.png" alt="Hyper Pokemon" width="60%">
-      </a>
-</div>
-
 # Contributing to Hyper Pokémon ❤
 
 ✨🎉 Thank you for taking the time to contribute to the Hyper Pokémon theme! ✨🎉
@@ -47,7 +41,12 @@ Come over and say hi anytime you feel like on [Gitter](https://gitter.im/hyper-p
 - Search the issue tracker before opening an issue
 - Ensure you're using the latest version of the theme (Quick cheat!) ![Latest version](https://badge.fury.io/gh/hyper-pokemon%2Fhyper-pokemon.svg)
 - Use a descriptive title
-- Include as much information as possible: Steps to reproduce the issue, theme settings, error message, Hyper version, operating system etc
+- Include as much information as possible;
+  - Steps to reproduce the issue
+  - Theme settings
+  - Error message
+  - Hyper version
+  - Operating system **etc**
 
 ### Submitting a pull request
 
