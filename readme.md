@@ -1,6 +1,6 @@
 <h1 align="center">
 			<a href="https://github.com/klauscfhq/hyper-pokemon">
-				<img src="https://cdn.rawgit.com/klauscfhq/hyper-pokemon/d45bcb77/media/screen.png" alt="Hyper Pokemon" width="95%">
+				<img src="https://cdn.rawgit.com/hyper-pokemon/hyper-pokemon/2cbd2b69/media/screen.png" alt="Hyper Pokemon" width="95%">
 			</a>
 </h1>
 
@@ -40,7 +40,7 @@ Inspired by [Pokemon-Terminal](https://github.com/LazoCoder/Pokemon-Terminal).
 
 **Vote for the Pokémon Region you want to see themes from next!**<br/>
 In essence, this poll will determine the creation order of all Pokémon Regions!<br/>
-The poll will be kept alive until the project's completion, when all **600+** themes will be available! :tada:
+The poll will be kept alive until the project's completion, when all **600+** themes will be available!
 
 Trainers make your choice!
 
@@ -108,7 +108,7 @@ config: {
 
 ![Gengar Example](media/example.png)
 
-To get the exact same look, install Google's [`Roboto Mono`](https://fonts.google.com/specimen/Roboto+Mono) font as well as [`oh-my-zsh`](http://ohmyz.sh/) and choose [`pure`](https://github.com/sindresorhus/pure) as your zsh prompt 🐱
+To get the exact same look, install Google's [`Roboto Mono`](https://fonts.google.com/specimen/Roboto+Mono) font as well as [`oh-my-zsh`](http://ohmyz.sh/) and choose [`pure`](https://github.com/sindresorhus/pure) as your zsh prompt
 
 [:arrow_up:Back to top!](#contents)
 
@@ -131,7 +131,7 @@ The assignable values are:
 - `pokemon trainer` - randomly selects a Pokémon theme from only a **specific Pokémon Trainer's party**, each time you fire up a new Hyper terminal session. You can view all available Pokémon Trainer [here!](#available-themes)<br/><br/>
 **i.e.** `pokemon: 'ash'`, `pokemon: 'jessie'`, `pokemon: 'gary'`, `pokemon: 'erika'` **etc**<br/><br/>
 
-- `pokemon party` - randomly selects a Pokémon theme/theme option from a **defined array** holding **custom multiple themes/theme options**, each time you fire up a new Hyper terminal session. Any from the available Pokémon **themes**, **types** & **trainers** can be choosen!<br/><br/>
+- `pokemon party` - randomly selects a Pokémon theme/theme option from a **defined array** holding **custom multiple themes/theme options**, each time you fire up a new Hyper terminal session. Any from the available Pokémon **themes**, **types** & **trainers** can be chosen!<br/><br/>
 **i.e.**
 	- `pokemon: ['articuno', 'zapdos', 'moltres', 'mewtwo', 'mew']`
 	- `pokemon: ['random', 'fire', 'water', 'grass', 'ash', 'pikachu']`
@@ -337,7 +337,7 @@ Go on and take a peek 👀
 
 <p align="center">
 			<a href="https://github.com/klauscfhq/hyper-pokemon">
-				<img src="https://cdn.rawgit.com/klauscfhq/hyper-pokemon/cb43900d/media/screens.png" alt="Hyper Pokemon" width="100%">
+				<img src="https://cdn.rawgit.com/hyper-pokemon/hyper-pokemon/2cbd2b69/media/screens.png" alt="Hyper Pokemon" width="100%">
 			</a>
 </p>
 
@@ -394,7 +394,7 @@ Meet the team and all the [super awesome contributors](https://github.com/hyper-
 <div align="center">
 	<br>
 			<a href="https://github.com/klauscfhq/hyper-pokemon">
-				<img src="https://cdn.rawgit.com/klauscfhq/hyper-pokemon/b589d665/media/logo.png" alt="Hyper Pokemon" width="45%">
+				<img src="https://cdn.rawgit.com/hyper-pokemon/hyper-pokemon/2cbd2b69/media/logo.png" alt="Hyper Pokemon" width="45%">
 			</a>
 		<br>
 	 <p><b> <> with ❤ by the Hyper Pokémon team </b></p>
