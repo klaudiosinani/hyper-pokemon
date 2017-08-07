@@ -336,9 +336,21 @@ exports.decorateConfig = config => {
         .tabs_nav .tabs_list {
           color: ${primary};
         }
-        .tabs_nav .tabs_list .tab_active .tab_text {
-          border-bottom: 3px solid ${secondary};
-        }
+		.tab_tab::before {
+		  content: '';
+		  position: absolute;
+		  bottom: 0;
+		  left: 0;
+		  right: 0;
+		  height: 4px;
+		  background-color: ${secondary};
+		  transform: scaleX(0);
+		  transition: none;
+		}
+		.tab_tab.tab_active::before {
+		  transform: scaleX(1);
+		  transition: all 400ms cubic-bezier(0.0, 0.0, 0.2, 1)
+		}
         .terms_terms .terms_termGroup .splitpane_panes .splitpane_divider {
           background-color: ${secondary} !important;
         }
