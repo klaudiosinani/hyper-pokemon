@@ -98,17 +98,18 @@ config: {
     colors: {
     //...
     },
-    pokemon: 'gengar', // Define your favorite pokemon theme!
-    pokecursor: 'true', // Activate your theme's pokecursor!
-    pokemonSyntax: 'dark', // Define the color of the terminal tabs!
-    unibody: 'true', // Define the color of the Hyper window header!
+    pokemon: 'gengar', // Define your favorite pokemon theme
+    pokecursor: 'true', // Activate your theme's pokecursor
+    pokemonSyntax: 'dark', // Define the color of the terminal tabs
+    unibody: 'true', // Define the color of the Hyper window header
+    poketab: 'false', // Deactivate your theme's poketab
     //...
 }
 ```
 
 ![Gengar Example](media/example.png)
 
-To get the exact same look, install Google's [`Roboto Mono`](https://fonts.google.com/specimen/Roboto+Mono) font as well as [`oh-my-zsh`](http://ohmyz.sh/) and choose [`pure`](https://github.com/sindresorhus/pure) as your zsh prompt
+To get the exact same look, install Google's [`Roboto Mono`](https://fonts.google.com/specimen/Roboto+Mono) font as well as [`oh-my-zsh`](http://ohmyz.sh/) and choose [`pure`](https://github.com/sindresorhus/pure) as your zsh prompt.
 
 [:arrow_up:Back to top!](#contents)
 
@@ -195,7 +196,7 @@ Also, completely omitting the `poketab` option from your `.hyper.js` will have t
 <div align="center">
 		<br/>
 			<a href="">
-				<img src="https://cdn.rawgit.com/hyper-pokemon/hyper-pokemon/poketabs/media/poketab.gif" alt="Hyper Pokemon - Poketab" width="80%">
+				<img src="https://cdn.rawgit.com/hyper-pokemon/hyper-pokemon/a7f373f1/media/poketab.gif" alt="Hyper Pokemon - Poketab" width="80%">
 			</a>
 		<br/>
 		<br/>
@@ -214,7 +215,7 @@ Also, completely omitting the `poketab` option from your `.hyper.js` will have t
 
 <br/>
 
-> Table of all Kanto region Pokémon themes :tada:
+> Table of all Kanto region Pokémon themes
 
 ![](media/sprites/missingno.png) | ![](media/sprites/bulbasaur.png) | ![](media/sprites/ivysaur.png) | ![](media/sprites/venusaur.png) | ![](media/sprites/charmander.png) | ![](media/sprites/charmeleon.png) | ![](media/sprites/charizard.png) | ![](media/sprites/squirtle.png)
 --- | --- | --- | --- | --- | --- | --- | ---
