@@ -15,22 +15,8 @@ exports.decorateConfig = config => {
 	let pokemonTheme = getTheme.toLowerCase();
 	const unibody = config.unibody;
 	const unibodyFlag = unibody !== 'false';
-	let pokecursorFlag;
 	const pokecursor = config.pokecursor;
-
-	switch (pokecursor) {
-		case 'true':
-			pokecursorFlag = true;
-			break;
-
-		case 'false':
-			pokecursorFlag = false;
-			break;
-
-		default:
-			pokecursorFlag = false;
-
-	}
+	const pokecursorFlag = pokecursor === 'true';
 
 	// Load color palettes from yaml files
 	const pokemonYml = yaml.safeLoad(
