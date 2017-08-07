@@ -17,6 +17,8 @@ exports.decorateConfig = config => {
 	const unibodyFlag = unibody !== 'false';
 	const pokecursor = config.pokecursor;
 	const pokecursorFlag = pokecursor === 'true';
+	const poketab = config.poketab;
+	const poketabFlag = poketab === 'true';
 
 	// Load color palettes from yaml files
 	const pokemonYml = yaml.safeLoad(
@@ -264,9 +266,11 @@ exports.decorateConfig = config => {
 		pathToPokecursor = assemblePokecursorPath;
 	}
 
-	// Set theme pokecursor
+	// Pokecursor settings
 	const cursorVisibility = (pokecursorFlag === true) ? 'transparent' : secondary;
 	const cursorContent = (pokecursorFlag === true) ? pathToPokecursor : '';
+	// Poketab settings
+	const tabContent = (poketabFlag === true) ? pathToPokecursor : '';
 
 	return Object.assign({}, config,
 		(config.pokemonSyntax === 'light') ?
@@ -302,6 +306,12 @@ exports.decorateConfig = config => {
         .header_header, .header_windowHeader {
           background-color: ${primary} !important;
         }
+        .tab_textActive .tab_textInner::before {
+          content: url("file://${tabContent}");
+          position: absolute;
+          right: 0;
+          top: -4px;
+		}
         .tabs_nav .tabs_list {
           border-bottom: 0;
         }

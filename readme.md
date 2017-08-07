@@ -181,6 +181,26 @@ In addition, completely omitting the `unibody` option from your `.hyper.js` will
 
 ![Unibody](media/unibody.png)
 
+### `poketab`
+
+Choose whether or not you want an animated `.gif` that matches your current pokemon theme, to accompany your active Hyper terminal tab.
+
+The assignable values are:
+
+- `poketab: 'true'` - enable your theme's poketab
+- `poketab: 'false'` - disable your theme's poketab
+
+Also, completely omitting the `poketab` option from your `.hyper.js` will have the same effect as defining it and setting it to `false`. (**default state**)
+
+<div align="center">
+		<br/>
+			<a href="">
+				<img src="https://cdn.rawgit.com/hyper-pokemon/hyper-pokemon/poketabs/media/poketab.gif" alt="Hyper Pokemon - Poketab" width="80%">
+			</a>
+		<br/>
+		<br/>
+</div>
+
 [:arrow_up:Back to top!](#contents)
 
 ## Available Themes
