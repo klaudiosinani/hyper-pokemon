@@ -1,12 +1,12 @@
 <h1 align="center">
-			<a href="https://github.com/klauscfhq/hyper-pokemon">
-				<img src="https://cdn.rawgit.com/hyper-pokemon/hyper-pokemon/2cbd2b69/media/screen.png" alt="Hyper Pokemon" width="95%">
+			<a href="https://github.com/champloohq/hyper-pokemon">
+				<img src="https://cdn.rawgit.com/champloohq/hyper-pokemon/36074d40/media/screen.png" alt="Hyper Pokemon" width="95%">
 			</a>
 </h1>
 
 > 🌈👾Wondrous, tailor-made Pokémon themes for your Hyper terminal
 
- [![Build Status](https://travis-ci.org/hyper-pokemon/hyper-pokemon.svg?branch=master)](https://travis-ci.org/hyper-pokemon/hyper-pokemon) [![Dependency Status](https://dependencyci.com/github/hyper-pokemon/hyper-pokemon/badge)](https://dependencyci.com/github/hyper-pokemon/hyper-pokemon) [![Trello Board](https://img.shields.io/badge/trello-board-blue.svg)](https://trello.com/b/pg3NWkan) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/hyper-pokemon/Lobby) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/hyper-pokemon/hyper-pokemon) [![Latest version](https://badge.fury.io/gh/hyper-pokemon%2Fhyper-pokemon.svg)](https://github.com/hyper-pokemon/hyper-pokemon/releases) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![npm](https://img.shields.io/npm/dm/hyper-pokemon.svg?label=DL)](https://github.com/hyper-pokemon/hyper-pokemon)
+[![Build Status](https://travis-ci.org/champloohq/hyper-pokemon.svg?branch=master)](https://travis-ci.org/champloohq/hyper-pokemon) [![Dependency Status](https://dependencyci.com/github/champloohq/hyper-pokemon/badge)](https://dependencyci.com/github/champloohq/hyper-pokemon) [![Trello Board](https://img.shields.io/badge/trello-board-blue.svg)](https://trello.com/b/pg3NWkan) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/hyper-pokemon/Lobby) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/champloohq/hyper-pokemon) [![Latest version](https://badge.fury.io/gh/champloohq%2Fhyper-pokemon.svg)](https://github.com/cchamploohq/hyper-pokemon/releases) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![npm](https://img.shields.io/npm/dm/hyper-pokemon.svg?label=DL)](https://github.com/champloohq/hyper-pokemon)
 
 ## Contents
 
@@ -28,9 +28,9 @@ Made for Pokémon enthusiasts by Pokémon enthusiasts ❤
 
 All of the wonderful Pokémon backgrounds were created by the amazing [Teej/TopHat](https://pldh.net/gallery/the493) & [MapleRose](https://twitter.com/PokeWalls)!
 
-🎉 Do you enjoy this project? Maybe you love **Star Wars**, **Yoda** or **Darth Vader**?<br/>Then, you will also love our [Hyper Star Wars](https://github.com/hyper-pokemon/hyper-star-wars) theme project! Go have a peek 👀
+🎉 Do you enjoy this project? Maybe you love **Star Wars**, **Yoda** or **Darth Vader**?<br/>Then, you will also love our [Hyper Star Wars](https://github.com/champloohq/hyper-star-wars) theme project! Go have a peek 👀
 
-Come over to our [Gitter](https://gitter.im/hyper-pokemon/Lobby) chat or [Twitter](https://twitter.com/hyper_pokemon) account to share your thoughts on the project or to just say hi!
+Come over to our [Gitter](https://gitter.im/hyper-pokemon/Lobby) chat or [Twitter](https://twitter.com/champloohq) account to share your thoughts on the project or to just say hi!
 
 Track the creation/progress of all themes on our [Trello board](https://trello.com/b/pg3NWkan)!
 
@@ -152,7 +152,7 @@ Also, completely omitting the `pokecursor` option from your `.hyper.js` will hav
 <div align="center">
 		<br/>
 			<a href="">
-				<img src="https://cdn.rawgit.com/hyper-pokemon/hyper-pokemon/bf531f10/media/pokecursor.gif" alt="Hyper Pokemon - Pokecursor" width="80%">
+				<img src="https://github.com/champloohq/hyper-pokemon/blob/master/media/pokecursor.gif" alt="Hyper Pokemon - Pokecursor" width="80%">
 			</a>
 		<br/>
 		<br/>
@@ -196,7 +196,7 @@ Also, completely omitting the `poketab` option from your `.hyper.js` will have t
 <div align="center">
 		<br/>
 			<a href="">
-				<img src="https://cdn.rawgit.com/hyper-pokemon/hyper-pokemon/a7f373f1/media/poketab.gif" alt="Hyper Pokemon - Poketab" width="80%">
+				<img src="https://github.com/champloohq/hyper-pokemon/blob/master/media/poketab.gif" alt="Hyper Pokemon - Poketab" width="80%">
 			</a>
 		<br/>
 		<br/>
@@ -357,8 +357,8 @@ All available themes can be previewed on the project's [homepage](https://hyper-
 Go on and take a peek 👀
 
 <p align="center">
-			<a href="https://github.com/klauscfhq/hyper-pokemon">
-				<img src="https://cdn.rawgit.com/hyper-pokemon/hyper-pokemon/2cbd2b69/media/screens.png" alt="Hyper Pokemon" width="100%">
+			<a href="https://github.com/champloohq/hyper-pokemon">
+				<img src="https://github.com/champloohq/hyper-pokemon/blob/master/media/screens.png" alt="Hyper Pokemon" width="100%">
 			</a>
 </p>
 
@@ -370,7 +370,7 @@ Go on and take a peek 👀
 
 ```bash
 # clone the repository
-$ git clone https://github.com/klauscfhq/hyper-pokemon.git
+$ git clone https://github.com/champloohq/hyper-pokemon.git
 # navigate to the project directory
 $ cd hyper-pokemon
 ```
@@ -392,7 +392,7 @@ $ npm install hyper-pokemon -g
 
 Here is an awesome list where you can find other awesome Hyper themes & plugins!
 
-- [Hyper Star Wars](https://github.com/hyper-pokemon/hyper-star-wars) - 🌟🚀Super awesome, your Hyper terminal shall look.
+- [Hyper Star Wars](https://github.com/champloohq/hyper-star-wars) - 🌟🚀Super awesome, your Hyper terminal shall look.
 - [Awesome Hyper](https://github.com/bnb/awesome-hyper) - A curated list of sweet Hyper packages, themes, and resources.
 - [Pure](https://github.com/sindresorhus/pure) - Pretty, minimal and fast ZSH prompt
 
@@ -400,7 +400,7 @@ Here is an awesome list where you can find other awesome Hyper themes & plugins!
 
 ## Team
 
-Meet the team and all the [super awesome contributors](https://github.com/hyper-pokemon/hyper-pokemon/blob/master/authors.md)! ❤<br/>
+Meet the team and all the [super awesome contributors](https://github.com/champloohq/hyper-pokemon/blob/master/authors.md)! ❤<br/>
 
 [![Leonidas Avdelas](https://avatars.githubusercontent.com/u/15968096?s=130)](https://github.com/LoniasGR) | [![Panagiotis Bakos](https://avatars.githubusercontent.com/u/23611809?s=130)](https://github.com/pmpakos) | [![George Baxopoulos](https://avatars.githubusercontent.com/u/19195396?s=130)](https://github.com/georgebax) | [![Thanasis Gkanos](https://avatars.githubusercontent.com/u/18072542?s=130)](https://github.com/ThanasisGkanos) | [![Konstantinos Mitropoulos](https://avatars.githubusercontent.com/u/24499401?s=130)](https://github.com/tsikos7) | [![Klaus Sinani](https://avatars.githubusercontent.com/u/12670537?s=130)](https://github.com/klauscfhq) | [![Mario Sinani](https://avatars.githubusercontent.com/u/29512262?s=130)](https://github.com/snowmancfhq) | [![Konstantinos Skouras](https://avatars.githubusercontent.com/u/15022446?s=130)](https://github.com/SkourasKonst) | [![Gabriel Tibúrcio](https://avatars.githubusercontent.com/u/5959178?s=130)](https://github.com/tibuurcio)
 --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -410,11 +410,11 @@ Meet the team and all the [super awesome contributors](https://github.com/hyper-
 
 ## License
 
-[MIT](https://github.com/klauscfhq/hyper-pokemon/blob/master/license.md)
+[MIT](https://github.com/champloohq/hyper-pokemon/blob/master/license.md)
 
 <div align="center">
 	<br>
-			<a href="https://github.com/klauscfhq/hyper-pokemon">
+			<a href="https://github.com/champloohq/hyper-pokemon">
 				<img src="https://cdn.rawgit.com/hyper-pokemon/hyper-pokemon/2cbd2b69/media/logo.png" alt="Hyper Pokemon" width="45%">
 			</a>
 		<br>
