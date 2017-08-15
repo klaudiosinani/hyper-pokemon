@@ -1,0 +1,479 @@
+html {
+	font-family: Raleway, Calibri, Trebuchet, sans-serif;
+}
+
+::selection {
+	background: orange;
+}
+
+::-moz-selection {
+	background: orange;
+}
+
+h1 {
+	font-size: 4.6rem;
+	font-family: inherit;
+	color: #FFFFFF;
+	margin: 0 auto;
+}
+
+h2 {
+	font-size: 3.56rem;
+	font-family: inherit;
+	color: #212121;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 2.92rem;
+	font-family: inherit;
+	color: #212121;
+	font-weight: 400;
+}
+
+h4 {
+	font-size: 2.28rem;
+	font-family: inherit;
+	color: #212121;
+	font-weight: 400;
+}
+
+h5 {
+	font-size: 1.64rem;
+	font-family: inherit;
+	color: #212121;
+	font-weight: 400;
+}
+
+p {
+	font-size: 14px;
+	font-family: inherit;
+	font-weight: 400;
+	color: #727272;
+	line-height: 24px;
+}
+
+a {
+	outline: 0;
+}
+
+.card {
+		transition: box-shadow .2s ease-in-out !important;
+}
+
+.card:hover {
+	  box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24), 0 4px 20px 0 rgba(0,0,0,0.36), 0 12px 4px -16px rgba(0,0,0,0.6) !important;
+}
+
+.card .card-title {
+    font-weight: 700 !important;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 1) !important;
+    cursor: pointer;
+}
+
+.card .card-image {
+	cursor: pointer;
+}
+
+.timer {
+	font-size: 42px;
+	font-family: inherit;
+}
+
+.hero-caption {
+	font-family: inherit;
+	display: table;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+.hero-caption .hero-text {
+	font-family: inherit;
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.fa-twitter {
+	color: #00B6F1;
+}
+
+.fa-facebook {
+	color: #3B5998;
+}
+
+.fa-google-plus {
+	color: #DF4A32;
+}
+
+.fa-pinterest {
+	color: #CB2027;
+}
+
+.fa-tumblr {
+	color: #35465D;
+}
+
+.fa-reddit {
+	color: #FF5700;
+}
+/* Buttons */
+
+.btn-pokemon {
+	background: darkorange;
+	transition: background-color .3s;
+}
+
+.btn-pokemon:hover, .btn-pokemon:focus, .btn-pokemon:active {
+	background: orange;
+}
+
+
+/* Layouts */
+
+.container {
+	width: 80%;
+}
+
+
+/* Scalling */
+
+@media (max-width: 992px) {
+	#hero h1, #pokemon-header h1 {
+		font-size: 4rem;
+	}
+	#hero h3, #pokemon-header h3 {
+		font-size: 2.5rem;
+	}
+	#hero .slider.fullscreen ul.indicators {
+		display: none;
+	}
+}
+
+@media (max-width: 800px) {
+	#pokemon-header h1 {
+		font-size: 3rem;
+	}
+	#pokemon-header h3 {
+		font-size: 2rem;
+	}
+	#pokemon-header .hero-caption .hero-text .btn-primary, #pokemon-header .hero-caption .hero-text .btn-recipe {
+		margin-right: 0;
+	}
+	#hero .slides li .caption {
+		left: 15%;
+	}
+	#hero .slides li .caption .btn-primary, #hero .slides li .caption .btn-recipe {
+		margin-right: 0;
+	}
+	#hero .caption {
+		top: 30% !important;
+	}
+	#hero .caption {
+		text-align: center;
+	}
+	#hero .caption h1 {
+		font-size: 3.5rem;
+	}
+	#hero .caption h3 {
+		font-size: 2rem;
+	}
+	#hero .slider.fullscreen ul.indicators {
+		display: none;
+	}
+	section h2 {
+		font-size: 3rem;
+	}
+	footer.page-footer .icons li {
+		float: left;
+		padding: 0px 3px !important;
+	}
+}
+
+
+/* Nav */
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+	transition: top 0.4s ease-in-out;
+}
+
+.nav-up {
+	top: -75px;
+}
+
+header nav {
+	background: none;
+	box-shadow: none;
+	height: 75px;
+}
+
+header nav .nav-wrapper .brand-logo {
+	font-size: 2rem;
+	color: #FFFFFF;
+	letter-spacing: 0.2rem;
+	font-weight: 700;
+}
+
+header nav .nav-wrapper ul a {
+	font-size: 1.1rem;
+	color: #FFFFFF;
+	letter-spacing: 0.1rem;
+	font-weight: 700;
+}
+
+header nav ul a {
+	transition: background-color .3s;
+	font-size: 1rem;
+	color: #fff;
+	display: inline-block;
+	padding: 0 15px;
+	cursor: pointer;
+	margin-top: 6px;
+}
+
+header nav ul a:hover {
+	background: none;
+	border-radius: 2px;
+}
+
+header nav ul {
+	display: inline-block;
+}
+
+header nav .col {
+	margin-top: 0px;
+}
+
+header nav .row {
+	margin-bottom: 0px;
+}
+
+header nav .nav-wrapper .brand-logo span {
+	font-size: 4rem;
+}
+
+header nav .nav-wrapper .side-nav a {
+	border-radius: 0px;
+}
+
+header nav .nav-wrapper .side-nav a:hover {
+	background: none;
+}
+
+header nav .nav-wrapper .button-collapse {
+	display: block;
+	float: right;
+}
+
+header nav .nav-wrapper .button-collapse i {
+	line-height: 80px;
+	color: #FFFFFF;
+}
+
+header .top-nav-collapse {
+	background: #FFFFFF;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+	transition: all .4s ease-in-out;
+}
+
+header .top-nav-collapse .nav-wrapper .brand-logo {
+	font-size: 2rem;
+	color: #212121;
+	letter-spacing: 0.2rem;
+	font-weight: 700;
+}
+
+header .top-nav-collapse .nav-wrapper ul a {
+	color: #212121;
+	font-weight: 700;
+}
+
+header .top-nav-collapse .nav-wrapper .brand-logo span {
+	color: orange;
+	font-size: 4rem;
+}
+
+header .top-nav-collapse .nav-wrapper ul a span {
+	color: orange;
+}
+
+header .top-nav-collapse .nav-wrapper .button-collapse {
+	display: block;
+	float: right;
+}
+
+header .top-nav-collapse .nav-wrapper .button-collapse i {
+	line-height: 80px;
+	color: #212121;
+}
+
+.nav-icons {
+	margin: 8px auto;
+}
+
+/* Pokemon Header */
+
+#pokemon-header {
+	background: url(../../media/main.png);
+	background-size: cover;
+	background-position: center;
+	/*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, transparent 100%);
+background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.4) 0%, transparent 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.4)), color-stop(100%, transparent));*/
+}
+
+#pokemon-header .caption {
+	top: 40%;
+}
+
+#pokemon-header h1 {
+	font-size: 4.1em;
+	font-weight: 700;
+	text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+	padding-top: 55px;
+}
+
+#pokemon-header h4 {
+	color: #FFFFFF;
+	text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+	padding-bottom: 10px;
+}
+
+/* Footer */
+
+footer.page-footer {
+	background: orange;
+	margin-top: 0px;
+}
+
+footer.page-footer h2 {
+	font-size: 2rem;
+	color: #FFFFFF;
+	font-weight: 700;
+}
+
+footer.page-footer h4 {
+	font-size: 1.3rem;
+	color: #FFFFFF;
+	font-weight: 400;
+}
+
+footer.page-footer h5 {
+	font-size: 1.1rem;
+	color: #FFFFFF;
+	font-weight: 400;
+}
+
+footer.page-footer .icons ul {
+	display: inline-block;
+}
+
+footer.page-footer .icons li {
+	float: left;
+	padding: 0px 10px;
+}
+
+footer.page-footer .btn-floating {
+	background-color: #FFF;
+}
+
+footer.page-footer .btn-floating i {
+	color: darkorange;
+}
+
+footer.page-footer .beat {
+	-webkit-animation: heartbeat 2000ms infinite;
+	-moz-animation: heartbeat 2000ms infinite;
+	-ms-animation: heartbeat 2000ms infinite;
+	-o-animation: heartbeat 2000ms infinite;
+	animation: heartbeat 2000ms infinite;
+}
+
+@-webkit-keyframes heartbeat {
+	0%, 40%, 60%, 80% {
+		-webkit-transform: scale(1);
+		transform: scale(1)
+	}
+	0%, 40%, 60%, 80% {
+		-webkit-transform: scale(1.25);
+		transform: scale(1.25)
+	}
+}
+
+@-moz-keyframes heartbeat {
+	0%, 40%, 60%, 80% {
+		-webkit-transform: scale(1);
+		transform: scale(1)
+	}
+	50%, 70% {
+		-webkit-transform: scale(1.25);
+		transform: scale(1.25)
+	}
+}
+
+@-ms-keyframes heartbeat {
+	-webkit-transform: scale(1);
+	transform: scale(1)
+}
+
+50%, 70% {
+	-webkit-transform: scale(1.25);
+	transform: scale(1.25)
+}
+
+
+-webkit-transform: scale(1);
+@-o-keyframes heartbeat {
+	0%, 40%, 60%, 80% {
+		transform: scale(1)
+	}
+
+	50%, 70% {
+		-webkit-transform: scale(1.25);
+		transform: scale(1.25)
+	}
+}
+@keyframes heartbeat {
+	0%, 40%, 60%, 80% {
+		-webkit-transform: scale(1);
+		transform: scale(1)
+	}
+
+	50%, 70% {
+		-webkit-transform: scale(1.25);
+		transform: scale(1.25)
+	}
+}
+
+/* Preloader */
+.preloader {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #FFFFFF;
+	z-index: 100000;
+}
+.preloader h2 {
+	font-size: 3rem;
+	color: #212121;
+	font-weight: 700;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -120px 0 0 -90px;
+}
+.preloader .preloader-wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -25px 0 0 -25px;
+}
