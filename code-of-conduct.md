@@ -1,9 +1,3 @@
-<h1 align="center">
-			<a href="https://github.com/klauscfhq/hyper-pokemon">
-				<img src="https://cdn.rawgit.com/klauscfhq/hyper-pokemon/d45bcb77/media/screen.png" alt="Hyper Pokemon" width="95%">
-			</a>
-</h1>
-
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge
@@ -61,7 +55,7 @@ further defined and clarified by project maintainers.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at hyper-pokemon@protonmail.com. All
+reported by contacting the project team at klauscfhq@protonmail.com. All
 complaints will be reviewed and investigated and will result in a response that
 is deemed necessary and appropriate to the circumstances. The project team is
 obligated to maintain confidentiality with regard to the reporter of an incident.
