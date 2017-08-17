@@ -418,6 +418,6 @@ Meet the team and all the [super awesome contributors](https://github.com/champl
 				<img src="https://cdn.rawgit.com/hyper-pokemon/hyper-pokemon/2cbd2b69/media/logo.png" alt="Hyper Pokemon" width="45%">
 			</a>
 		<br>
-	 <p><b> <> with ❤ by the Hyper Pokémon team </b></p>
+	 <p><b> <> with ❤ by the Champloo HQ team </b></p>
 	<br>
 </div>
