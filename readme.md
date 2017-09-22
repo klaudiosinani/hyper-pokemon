@@ -4,9 +4,9 @@
 			</a>
 </h1>
 
-> 🌈👾Wondrous, tailor-made Pokémon themes for your Hyper terminal
+> 🌈 Tailor-made Pokémon themes for your Hyper terminal
 
-[![Build Status](https://travis-ci.org/champloohq/hyper-pokemon.svg?branch=master)](https://travis-ci.org/champloohq/hyper-pokemon) [![Dependency Status](https://dependencyci.com/github/champloohq/hyper-pokemon/badge)](https://dependencyci.com/github/champloohq/hyper-pokemon) [![Trello Board](https://img.shields.io/badge/trello-board-blue.svg)](https://trello.com/b/pg3NWkan) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/hyper-pokemon/Lobby) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/champloohq/hyper-pokemon) [![Latest version](https://badge.fury.io/gh/champloohq%2Fhyper-pokemon.svg)](https://github.com/cchamploohq/hyper-pokemon/releases) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![npm](https://img.shields.io/npm/dm/hyper-pokemon.svg?label=DL)](https://github.com/champloohq/hyper-pokemon)
+[![Build Status](https://travis-ci.org/champloohq/hyper-pokemon.svg?branch=master)](https://travis-ci.org/champloohq/hyper-pokemon) [![Dependency Status](https://dependencyci.com/github/champloohq/hyper-pokemon/badge)](https://dependencyci.com/github/champloohq/hyper-pokemon) [![Trello Board](https://img.shields.io/badge/trello-board-blue.svg)](https://trello.com/b/pg3NWkan) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/hyper-pokemon/Lobby) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/champloohq/hyper-pokemon) [![Latest version](https://badge.fury.io/gh/champloohq%2Fhyper-pokemon.svg)](https://github.com/cchamploohq/hyper-pokemon/releases) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/bnb/awesome-hyper) [![npm](https://img.shields.io/npm/dm/hyper-pokemon.svg?label=DL)](https://github.com/champloohq/hyper-pokemon)
 
 ## Contents
 
@@ -26,23 +26,21 @@
 
 Made for Pokémon enthusiasts by Pokémon enthusiasts ❤
 
-All of the wonderful Pokémon backgrounds were created by the amazing [Teej/TopHat](https://pldh.net/gallery/the493) & [MapleRose](https://twitter.com/PokeWalls)!
+All of the wonderful Pokémon backgrounds were created by the amazing [Teej/TopHat](https://pldh.net/gallery/the493) & [MapleRose](https://twitter.com/PokeWalls).
 
-🎉 Do you enjoy this project? Maybe you love **Star Wars**, **Yoda** or **Darth Vader**?<br/>Then, you will also love our [Hyper Star Wars](https://github.com/champloohq/hyper-star-wars) theme project! Go have a peek 👀
+Do you enjoy this project? Maybe you love **Star Wars**, **Yoda** or **Darth Vader**?<br/>Then, you will also love our [Hyper Star Wars](https://github.com/champloohq/hyper-star-wars) theme project. Go have a peek 👀
 
-Come over to our [Gitter](https://gitter.im/hyper-pokemon/Lobby) chat or [Twitter](https://twitter.com/champloohq) account to share your thoughts on the project or to just say hi!
+Come over to our [Twitter](https://twitter.com/champloohq) account to share your thoughts on the project or to just say hi.
 
-Track the creation/progress of all themes on our [Trello board](https://trello.com/b/pg3NWkan)!
+Track the creation/progress of all themes on our [Trello board](https://trello.com/b/pg3NWkan).
 
 Inspired by [Pokemon-Terminal](https://github.com/LazoCoder/Pokemon-Terminal).
 
 ## Vote the next Pokémon Region
 
-**Vote for the Pokémon Region you want to see themes from next!**<br/>
-In essence, this poll will determine the creation order of all Pokémon Regions!<br/>
-The poll will be kept alive until the project's completion, when all **600+** themes will be available!
-
-Trainers make your choice!
+Vote for the Pokémon Region you want to see themes from next.<br/>
+In essence, this poll will determine the creation order of all Pokémon Regions.<br/>
+The poll will be kept alive until the project's completion, when all **600+** themes will be available.
 
 [![](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Johto)](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Johto/vote)
 [![](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Hoenn)](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Hoenn/vote)
@@ -50,9 +48,7 @@ Trainers make your choice!
 [![](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Unova)](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Unova/vote)
 [![](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Kalos)](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Kalos/vote)
 
-Poll powered by [tj/gh-polls](https://github.com/tj/gh-polls) ❤
-
-[:arrow_up:Back to top!](#contents)
+<sub>Poll powered by [tj/gh-polls](https://github.com/tj/gh-polls)</sub>
 
 ## Install
 
@@ -66,7 +62,7 @@ Then simply do the `npm` dance to get `hpm-cli`
 $ npm install -g hpm-cli
 ```
 
-Once done with that, it's time to install the `hyper-pokemon` theme!
+Once done with that, it's time to install the `hyper-pokemon` theme.
 
 ```bash
 # run the hyper plugin manager
@@ -82,15 +78,13 @@ That's it!
 plugins: ['hyper-pokemon']
 ```
 
-[:arrow_up:Back to top!](#contents)
-
 ## Usage
 
-Once you have installed `hyper-pokemon`, it's time to set your favorite theme!
+Once you have installed `hyper-pokemon`, it's time to set your favorite theme.
 
-Go to your `~/.hyper.js` and add the `pokemon` and `pokemonSyntax` options below the `colors` object, and define your theme of choice!
+Go to your `~/.hyper.js` and add the `pokemon` and `pokemonSyntax` options below the `colors` object, and define your theme of choice.
 
-Here is a quick example, where we choose the `gengar` ![](media/pokecons/094.gif) theme, with a `unibody` color for the window header & dark terminal tabs!
+Here is a quick example, where we choose the `gengar` ![](media/pokecons/094.gif) theme, with a `unibody` color for the window header & dark terminal tabs.
 
 ```js
 config: {
@@ -111,7 +105,7 @@ config: {
 
 To get the exact same look, install Google's [`Roboto Mono`](https://fonts.google.com/specimen/Roboto+Mono) font as well as [`oh-my-zsh`](http://ohmyz.sh/) and choose [`pure`](https://github.com/sindresorhus/pure) as your zsh prompt.
 
-[:arrow_up:Back to top!](#contents)
+[:arrow_up:Back to top](#contents)
 
 ## Options
 
@@ -126,13 +120,13 @@ The assignable values are:
 - `random` - randomly selects a Pokémon theme from the **whole list** of available Pokémons, each time you fire up a new Hyper terminal session.<br/><br/>
 **i.e.** `pokemon: 'random'`<br/><br/>
 
-- `pokemon type` - randomly selects a Pokémon theme from only a **specific Pokémon type**, each time you fire up a new Hyper terminal session. You can view all available Pokémon types [here!](#available-themes)<br/><br/>
+- `pokemon type` - randomly selects a Pokémon theme from only a **specific Pokémon type**, each time you fire up a new Hyper terminal session. You can view all available Pokémon types [here](#available-themes).<br/><br/>
 **i.e.** `pokemon: 'fire'`, `pokemon: 'water'`, `pokemon: 'grass'` **etc**<br/><br/>
 
-- `pokemon trainer` - randomly selects a Pokémon theme from only a **specific Pokémon Trainer's party**, each time you fire up a new Hyper terminal session. You can view all available Pokémon Trainer [here!](#available-themes)<br/><br/>
+- `pokemon trainer` - randomly selects a Pokémon theme from only a **specific Pokémon Trainer's party**, each time you fire up a new Hyper terminal session. You can view all available Pokémon Trainer [here](#available-themes).<br/><br/>
 **i.e.** `pokemon: 'ash'`, `pokemon: 'jessie'`, `pokemon: 'gary'`, `pokemon: 'erika'` **etc**<br/><br/>
 
-- `pokemon party` - randomly selects a Pokémon theme/theme option from a **defined array** holding **custom multiple themes/theme options**, each time you fire up a new Hyper terminal session. Any from the available Pokémon **themes**, **types** & **trainers** can be chosen!<br/><br/>
+- `pokemon party` - randomly selects a Pokémon theme/theme option from a **defined array** holding **custom multiple themes/theme options**, each time you fire up a new Hyper terminal session. Any from the available Pokémon **themes**, **types** & **trainers** can be chosen.<br/><br/>
 **i.e.**
 	- `pokemon: ['articuno', 'zapdos', 'moltres', 'mewtwo', 'mew']`
 	- `pokemon: ['random', 'fire', 'water', 'grass', 'ash', 'pikachu']`
@@ -140,7 +134,7 @@ The assignable values are:
 
 ### `pokecursor`
 
-Replace the regular terminal cursor with an animated `.gif` that matches the current pokemon theme!
+Replace the regular terminal cursor with an animated `.gif` that matches the current pokemon theme.
 
 The assignable values are:
 
@@ -202,13 +196,13 @@ Also, completely omitting the `poketab` option from your `.hyper.js` will have t
 		<br/>
 </div>
 
-[:arrow_up:Back to top!](#contents)
+[:arrow_up:Back to top](#contents)
 
 ## Available Themes
 
 #### Pokémon Regions
 
-> Here is a list, grouped by Pokémon regions, of all the available Pokémon themes up to now!
+> Here is a list, grouped by Pokémon regions, of all the available Pokémon themes up to now
 
 <details>
 <summary>Kanto Region</summary>
@@ -297,7 +291,7 @@ Articuno ![](media/pokecons/144.gif) | Zapdos ![](media/pokecons/145.gif) | Molt
 
 #### Pokémon Types
 
-> List of all available Pokémon types!
+> List of all available Pokémon types
 
 <details>
 <summary>Pokémon Types</summary>
@@ -330,7 +324,7 @@ Articuno ![](media/pokecons/144.gif) | Zapdos ![](media/pokecons/145.gif) | Molt
 
 #### Pokémon Trainers
 
-> List of all available Pokémon trainers!
+> List of all available Pokémon trainers
 
 <details>
 <summary>Pokémon Trainers</summary>
@@ -349,11 +343,11 @@ James | Jessie | Koga | Lance | Lorelei | Surge | Misty | Sabrina
 
 </details><br/>
 
-[:arrow_up:Back to top!](#contents)
+[:arrow_up:Back to top](#contents)
 
 ## Showcase
 
-All available themes can be previewed on the project's [homepage](https://hyper-pokemon.github.io)! <br/>
+All available themes can be previewed on the project's [homepage](https://hyper-pokemon.github.io). <br/>
 Go on and take a peek 👀
 
 <p align="center">
@@ -362,7 +356,7 @@ Go on and take a peek 👀
 			</a>
 </p>
 
-[:arrow_up:Back to top!](#contents)
+[:arrow_up:Back to top](#contents)
 
 ## Download
 
@@ -386,38 +380,20 @@ $ npm install hyper-pokemon --save-dev
 $ npm install hyper-pokemon -g
 ```
 
-[:arrow_up:Back to top!](#contents)
-
 ## Related
 
-Here is an awesome list where you can find other awesome Hyper themes & plugins!
+More awesome Hyper plugins.
 
-- [Hyper Star Wars](https://github.com/champloohq/hyper-star-wars) - 🌟🚀Super awesome, your Hyper terminal shall look.
-- [Awesome Hyper](https://github.com/bnb/awesome-hyper) - A curated list of sweet Hyper packages, themes, and resources.
-- [Pure](https://github.com/sindresorhus/pure) - Pretty, minimal and fast ZSH prompt
-
-[:arrow_up:Back to top!](#contents)
+- [Hyper Star Wars](https://github.com/champloohq/hyper-star-wars) - 🚀 Super awesome, your Hyper terminal shall look.
 
 ## Team
 
-Meet the team and all the [super awesome contributors](https://github.com/champloohq/hyper-pokemon/blob/master/authors.md)! ❤<br/>
+Meet the team and all the [contributors](https://github.com/champloohq/hyper-pokemon/blob/master/authors.md).<br/>
 
-[![Leonidas Avdelas](https://avatars.githubusercontent.com/u/15968096?s=130)](https://github.com/LoniasGR) | [![Panagiotis Bakos](https://avatars.githubusercontent.com/u/23611809?s=130)](https://github.com/pmpakos) | [![George Baxopoulos](https://avatars.githubusercontent.com/u/19195396?s=130)](https://github.com/georgebax) | [![Thanasis Gkanos](https://avatars.githubusercontent.com/u/18072542?s=130)](https://github.com/ThanasisGkanos) | [![Konstantinos Mitropoulos](https://avatars.githubusercontent.com/u/24499401?s=130)](https://github.com/tsikos7) | [![Klaus Sinani](https://avatars.githubusercontent.com/u/12670537?s=130)](https://github.com/klauscfhq) | [![Mario Sinani](https://avatars.githubusercontent.com/u/29512262?s=130)](https://github.com/snowmancfhq) | [![Konstantinos Skouras](https://avatars.githubusercontent.com/u/15022446?s=130)](https://github.com/SkourasKonst) | [![Gabriel Tibúrcio](https://avatars.githubusercontent.com/u/5959178?s=130)](https://github.com/tibuurcio)
---- | --- | --- | --- | --- | --- | --- | --- | ---
-[Leonidas Avdelas](https://github.com/LoniasGR) [:mailbox:](mailto:avdelasleonidas@gmail.com) | [Panagiotis Bakos](https://github.com/pmpakos) [:mailbox:](mailto:pmpakos@hotmail.com) | [George Baxopoulos](https://github.com/georgebax) [:mailbox:](mailto:baxopoulos.george@gmail.com) | [Thanasis Gkanos](https://github.com/ThanasisGkanos) [:mailbox:](mailto:athanasiosgkanos@hotmail.com) | [Konstantinos Mitropoulos](https://github.com/tsikos7) [:mailbox:](mailto:konsmitr@gmail.com) | [Klaus Sinani](https://github.com/klauscfhq) [:mailbox:](mailto:klauscfhq@protonmail.com) | [Mario Sinani](https://github.com/snowmancfhq) [:mailbox:](mailto:mariosinani@protonmail.ch) | [Konstantinos Skouras](https://github.com/SkourasKonst) [:mailbox:](mailto:konst.skouras@gmail.com) | [Gabriel Tibúrcio](https://github.com/tibuurcio) [:mailbox:](mailto:tibuurcio@gmail.com)
-
-[:arrow_up:Back to top!](#contents)
+[![Klaus Sinani](https://avatars.githubusercontent.com/u/12670537?s=130)](https://github.com/klauscfhq) | [![Mario Sinani](https://avatars.githubusercontent.com/u/29512262?s=130)](https://github.com/mariocfhq) | [![George Baxopoulos](https://avatars.githubusercontent.com/u/19195396?s=130)](https://github.com/georgebax) | [![Thanasis Gkanos](https://avatars.githubusercontent.com/u/18072542?s=130)](https://github.com/ThanasisGkanos) | [![Konstantinos Mitropoulos](https://avatars.githubusercontent.com/u/24499401?s=130)](https://github.com/tsikos7) | [![Gabriel Tibúrcio](https://avatars.githubusercontent.com/u/5959178?s=130)](https://github.com/tibuurcio)
+--- | --- | --- | --- | --- | ---
+[Klaus Sinani](https://github.com/klauscfhq) | [Mario Sinani](https://github.com/mariocfhq) | [George Baxopoulos](https://github.com/georgebax) | [Thanasis Gkanos](https://github.com/ThanasisGkanos) | [Konstantinos Mitropoulos](https://github.com/tsikos7) | [Gabriel Tibúrcio](https://github.com/tibuurcio)
 
 ## License
 
 [MIT](https://github.com/champloohq/hyper-pokemon/blob/master/license.md)
-
-<div align="center">
-	<br>
-			<a href="https://github.com/champloohq/hyper-pokemon">
-				<img src="https://cdn.rawgit.com/hyper-pokemon/hyper-pokemon/2cbd2b69/media/logo.png" alt="Hyper Pokemon" width="45%">
-			</a>
-		<br>
-	 <p><b> <> with ❤ by the Champloo HQ team </b></p>
-	<br>
-</div>
