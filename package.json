@@ -1,10 +1,10 @@
 {
   "name": "hyper-pokemon",
   "version": "0.3.3",
-  "description": "🌈 🐱 Wondrous, tailor-made Pokémon themes for your Hyper terminal",
+  "description": "🌈 Tailor-made Pokémon themes for your Hyper terminal",
   "license": "MIT",
-  "repository": "hyper-pokemon/hyper-pokemon",
-  "homepage": "https://hyper-pokemon.github.io",
+  "repository": "champloohq/hyper-pokemon",
+  "homepage": "https://champloohq.github.io/hyper-pokemon",
   "author": {
     "name": "Klaus Sinani",
     "email": "klauscfhq@protonmail.com",
@@ -12,9 +12,9 @@
   },
   "maintainers": [
     {
-      "name": "Leonidas Avdelas",
-      "email": "avdelasleonidas@gmail.com",
-      "url": "github.com/LoniasGR"
+      "name": "Mario Sinani",
+      "email": "mariosinani@protonmail.ch",
+      "url": "github.com/mariocfhq"
     },
     {
       "name": "George Baxopoulos",
@@ -22,29 +22,9 @@
       "url": "github.com/georgebax"
     },
     {
-      "name": "Konstantinos Mitropoulos",
-      "email": "konsmitr@gmail.com",
-      "url": "github.com/tsikos7"
-    },
-    {
-      "name": "Konstantinos Skouras",
-      "email": "konst.skouras@gmail.com",
-      "url": "github.com/KonSkouras"
-    },
-    {
-      "name": "Panagiotis Bakos",
-      "email": "pmpakos@hotmail.com",
-      "url": "github.com/pmpakos"
-    },
-    {
       "name": "Thanasis Gkanos",
       "email": "athanasiosgkanos@hotmail.com",
       "url": "github.com/ThanasisGkanos"
-    },
-    {
-      "name": "Mario Sinani",
-      "email": "mariosinani@protonmail.ch",
-      "url": "github.com/snowmancfhq"
     },
     {
       "name": "Gabriel Tibúrcio",
