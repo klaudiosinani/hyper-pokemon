@@ -1,17 +1,22 @@
 <h1 align="center">
-			<a href="https://github.com/champloohq/hyper-pokemon">
-				<img src="https://cdn.rawgit.com/champloohq/hyper-pokemon/36074d40/media/screen.png" alt="Hyper Pokemon" width="95%">
-			</a>
+  <img src="https://cdn.rawgit.com/klauscfhq/hyper-pokemon/221ba5d5/media/logo.png" width="26%"><br/>Hyper Pokemon
 </h1>
 
-> 🌈 Tailor-made Pokémon themes for your Hyper terminal
+<h4 align="center">
+  🌈 Tailor-made Pokémon themes for your Hyper terminal
+</h4>
+
+<div align="center">
+      <a href="https://github.com/klauscfhq/tusk">
+        <img src="https://cdn.rawgit.com/champloohq/hyper-pokemon/36074d40/media/screen.png" alt="Hyper Pokemon" width="95%">
+      </a>
+</div>
 
 [![Build Status](https://travis-ci.org/klauscfhq/hyper-pokemon.svg?branch=master)](https://travis-ci.org/klauscfhq/hyper-pokemon) [![Dependency Status](https://dependencyci.com/github/klauscfhq/hyper-pokemon/badge)](https://dependencyci.com/github/klauscfhq/hyper-pokemon) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/klauscfhq/hyper-pokemon) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/champloohq/hyper-pokemon) [![Latest version](https://badge.fury.io/gh/klauscfhq%2Fhyper-pokemon.svg)](https://github.com/cchamploohq/hyper-pokemon/releases) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/bnb/awesome-hyper) [![npm](https://img.shields.io/npm/dm/hyper-pokemon.svg?label=DL)](https://github.com/klauscfhq/hyper-pokemon)
 
 ## Contents
 
 - [Description](#description)
-- [Vote the next Pokémon Region](#vote-the-next-pokémon-region)
 - [Install](#install)
 - [Usage](#usage)
 - [Options](#options)
@@ -30,7 +35,7 @@ Do you enjoy this project? Maybe you love **Star Wars**, **Yoda** or **Darth Vad
 
 Come over to our [Gitter](https://gitter.im/klauscfhq/hyper-pokemon) channel to share your thoughts on the project or to just say hi.
 
-## Vote the next Pokémon Region
+## Vote the next Region
 
 Vote for the Pokémon Region you want to see themes from next.<br/>
 In essence, this poll will determine the creation order of all Pokémon Regions.<br/>
