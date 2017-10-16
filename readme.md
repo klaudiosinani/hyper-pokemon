@@ -7,7 +7,7 @@
 </h4>
 
 <div align="center">
-      <a href="https://github.com/klauscfhq/tusk">
+      <a href="https://github.com/klauscfhq/hyper-pokemon">
         <img src="https://cdn.rawgit.com/champloohq/hyper-pokemon/36074d40/media/screen.png" alt="Hyper Pokemon" width="95%">
       </a>
 </div>
@@ -205,25 +205,25 @@ You can view all the available themes [here](https://klauscfhq.github.io/hyper-p
 
 <br/>
 
-* Legendary
-* Starter
-* Fire
-* Water
-* Grass
-* Poison
-* Flying
-* Bug
-* Electric
-* Ground
-* Fairy
-* Normal
-* Psychic
-* Ghost
-* Rock
-* Ice
-* Dragon
-* Fighting
-* Steel
+* `Legendary`
+* `Starter`
+* `Fire`
+* `Water`
+* `Grass`
+* `Poison`
+* `Flying`
+* `Bug`
+* `Electric`
+* `Ground`
+* `Fairy`
+* `Normal`
+* `Psychic`
+* `Ghost`
+* `Rock`
+* `Ice`
+* `Dragon`
+* `Fighting`
+* `Steel`
 
 <br/>
 
@@ -238,22 +238,22 @@ You can view all the available themes [here](https://klauscfhq.github.io/hyper-p
 
 <br/>
 
-* Ash
-* Agatha
-* Blaine
-* Brock
-* Bruno
-* Erika
-* Gary
-* Giovanni
-* James
-* Jessie
-* Koga
-* Lance
-* Lorelei
-* Surge
-* Misty
-* Sabrina
+* `Ash`
+* `Agatha`
+* `Blaine`
+* `Brock`
+* `Bruno`
+* `Erika`
+* `Gary`
+* `Giovanni`
+* `James`
+* `Jessie`
+* `Koga`
+* `Lance`
+* `Lorelei`
+* `Surge`
+* `Misty`
+* `Sabrina`
 
 <br/>
 
