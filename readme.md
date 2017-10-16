@@ -77,7 +77,7 @@ Once you have installed `hyper-pokemon`, it's time to set your favorite theme.
 
 Go to your `~/.hyper.js` and add the `pokemon` and `pokemonSyntax` options below the `colors` object, and define your theme of choice.
 
-Here is a quick example, where we choose the `gengar` ![](media/pokecons/094.gif) theme, with a `unibody` color for the window header & dark terminal tabs.
+Here is a quick example, where we choose the `gengar` ![](pokecursors/gengar.gif) theme, with a `unibody` color for the window header & dark terminal tabs.
 
 ```js
 config: {
