@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://cdn.rawgit.com/klauscfhq/hyper-pokemon/221ba5d5/media/logo.png" width="26%"><br/>Hyper Pokemon
+  <img src="https://cdn.rawgit.com/klauscfhq/hyper-pokemon/221ba5d5/media/logo.png" width="30%"><br/>Hyper Pokemon
 </h1>
 
 <h4 align="center">
