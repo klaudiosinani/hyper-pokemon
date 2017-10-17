@@ -8,17 +8,32 @@ const extension = '.png';
 const pokecursorExtension = '.gif';
 
 exports.decorateConfig = config => {
-	let theme;
 	let keys;
+	let theme;
 	let index;
-	const getTheme = Array.isArray(config.pokemon) ? config.pokemon[Math.floor(Math.random() * config.pokemon.length)] : config.pokemon;
-	let pokemonTheme = getTheme.toLowerCase();
-	const unibody = config.unibody;
+
+	// Get the pokemon option - default 'pikachu'
+	const pokemon = config.pokemon || 'pikachu';
+
+	// Get the pokemonSyntax option - default 'light'
+	const themeSyntax = config.pokemonSyntax || 'light';
+
+	// Get the unibody option - default 'true'
+	const unibody = config.unibody || 'true';
 	const unibodyFlag = unibody !== 'false';
-	const pokecursor = config.pokecursor;
+
+	// Get the pokecursor option - default 'false'
+	const pokecursor = config.pokecursor || 'false';
 	const pokecursorFlag = pokecursor === 'true';
-	const poketab = config.poketab;
+
+	// Get the poketab option - default 'false'
+	const poketab = config.poketab || 'false';
 	const poketabFlag = poketab === 'true';
+
+	// Get a random theme in case of an array
+	const getTheme = Array.isArray(pokemon) ? config.pokemon[Math.floor(Math.random() * config.pokemon.length)] : pokemon;
+	// Make it lower-case
+	let pokemonTheme = getTheme.toLowerCase();
 
 	// Load color palettes from yaml files
 	const pokemonYml = yaml.safeLoad(
@@ -192,7 +207,7 @@ exports.decorateConfig = config => {
 	if (Object.prototype.hasOwnProperty.call(pokemonYml.pokemon, pokemonTheme)) {
 		theme = pokemonYml.pokemon[pokemonTheme];
 	} else {
-		theme = pokemonYml.default[config.pokemonSyntax];
+		theme = pokemonYml.default[themeSyntax];
 	}
 
 	// Set theme colors
@@ -273,7 +288,7 @@ exports.decorateConfig = config => {
 	const tabContent = (poketabFlag === true) ? pathToPokecursor : '';
 
 	return Object.assign({}, config,
-		(config.pokemonSyntax === 'light') ?
+		(themeSyntax === 'light') ?
 		syntax.light :
 		syntax.dark, {
 			cursorColor: cursorVisibility,
