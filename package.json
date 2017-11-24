@@ -1,10 +1,10 @@
 {
   "name": "hyper-pokemon",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "🌈 Tailor-made Pokémon themes for your Hyper terminal",
   "license": "MIT",
-  "repository": "champloohq/hyper-pokemon",
-  "homepage": "https://champloohq.github.io/hyper-pokemon",
+  "repository": "klauscfhq/hyper-pokemon",
+  "homepage": "https://klauscfhq.github.io/hyper-pokemon",
   "author": {
     "name": "Klaus Sinani",
     "email": "klauscfhq@protonmail.com",
@@ -14,7 +14,7 @@
     {
       "name": "Mario Sinani",
       "email": "mariosinani@protonmail.ch",
-      "url": "github.com/mariocfhq"
+      "url": "https://mariocfhq.github.io"
     },
     {
       "name": "George Baxopoulos",
