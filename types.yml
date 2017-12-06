@@ -762,6 +762,13 @@ water:
     tertiary: '#66226E'
     unibody: '#010101'
 
+  # 258 - water
+  mudkip:
+    primary: '#E0A142'
+    secondary: '#05182A'
+    tertiary: '#600060'
+    unibody: '#32A1E4'
+
 bug:
   # 010 - bug
   caterpie:

@@ -186,6 +186,13 @@ brock:
     tertiary: '#7E6A85'
     unibody: '#9DBBC5'
 
+  # 258
+  mudkip:
+    primary: '#E0A142'
+    secondary: '#05182A'
+    tertiary: '#600060'
+    unibody: '#32A1E4'
+
 misty:
   # 055
   psyduck:

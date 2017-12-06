@@ -1066,6 +1066,13 @@ pokemon:
     tertiary: '#BA5F79'
     unibody: '#F4C6D3'
 
+  # 258
+  mudkip:
+    primary: '#E0A142'
+    secondary: '#05182A'
+    tertiary: '#600060'
+    unibody: '#32A1E4'
+
 ##
 # Default values
 ##
