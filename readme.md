@@ -194,14 +194,12 @@ Also, completely omitting the `poketab` option from your `.hyper.js` will have t
 
 ## Available Themes
 
-You can view all the available themes [here](https://klauscfhq.github.io/hyper-pokemon).
+You can preview in detail all of the available themes [here](https://klauscfhq.github.io/hyper-pokemon).
 
 #### Pokémon Types
 
-> List of all available Pokémon types
-
 <details>
-<summary>Pokémon Types</summary>
+<summary>List of all available Pokémon Types.</summary>
 
 <br/>
 
@@ -231,10 +229,8 @@ You can view all the available themes [here](https://klauscfhq.github.io/hyper-p
 
 #### Pokémon Trainers
 
-> List of all available Pokémon trainers
-
 <details>
-<summary>Pokémon Trainers</summary>
+<summary>List of all available Pokémon Trainers.</summary>
 
 <br/>
 
@@ -269,9 +265,11 @@ More awesome Hyper plugins.
 
 Meet the team and all the [contributors](https://github.com/klauscfhq/hyper-pokemon/blob/master/authors.md).<br/>
 
-[![Klaus Sinani](https://avatars.githubusercontent.com/u/12670537?s=130)](https://github.com/klauscfhq) | [![Mario Sinani](https://avatars.githubusercontent.com/u/29512262?s=130)](https://github.com/mariocfhq) | [![George Baxopoulos](https://avatars.githubusercontent.com/u/19195396?s=130)](https://github.com/georgebax) | [![Thanasis Gkanos](https://avatars.githubusercontent.com/u/18072542?s=130)](https://github.com/ThanasisGkanos) | [![Konstantinos Mitropoulos](https://avatars.githubusercontent.com/u/24499401?s=130)](https://github.com/tsikos7) | [![Gabriel Tibúrcio](https://avatars.githubusercontent.com/u/5959178?s=130)](https://github.com/tibuurcio)
---- | --- | --- | --- | --- | ---
-[Klaus Sinani](https://github.com/klauscfhq) | [Mario Sinani](https://github.com/mariocfhq) | [George Baxopoulos](https://github.com/georgebax) | [Thanasis Gkanos](https://github.com/ThanasisGkanos) | [Konstantinos Mitropoulos](https://github.com/tsikos7) | [Gabriel Tibúrcio](https://github.com/tibuurcio)
+- Klaus Sinani [(@klauscfhq)](https://github.com/klauscfhq)
+- Mario Sinani [(@mariocfhq)](https://github.com/mariocfhq)
+- Thanasis Gkanos [(@ThanasisGkanos)](https://github.com/ThanasisGkanos)
+- George Baxopoulos [(@georgebax)](https://github.com/georgebax)
+- Gabriel Tibúrcio [(@tibuurcio)](https://github.com/tibuurcio)
 
 ## License
 
