@@ -12,7 +12,29 @@
       </a>
 </div>
 
-[![Build Status](https://travis-ci.org/klauscfhq/hyper-pokemon.svg?branch=master)](https://travis-ci.org/klauscfhq/hyper-pokemon) [![Dependency Status](https://dependencyci.com/github/klauscfhq/hyper-pokemon/badge)](https://dependencyci.com/github/klauscfhq/hyper-pokemon) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/klauscfhq/hyper-pokemon) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/klauscfhq/hyper-pokemon) [![Latest version](https://badge.fury.io/gh/klauscfhq%2Fhyper-pokemon.svg)](https://github.com/klauscfhq/hyper-pokemon/releases) [![npm](https://img.shields.io/npm/dt/hyper-pokemon.svg)](https://github.com/klauscfhq/hyper-pokemon) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/bnb/awesome-hyper)
+<p align="center">
+  <a href="https://travis-ci.org/klauscfhq/hyper-pokemon">
+    <img alt="Build Status" src="https://travis-ci.org/klauscfhq/hyper-pokemon.svg?branch=master">
+  </a>
+  <a href="https://tidelift.com/repo/github/klauscfhq/hyper-pokemon">
+    <img alt="Dependency Status" src="https://tidelift.com/badges/github/klauscfhq/hyper-pokemon?style=flat">
+  </a>
+  <a href="https://gitter.im/klauscfhq/hyper-pokemon">
+    <img alt="Gitter" src="https://img.shields.io/gitter/room/nwjs/nw.js.svg">
+  </a>
+  <a href="https://github.com/klauscfhq/hyper-pokemon">
+    <img alt="XO code style" src="https://img.shields.io/badge/code_style-XO-5ed9c7.svg">
+  </a>
+  <a href="https://github.com/klauscfhq/hyper-pokemon/releases">
+    <img alt="Latest version" src="https://badge.fury.io/gh/klauscfhq%2Fhyper-pokemon.svg">
+  </a>
+  <a href="https://github.com/klauscfhq/hyper-pokemon">
+    <img alt="npm" src="https://img.shields.io/npm/dt/hyper-pokemon.svg">
+  </a>
+  <a href="https://github.com/bnb/awesome-hyper">
+    <img alt="npm" src="https://awesome.re/mentioned-badge.svg">
+  </a>
+</p>
 
 ## Contents
 
