@@ -8,28 +8,13 @@
   "author": {
     "name": "Klaus Sinani",
     "email": "klauscfhq@protonmail.com",
-    "url": "https://cookfood.me"
+    "url": "https://klauscfhq.github.io"
   },
   "maintainers": [
     {
       "name": "Mario Sinani",
       "email": "mariosinani@protonmail.ch",
       "url": "https://mariocfhq.github.io"
-    },
-    {
-      "name": "George Baxopoulos",
-      "email": "baxopoulos.george@gmail.com",
-      "url": "github.com/georgebax"
-    },
-    {
-      "name": "Thanasis Gkanos",
-      "email": "athanasiosgkanos@hotmail.com",
-      "url": "github.com/ThanasisGkanos"
-    },
-    {
-      "name": "Gabriel Tibúrcio",
-      "email": "tibuurcio@gmail.com",
-      "url": "github.com/tibuurcio"
     }
   ],
   "keywords": [
