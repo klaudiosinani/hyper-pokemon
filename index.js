@@ -265,22 +265,9 @@ exports.decorateConfig = config => {
 		cursorColor: cursorVisibility,
 		termCSS: `
 			${config.termCSS || ''}
-			.cursor-node::after {
-				content: url("file://${cursorContent}");
-				position: absolute;
-				left: 0;
-				right: 0;
-				bottom: 0;
-			}
-			::selection {
-				background: ${selectedColor} !important;
-			}
 			::-webkit-scrollbar-thumb {
 				background-color: ${secondary};
 				-webkit-box-shadow: none;
-			}
-			x-screen {
-				background: transparent !important;
 			}
 		`,
 		css: `
