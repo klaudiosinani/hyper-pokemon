@@ -215,56 +215,30 @@ exports.decorateConfig = config => {
 	const secondary = theme.secondary;
 	const tertiary = theme.tertiary;
 	const selectedColor = theme.primary;
+	const transparent = 'rgba(0, 0, 0, 0)';
 
 	const syntax = {
-		dark: {
-			borderColor: primary,
-			cursorColor: secondary,
-			foregroundColor: secondary,
-			backgroundColor: '#383A42',
-			colors: {
-				black: tertiary,
-				red: secondary,
-				green: tertiary,
-				yellow: secondary,
-				blue: secondary,
-				magenta: secondary,
-				cyan: secondary,
-				white: secondary,
-				lightBlack: tertiary,
-				lightRed: secondary,
-				lightGreen: secondary,
-				lightYellow: secondary,
-				lightBlue: secondary,
-				lightMagenta: secondary,
-				lightCyan: secondary,
-				lightWhite: secondary
-			}
-		},
-
-		light: {
-			borderColor: primary,
-			cursorColor: secondary,
-			foregroundColor: secondary,
-			backgroundColor: '#FAFAFA',
-			colors: {
-				black: tertiary,
-				red: secondary,
-				green: tertiary,
-				yellow: secondary,
-				blue: secondary,
-				magenta: secondary,
-				cyan: secondary,
-				white: secondary,
-				lightBlack: tertiary,
-				lightRed: secondary,
-				lightGreen: secondary,
-				lightYellow: secondary,
-				lightBlue: secondary,
-				lightMagenta: secondary,
-				lightCyan: secondary,
-				lightWhite: secondary
-			}
+		borderColor: primary,
+		cursorColor: secondary,
+		foregroundColor: secondary,
+		backgroundColor: transparent,
+		colors: {
+			black: tertiary,
+			red: secondary,
+			green: tertiary,
+			yellow: secondary,
+			blue: secondary,
+			magenta: secondary,
+			cyan: secondary,
+			white: secondary,
+			lightBlack: tertiary,
+			lightRed: secondary,
+			lightGreen: secondary,
+			lightYellow: secondary,
+			lightBlue: secondary,
+			lightMagenta: secondary,
+			lightCyan: secondary,
+			lightWhite: secondary
 		}
 	};
 
@@ -287,10 +261,7 @@ exports.decorateConfig = config => {
 	// Poketab settings
 	const tabContent = (poketabFlag === true) ? pathToPokecursor : '';
 
-	return Object.assign({}, config,
-		(themeSyntax === 'light') ?
-		syntax.light :
-		syntax.dark, {
+	return Object.assign({}, config, syntax, {
 			cursorColor: cursorVisibility,
 			termCSS: `
           ${config.termCSS || ''}
