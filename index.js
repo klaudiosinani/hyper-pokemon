@@ -262,81 +262,80 @@ exports.decorateConfig = config => {
 	const tabContent = (poketabFlag === true) ? pathToPokecursor : '';
 
 	return Object.assign({}, config, syntax, {
-			cursorColor: cursorVisibility,
-			termCSS: `
-          ${config.termCSS || ''}
-          .cursor-node::after {
-          	content: url("file://${cursorContent}");
-          	position: absolute;
-          	left: 0;
-          	right: 0;
-          	bottom: 0;
-          }
-          ::selection {
-            background: ${selectedColor} !important;
-          }
-          ::-webkit-scrollbar-thumb {
-            background-color: ${secondary};
-            -webkit-box-shadow: none;
-					}
-          x-screen {
-            background: transparent !important;
-          }
-        `,
-			css: `
-        ${config.css || ''}
-        .terms_terms {
-          background: url("file://${pathToTheme}") center;
-          background-size: cover;
-        }
-        .header_header, .header_windowHeader {
-          background-color: ${primary} !important;
-        }
-        .tab_textActive .tab_textInner::before {
-          content: url("file://${tabContent}");
-          position: absolute;
-          right: 0;
-          top: -4px;
-		}
-        .tabs_nav .tabs_list {
-          border-bottom: 0;
-        }
-        .tabs_nav .tabs_title,
-        .tabs_nav .tabs_list .tab_tab {
-          color: ${secondary};
-          border: 0;
-        }
-        .tab_icon {
-          color: ${secondary};
-        }
-        .tab_icon:hover {
-          background-color: ${secondary};
-        }
-        .tabs_nav .tabs_list .tab_tab:not(.tab_active) {
-          background-color: rgba(0,0,0,0.1);
-        }
-        .tabs_nav .tabs_list {
-          color: ${primary};
-        }
-		.tab_tab::before {
-		  content: '';
-		  position: absolute;
-		  bottom: 0;
-		  left: 0;
-		  right: 0;
-		  height: 4px;
-		  background-color: ${secondary};
-		  transform: scaleX(0);
-		  transition: none;
-		}
-		.tab_tab.tab_active::before {
-		  transform: scaleX(1);
-		  transition: all 400ms cubic-bezier(0.0, 0.0, 0.2, 1)
-		}
-        .terms_terms .terms_termGroup .splitpane_panes .splitpane_divider {
-          background-color: ${secondary} !important;
-        }
-      `
-		}
-	);
+		cursorColor: cursorVisibility,
+		termCSS: `
+			${config.termCSS || ''}
+			.cursor-node::after {
+				content: url("file://${cursorContent}");
+				position: absolute;
+				left: 0;
+				right: 0;
+				bottom: 0;
+			}
+			::selection {
+				background: ${selectedColor} !important;
+			}
+			::-webkit-scrollbar-thumb {
+				background-color: ${secondary};
+				-webkit-box-shadow: none;
+			}
+			x-screen {
+				background: transparent !important;
+			}
+		`,
+		css: `
+			${config.css || ''}
+			.terms_terms {
+				background: url("file://${pathToTheme}") center;
+				background-size: cover;
+			}
+			.header_header, .header_windowHeader {
+				background-color: ${primary} !important;
+			}
+			.tab_textActive .tab_textInner::before {
+				content: url("file://${tabContent}");
+				position: absolute;
+				right: 0;
+				top: -4px;
+			}
+			.tabs_nav .tabs_list {
+				border-bottom: 0;
+			}
+			.tabs_nav .tabs_title,
+			.tabs_nav .tabs_list .tab_tab {
+				color: ${secondary};
+				border: 0;
+			}
+			.tab_icon {
+				color: ${secondary};
+			}
+			.tab_icon:hover {
+				background-color: ${secondary};
+			}
+			.tabs_nav .tabs_list .tab_tab:not(.tab_active) {
+				background-color: rgba(0,0,0,0.1);
+			}
+			.tabs_nav .tabs_list {
+				color: ${primary};
+			}
+			.tab_tab::before {
+				content: '';
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				height: 4px;
+				background-color: ${secondary};
+				transform: scaleX(0);
+				transition: none;
+			}
+			.tab_tab.tab_active::before {
+				transform: scaleX(1);
+				transition: all 400ms cubic-bezier(0.0, 0.0, 0.2, 1)
+			}
+			.terms_terms .terms_termGroup .splitpane_panes .splitpane_divider {
+				background-color: ${secondary} !important;
+			}
+		`
+	});
 };
