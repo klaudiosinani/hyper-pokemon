@@ -1,6 +1,8 @@
+'use strict';
 const fs = require('fs');
-const yaml = require('js-yaml');
+const color = require('color');
 const homeDir = require('home-dir');
+const yaml = require('js-yaml');
 
 const path = homeDir('/.hyper_plugins/node_modules/hyper-pokemon/backgrounds/');
 const pokecursorDir = homeDir('/.hyper_plugins/node_modules/hyper-pokemon/pokecursors/');
@@ -215,13 +217,14 @@ exports.decorateConfig = config => {
 	const secondary = theme.secondary;
 	const tertiary = theme.tertiary;
 	const selectedColor = theme.primary;
-	const transparent = 'rgba(0, 0, 0, 0)';
+	const transparent = color(secondary).alpha(0).string();
 
 	const syntax = {
+		backgroundColor: transparent,
 		borderColor: primary,
 		cursorColor: secondary,
 		foregroundColor: secondary,
-		backgroundColor: transparent,
+		selectionColor: color(secondary).alpha(0.3).string(),
 		colors: {
 			black: tertiary,
 			red: secondary,
@@ -263,13 +266,7 @@ exports.decorateConfig = config => {
 
 	return Object.assign({}, config, syntax, {
 		cursorColor: cursorVisibility,
-		termCSS: `
-			${config.termCSS || ''}
-			::-webkit-scrollbar-thumb {
-				background-color: ${secondary};
-				-webkit-box-shadow: none;
-			}
-		`,
+		termCSS: config.termCSS || '',
 		css: `
 			${config.css || ''}
 			.terms_terms {
