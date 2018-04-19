@@ -41,5 +41,8 @@
   "devDependencies": {
     "xo": "^0.20.3",
     "yaml-lint": "^1.0.0"
+  },
+  "xo": {
+    "space": 2
   }
 }
