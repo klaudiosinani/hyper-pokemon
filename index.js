@@ -143,10 +143,20 @@ exports.decorateConfig = config => {
         border: 0;
       }
       .tab_icon {
-        color: ${secondary};
+        color: ${background};
+        width: 15px;
+        height: 15px;
       }
       .tab_icon:hover {
-        background-color: ${secondary};
+        background-color: ${background};
+      }
+      .tab_shape {
+        color: ${secondary};
+        width: 7px;
+        height: 7px;
+      }
+      .tab_shape:hover {
+        color: ${secondary};
       }
       .tab_active {
         background-color: ${activeTab};
