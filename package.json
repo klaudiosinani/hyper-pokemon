@@ -35,6 +35,7 @@
     "test": "xo index.js && yamllint *.yml"
   },
   "dependencies": {
+    "color": "^3.0.0",
     "home-dir": "^1.0.0",
     "js-yaml": "^3.10.0"
   },
