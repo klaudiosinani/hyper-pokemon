@@ -125,6 +125,9 @@ exports.decorateConfig = config => {
         background: url("file://${imagePath}") center;
         background-size: cover;
       }
+      .header_shape, .header_appTitle {
+        color: ${secondary};
+      }
       .header_header, .header_windowHeader {
         background-color: ${background} !important;
       }
