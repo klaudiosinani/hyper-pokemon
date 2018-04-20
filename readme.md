@@ -102,7 +102,7 @@ plugins: ['hyper-pokemon']
 
 Once you have installed `hyper-pokemon`, it's time to set your favorite theme.
 
-Go to your `~/.hyper.js` and add the `pokemon` and `pokemonSyntax` options below the `colors` object, and define your theme of choice.
+Go to your `~/.hyper.js` and add the `pokemon` option below the `colors` object, and define your theme of choice.
 
 Here is a quick example, where we choose the `gengar` ![](pokecursors/gengar.gif) theme, with a `unibody` color for the window header & dark terminal tabs.
 
@@ -112,10 +112,8 @@ config: {
     colors: {
     //...
     },
-    pokemon: 'gengar', // Define your favorite pokemon theme
-    pokecursor: 'true', // Activate your theme's pokecursor
-    pokemonSyntax: 'dark', // Define the color of the terminal tabs
-    unibody: 'true', // Define the color of the Hyper window header
+    pokemon: 'gengar', // Choose your favorite pokemon theme
+    unibody: 'true', // Choose the color of the window header
     poketab: 'false', // Deactivate your theme's poketab
     //...
 }
@@ -150,37 +148,6 @@ The assignable values are:
 	- `pokemon: ['random', 'fire', 'water', 'grass', 'ash', 'pikachu']`
 	- `pokemon: ['lance', 'brock', 'bruno', 'gary', 'legendary', 'dragonite']` **etc**<br/><br/>
 
-### `pokecursor`
-
-Replace the regular terminal cursor with an animated `.gif` that matches the current pokemon theme.
-
-The assignable values are:
-
-- `pokecursor: 'true'` - enable your theme's pokecursor
-- `pokecursor: 'false'` - revert to the cursor's original appearance
-
-Also, completely omitting the `pokecursor` option from your `.hyper.js` will have the same effect as defining it and setting it to `false`. (**default state**)
-
-<div align="center">
-		<br/>
-			<a href="">
-				<img src="https://github.com/champloohq/hyper-pokemon/blob/master/media/pokecursor.gif" alt="Hyper Pokemon - Pokecursor" width="80%">
-			</a>
-		<br/>
-		<br/>
-</div>
-
-### `pokemonSyntax`
-
-Here you can define the color of the terminal tabs.
-
-The assignable values are:
-
-- `pokemonSyntax: 'light'` - choose it if your pokémon theme is of a more light color
-- `pokemonSyntax: 'dark'` - go for it if you are using a darker pokémon theme
-
-![Pokemon Syntax](media/pokemon-syntax.png)
-
 ### `unibody`
 
 Choose whether or not you want the Hyper windows header color to be the same as the background pokémon theme.
@@ -190,7 +157,7 @@ The assignable values are:
 - `unibody: 'true'` - choose it for a unibody color theme
 - `unibody: 'false'` - go for it if you like your terminal more colorful
 
-In addition, completely omitting the `unibody` option from your `.hyper.js` will have the same effect as defining it and setting it to `true`. (**default state**)
+In addition, completely omitting the `unibody` option from your `.hyper.js` will have the same effect as defining it and setting it to `true`. (**Default value**)
 
 ![Unibody](media/unibody.png)
 
@@ -203,7 +170,7 @@ The assignable values are:
 - `poketab: 'true'` - enable your theme's poketab
 - `poketab: 'false'` - disable your theme's poketab
 
-Also, completely omitting the `poketab` option from your `.hyper.js` will have the same effect as defining it and setting it to `false`. (**default state**)
+Also, completely omitting the `poketab` option from your `.hyper.js` will have the same effect as defining it and setting it to `false`. (**Default value**)
 
 <div align="center">
 		<br/>
