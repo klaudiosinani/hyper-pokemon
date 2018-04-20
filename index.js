@@ -1,226 +1,100 @@
 'use strict';
 const fs = require('fs');
+const path = require('path');
 const color = require('color');
-const homeDir = require('home-dir');
 const yaml = require('js-yaml');
 
-const path = homeDir('/.hyper_plugins/node_modules/hyper-pokemon/backgrounds/');
-const pokecursorDir = homeDir('/.hyper_plugins/node_modules/hyper-pokemon/pokecursors/');
-const extension = '.png';
-const pokecursorExtension = '.gif';
+const filepaths = {
+  backgrounds: path.resolve(__dirname, 'backgrounds'),
+  gifs: path.resolve(__dirname, 'pokecursors')
+};
+
+const colorSchemes = {
+  types: path.resolve(__dirname, 'types.yml'),
+  pokemon: path.resolve(__dirname, 'pokemon.yml'),
+  trainers: path.resolve(__dirname, 'trainers.yml')
+};
+
+function getUserOptions(configObj) {
+  return Object.assign({}, {
+    get pokemon() {
+      if (Array.isArray(configObj.pokemon)) {
+        return configObj.pokemon[Math.floor(Math.random() * configObj.pokemon.length)];
+      }
+      return configObj.pokemon || 'pikachu';
+    },
+    get poketab() {
+      return (configObj.poketab || 'false') === 'true';
+    },
+    get unibody() {
+      return (configObj.unibody || 'true') !== 'false';
+    }
+  });
+}
+
+function getRandomTheme(category) {
+  const index = Math.floor(Math.random() * (Object.keys(category).length));
+  const name = Object.keys(category)[index];
+  return [name, category[name]];
+}
+
+function getThemes() {
+  const themes = {};
+  Object.keys(colorSchemes).forEach(category => {
+    Object.assign(themes, yaml.safeLoad(fs.readFileSync(colorSchemes[category], 'utf8')));
+  });
+  return themes;
+}
+
+function getThemeColors(theme) {
+  const themes = getThemes();
+  const name = theme.trim().toLowerCase();
+  if (name === 'random') {
+    return getRandomTheme(themes.pokemon);
+  }
+  if (Object.prototype.hasOwnProperty.call(themes, name)) {
+    // Choose a random theme from the given category -- i.e. `fire`
+    return getRandomTheme(themes[name]);
+  }
+  if (Object.prototype.hasOwnProperty.call(themes.pokemon, name)) {
+    // Return the requested pokemon theme -- i.e. `lapras`
+    return [name, themes.pokemon[name]];
+  }
+  // Got non-existent theme name thus resolve to default
+  return ['pikachu', themes.pokemon.pikachu];
+}
+
+function getMediaPaths(theme) {
+  const [imagePath, gifPath] = [[], []];
+  imagePath.push(...[path.join(filepaths.backgrounds, theme), '.png']);
+  gifPath.push(...[path.join(filepaths.gifs, theme), '.gif']);
+  if (process.platform === 'win32') {
+    return [imagePath, gifPath].map(item => item.join('').replace(/\\/g, '/'));
+  }
+  return [imagePath.join(''), gifPath.join('')];
+}
 
 exports.decorateConfig = config => {
-  let keys;
-  let theme;
-  let index;
-
-  // Get the pokemon option - default 'pikachu'
-  const pokemon = config.pokemon || 'pikachu';
-
-  // Get the pokemonSyntax option - default 'light'
-  const themeSyntax = config.pokemonSyntax || 'light';
-
-  // Get the unibody option - default 'true'
-  const unibody = config.unibody || 'true';
-  const unibodyFlag = unibody !== 'false';
-
-  // Get the poketab option - default 'false'
-  const poketab = config.poketab || 'false';
-  const poketabFlag = poketab === 'true';
-
-  // Get a random theme in case of an array
-  const getTheme = Array.isArray(pokemon) ? config.pokemon[Math.floor(Math.random() * config.pokemon.length)] : pokemon;
-  // Make it lower-case
-  let pokemonTheme = getTheme.toLowerCase();
-
-  // Load color palettes from yaml files
-  const pokemonYml = yaml.safeLoad(
-    fs.readFileSync(
-      homeDir('/.hyper_plugins/node_modules/hyper-pokemon/pokemon.yml'),
-      'utf8'
-    )
-  );
-
-  const typesYml = yaml.safeLoad(
-    fs.readFileSync(
-      homeDir('/.hyper_plugins/node_modules/hyper-pokemon/types.yml'),
-      'utf8'
-    )
-  );
-
-  const trainersYml = yaml.safeLoad(
-    fs.readFileSync(
-      homeDir('/.hyper_plugins/node_modules/hyper-pokemon/trainers.yml'),
-      'utf8'
-    )
-  );
-
-  // Determine theme color palette
-  if (pokemonTheme === 'random') {
-    keys = Object.keys(pokemonYml.pokemon);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'fire') {
-    keys = Object.keys(typesYml.fire);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'water') {
-    keys = Object.keys(typesYml.water);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'grass') {
-    keys = Object.keys(typesYml.grass);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'poison') {
-    keys = Object.keys(typesYml.poison);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'flying') {
-    keys = Object.keys(typesYml.flying);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'bug') {
-    keys = Object.keys(typesYml.bug);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'electric') {
-    keys = Object.keys(typesYml.electric);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'ground') {
-    keys = Object.keys(typesYml.ground);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'fairy') {
-    keys = Object.keys(typesYml.fairy);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'normal') {
-    keys = Object.keys(typesYml.normal);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'psychic') {
-    keys = Object.keys(typesYml.psychic);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'ghost') {
-    keys = Object.keys(typesYml.ghost);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'rock') {
-    keys = Object.keys(typesYml.rock);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'ice') {
-    keys = Object.keys(typesYml.ice);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'dragon') {
-    keys = Object.keys(typesYml.dragon);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'fighting') {
-    keys = Object.keys(typesYml.fighting);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'steel') {
-    keys = Object.keys(typesYml.steel);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'legendary') {
-    keys = Object.keys(typesYml.legendary);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'starter') {
-    keys = Object.keys(typesYml.starter);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'ash') {
-    keys = Object.keys(trainersYml.ash);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'brock') {
-    keys = Object.keys(trainersYml.brock);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'misty') {
-    keys = Object.keys(trainersYml.misty);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'surge') {
-    keys = Object.keys(trainersYml.surge);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'erika') {
-    keys = Object.keys(trainersYml.erika);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'koga') {
-    keys = Object.keys(trainersYml.koga);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'sabrina') {
-    keys = Object.keys(trainersYml.sabrina);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'blaine') {
-    keys = Object.keys(trainersYml.blaine);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'giovanni') {
-    keys = Object.keys(trainersYml.giovanni);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'lorelei') {
-    keys = Object.keys(trainersYml.lorelei);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'bruno') {
-    keys = Object.keys(trainersYml.bruno);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'agatha') {
-    keys = Object.keys(trainersYml.agatha);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'lance') {
-    keys = Object.keys(trainersYml.lance);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'gary') {
-    keys = Object.keys(trainersYml.gary);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'jessie') {
-    keys = Object.keys(trainersYml.jessie);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  } else if (pokemonTheme === 'james') {
-    keys = Object.keys(trainersYml.james);
-    index = Math.floor(Math.random() * (keys.length));
-    pokemonTheme = keys[index];
-  }
-
-  if (Object.prototype.hasOwnProperty.call(pokemonYml.pokemon, pokemonTheme)) {
-    theme = pokemonYml.pokemon[pokemonTheme];
-  } else {
-    theme = pokemonYml.default[themeSyntax];
-  }
+  // Get user options
+  const options = getUserOptions(config);
+  const [themeName, colors] = getThemeColors(options.pokemon);
+  const [imagePath, gifPath] = getMediaPaths(themeName);
 
   // Set theme colors
-  const primary = (unibodyFlag === true) ? theme.unibody : theme.primary;
-  const secondary = theme.secondary;
-  const tertiary = theme.tertiary;
-  const selectedColor = theme.primary;
+  const {primary, secondary, tertiary, unibody} = colors;
+  const background = options.unibody ? unibody : primary;
+  const selection = color(primary).alpha(0.3).string();
   const transparent = color(secondary).alpha(0).string();
+
+  // Set poketab
+  const tabContent = options.poketab ? gifPath : '';
 
   const syntax = {
     backgroundColor: transparent,
-    borderColor: primary,
+    borderColor: background,
     cursorColor: secondary,
     foregroundColor: secondary,
-    selectionColor: color(secondary).alpha(0.3).string(),
+    selectionColor: selection,
     colors: {
       black: tertiary,
       red: secondary,
@@ -241,28 +115,12 @@ exports.decorateConfig = config => {
     }
   };
 
-  let pathToTheme;
-  let pathToPokecursor;
-  const assemblePath = path + pokemonTheme + extension;
-  const assemblePokecursorPath = pokecursorDir + pokemonTheme + pokecursorExtension;
-
-  if (process.platform === 'win32') {
-    pathToTheme = assemblePath.replace(/\\/g, '/');
-    pathToPokecursor = assemblePokecursorPath.replace(/\\/g, '/');
-  } else {
-    pathToTheme = assemblePath;
-    pathToPokecursor = assemblePokecursorPath;
-  }
-
-  // Poketab settings
-  const tabContent = (poketabFlag === true) ? pathToPokecursor : '';
-
   return Object.assign({}, config, syntax, {
     termCSS: config.termCSS || '',
     css: `
       ${config.css || ''}
       .terms_terms {
-        background: url("file://${pathToTheme}") center;
+        background: url("file://${imagePath}") center;
         background-size: cover;
       }
       .header_header, .header_windowHeader {
