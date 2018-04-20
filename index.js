@@ -24,10 +24,6 @@ exports.decorateConfig = config => {
   const unibody = config.unibody || 'true';
   const unibodyFlag = unibody !== 'false';
 
-  // Get the pokecursor option - default 'false'
-  const pokecursor = config.pokecursor || 'false';
-  const pokecursorFlag = pokecursor === 'true';
-
   // Get the poketab option - default 'false'
   const poketab = config.poketab || 'false';
   const poketabFlag = poketab === 'true';
@@ -258,14 +254,10 @@ exports.decorateConfig = config => {
     pathToPokecursor = assemblePokecursorPath;
   }
 
-  // Pokecursor settings
-  const cursorVisibility = (pokecursorFlag === true) ? 'transparent' : secondary;
-  const cursorContent = (pokecursorFlag === true) ? pathToPokecursor : '';
   // Poketab settings
   const tabContent = (poketabFlag === true) ? pathToPokecursor : '';
 
   return Object.assign({}, config, syntax, {
-    cursorColor: cursorVisibility,
     termCSS: config.termCSS || '',
     css: `
       ${config.css || ''}
