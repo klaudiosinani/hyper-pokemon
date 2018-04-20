@@ -85,6 +85,8 @@ exports.decorateConfig = config => {
   const background = options.unibody ? unibody : primary;
   const selection = color(primary).alpha(0.3).string();
   const transparent = color(secondary).alpha(0).string();
+  const activeTab = color(secondary).isDark() ? '#FAFAFA' : '#383A42';
+  const tab = color(activeTab).darken(0.1);
 
   // Set poketab
   const tabContent = options.poketab ? gifPath : '';
@@ -124,7 +126,7 @@ exports.decorateConfig = config => {
         background-size: cover;
       }
       .header_header, .header_windowHeader {
-        background-color: ${primary} !important;
+        background-color: ${background} !important;
       }
       .tab_textActive .tab_textInner::before {
         content: url("file://${tabContent}");
@@ -146,11 +148,14 @@ exports.decorateConfig = config => {
       .tab_icon:hover {
         background-color: ${secondary};
       }
+      .tab_active {
+        background-color: ${activeTab};
+      }
       .tabs_nav .tabs_list .tab_tab:not(.tab_active) {
-        background-color: rgba(0,0,0,0.1);
+        background-color: ${tab};
       }
       .tabs_nav .tabs_list {
-        color: ${primary};
+        color: ${background};
       }
       .tab_tab::before {
         content: '';
