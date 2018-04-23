@@ -85,6 +85,7 @@ exports.decorateConfig = config => {
   const background = options.unibody ? unibody : primary;
   const selection = color(primary).alpha(0.3).string();
   const transparent = color(secondary).alpha(0).string();
+  const header = color(background).isDark() ? '#FAFAFA' : '#010101';
   const activeTab = color(secondary).isDark() ? '#FAFAFA' : '#383A42';
   const tab = color(activeTab).darken(0.1);
 
@@ -126,7 +127,7 @@ exports.decorateConfig = config => {
         background-size: cover;
       }
       .header_shape, .header_appTitle {
-        color: ${secondary};
+        color: ${header};
       }
       .header_header, .header_windowHeader {
         background-color: ${background} !important;
