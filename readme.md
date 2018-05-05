@@ -73,21 +73,15 @@ The poll will be kept alive until the project's completion, when all **600+** th
 
 ## Install
 
-### Using the plugin manager - `hpm-cli`
+### Using the plugin manager - `hyper`
 
-Firstly, ensure you have [Hyper](https://github.com/zeit/hyper/releases) and [Node.js](https://nodejs.org) installed in your system.<br/>
-Then simply do the `npm` dance to get `hpm-cli`
-
-```bash
-# fire up a terminal and type
-$ npm install -g hpm-cli
-```
+Firstly, ensure you have [Hyper](https://github.com/zeit/hyper/releases) installed in your system.
 
 Once done with that, it's time to install the `hyper-pokemon` theme.
 
 ```bash
-# run the hyper plugin manager
-$ hpm install hyper-pokemon
+# fire up a terminal and type 
+$ hyper i hyper-pokemon
 ```
 
 ### Manually through `.hyper.js`
