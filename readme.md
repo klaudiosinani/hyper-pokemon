@@ -240,9 +240,10 @@ You can preview in detail all of the available themes [here](https://klauscfhq.g
 
 ## Related
 
-More awesome Hyper plugins.
+More Hyper plugins.
 
 - [Hyper Star Wars](https://github.com/klauscfhq/hyper-star-wars) - 🚀 Super awesome, your Hyper terminal shall look.
+- [Hyperocean](https://github.com/klauscfhq/hyperocean) - 🌊 Deep oceanic blue Hyper theme. 
 
 ## Team
 
