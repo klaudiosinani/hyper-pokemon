@@ -223,8 +223,8 @@ You can preview in detail all of the available themes [here](https://klauscfhq.g
 
 ## Related
 
-- [Hyper Star Wars](https://github.com/klauscfhq/hyper-star-wars) - 🚀 Star Wars themes for your Hyper terminal.
-- [Hyperocean](https://github.com/klauscfhq/hyperocean) - 🌊 Deep oceanic blue Hyper theme. 
+- [Hyper Star Wars](https://github.com/klauscfhq/hyper-star-wars) - Star Wars themes for your Hyper terminal.
+- [Hyperocean](https://github.com/klauscfhq/hyperocean) - Deep oceanic blue Hyper theme. 
 
 ## Team
 
