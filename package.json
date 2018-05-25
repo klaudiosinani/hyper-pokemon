@@ -25,7 +25,7 @@
     "pikachu"
   ],
   "scripts": {
-    "test": "xo && yamllint *.yml"
+    "test": "xo && yamllint themes/*.yml"
   },
   "dependencies": {
     "color": "^3.0.0",
