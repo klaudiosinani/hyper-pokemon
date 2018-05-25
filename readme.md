@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://cdn.rawgit.com/klauscfhq/hyper-pokemon/221ba5d5/media/logo.png" width="30%"><br/>Hyper Pokemon
+  <img src="https://cdn.rawgit.com/klauscfhq/hyper-pokemon/221ba5d5/media/logo.png" width="28%"><br/>Hyper Pokemon
 </h1>
 
 <h4 align="center">
@@ -224,8 +224,6 @@ You can preview in detail all of the available themes [here](https://klauscfhq.g
 </details><br/>
 
 ## Related
-
-More Hyper plugins.
 
 - [Hyper Star Wars](https://github.com/klauscfhq/hyper-star-wars) - 🚀 Super awesome, your Hyper terminal shall look.
 - [Hyperocean](https://github.com/klauscfhq/hyperocean) - 🌊 Deep oceanic blue Hyper theme. 
