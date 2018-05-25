@@ -10,9 +10,9 @@ const filepaths = {
 };
 
 const colorSchemes = {
-  types: path.resolve(__dirname, 'types.yml'),
-  pokemon: path.resolve(__dirname, 'pokemon.yml'),
-  trainers: path.resolve(__dirname, 'trainers.yml')
+  types: path.resolve(__dirname, 'themes', 'types.yml'),
+  pokemon: path.resolve(__dirname, 'themes', 'pokemon.yml'),
+  trainers: path.resolve(__dirname, 'themes', 'trainers.yml')
 };
 
 function getUserOptions(configObj) {
