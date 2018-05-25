@@ -132,6 +132,9 @@ exports.decorateConfig = config => {
       .header_header, .header_windowHeader {
         background-color: ${background} !important;
       }
+     .hyper_main {
+        background-color: ${background};
+      }
       .tab_textActive .tab_textInner::before {
         content: url("file://${tabContent}");
         position: absolute;
