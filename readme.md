@@ -223,12 +223,12 @@ You can preview in detail all of the available themes [here](https://klauscfhq.g
 
 ## Related
 
-- [Hyper Star Wars](https://github.com/klauscfhq/hyper-star-wars) - 🚀 Super awesome, your Hyper terminal shall look.
+- [Hyper Star Wars](https://github.com/klauscfhq/hyper-star-wars) - 🚀 Star Wars themes for your Hyper terminal.
 - [Hyperocean](https://github.com/klauscfhq/hyperocean) - 🌊 Deep oceanic blue Hyper theme. 
 
 ## Team
 
-Meet the team and all the [contributors](https://github.com/klauscfhq/hyper-pokemon/blob/master/authors.md).<br/>
+Meet the team and all the [contributors](https://github.com/klauscfhq/hyper-pokemon/graphs/contributors).<br/>
 
 - Klaus Sinani [(@klauscfhq)](https://github.com/klauscfhq)
 - Mario Sinani [(@mariocfhq)](https://github.com/mariocfhq)
