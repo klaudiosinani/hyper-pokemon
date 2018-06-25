@@ -56,11 +56,15 @@ The poll will be kept alive until the project's completion, when all **600+** th
 
 ## Install
 
+### Hyper Store
+
+Get the theme on the official [Hyper Store](https://hyper.is/plugins/hyper-pokemon).
+
 ### Using the plugin manager - `hyper`
 
 Firstly, ensure you have [Hyper](https://github.com/zeit/hyper/releases) installed in your system.
 
-Once done with that, it's time to install the `hyper-pokemon` theme.
+Once done with that, install the `hyper-pokemon` theme.
 
 ```bash
 # fire up a terminal and type 
