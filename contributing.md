@@ -35,6 +35,13 @@ You may find an issue is assigned, or has the [`assigned` label](https://github.
 
 Come over and say hi anytime you feel like on [Gitter](https://gitter.im/klauscfhq/hyper-pokemon)
 
+### Translating Documentation
+
+- Make sure that the document is not already translated in that language.
+- Add the name of the language to the document as an extension, e.g: `readme.JP.md`
+- Place the translated document inside the [`docs`](https://github.com/klauscfhq/hyper-pokemon/tree/master/docs) directory.
+- Create a Pull Request including the language in the title, e.g: `Readme: Japanese Translation`
+
 ### Submitting an issue
 
 - Search the issue tracker before opening an issue
