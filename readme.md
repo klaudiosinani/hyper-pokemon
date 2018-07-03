@@ -40,6 +40,8 @@ All of the wonderful Pokémon backgrounds were created by the amazing [Teej/TopH
 
 Come over to [Gitter](https://gitter.im/klauscfhq/hyper-pokemon) or [Twitter](https://twitter.com/klauscfhq) to share your thoughts on the project.
 
+Visit the [contributing guidelines](https://github.com/klauscfhq/hyper-pokemon/blob/master/contributing.md#translating-documentation) to learn more on how to translate this document into more languages.
+
 ## Vote the next Region
 
 Vote for the Pokémon Region you want to see themes from next.<br/>
