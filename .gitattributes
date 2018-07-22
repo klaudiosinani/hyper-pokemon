@@ -1,5 +1,2 @@
 * text=auto
 *.js text eol=lf
-*.psd binary
-*.pfd binary
-*.ai binary
