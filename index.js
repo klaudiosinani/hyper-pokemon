@@ -86,7 +86,10 @@ exports.decorateConfig = config => {
   const selection = color(primary).alpha(0.3).string();
   const transparent = color(secondary).alpha(0).string();
   const header = color(background).isDark() ? '#FAFAFA' : '#010101';
-  const activeTab = color(secondary).isDark() ? '#FAFAFA' : '#383A42';
+  const isSecondaryDark = color(secondary).isDark();
+  const activeTab = isSecondaryDark ? '#FAFAFA' : '#383A42';
+  const highlight = isSecondaryDark ? '#FFFFFF' : '#000000';
+  const secondHighlight = isSecondaryDark ? '#C7C7C7' : '#686868';
   const tab = color(activeTab).darken(0.1);
 
   // Set poketab
@@ -106,7 +109,7 @@ exports.decorateConfig = config => {
       blue: secondary,
       magenta: secondary,
       cyan: secondary,
-      white: secondary,
+      white: secondHighlight,
       lightBlack: tertiary,
       lightRed: secondary,
       lightGreen: secondary,
@@ -114,7 +117,7 @@ exports.decorateConfig = config => {
       lightBlue: secondary,
       lightMagenta: secondary,
       lightCyan: secondary,
-      lightWhite: secondary
+      lightWhite: highlight
     }
   };
 
