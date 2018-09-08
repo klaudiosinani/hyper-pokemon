@@ -17,6 +17,12 @@
       "url": "https://mariocfhq.github.io"
     }
   ],
+  "files": [
+    "index.js",
+    "backgrounds",
+    "pokecursors",
+    "themes"
+  ],
   "keywords": [
     "hyper",
     "hyper-pokemon",
