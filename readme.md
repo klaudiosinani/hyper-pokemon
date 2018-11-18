@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://cdn.rawgit.com/klauscfhq/hyper-pokemon/221ba5d5/media/logo.png" width="28%"><br/>Hyper Pokemon
+  <img src="https://cdn.rawgit.com/klaussinani/hyper-pokemon/221ba5d5/media/logo.png" width="28%"><br/>Hyper Pokemon
 </h1>
 
 <h4 align="center">
@@ -7,14 +7,14 @@
 </h4>
 
 <div align="center">
-      <a href="https://github.com/klauscfhq/hyper-pokemon">
+      <a href="https://github.com/klaussinani/hyper-pokemon">
         <img src="https://cdn.rawgit.com/champloohq/hyper-pokemon/36074d40/media/screen.png" alt="Hyper Pokemon" width="95%">
       </a>
 </div>
 
 <p align="center">
-  <a href="https://travis-ci.org/klauscfhq/hyper-pokemon">
-    <img alt="Build Status" src="https://travis-ci.org/klauscfhq/hyper-pokemon.svg?branch=master">
+  <a href="https://travis-ci.org/klaussinani/hyper-pokemon">
+    <img alt="Build Status" src="https://travis-ci.org/klaussinani/hyper-pokemon.svg?branch=master">
   </a>
   <a href="https://github.com/bnb/awesome-hyper">
     <img alt="npm" src="https://awesome.re/mentioned-badge.svg">
@@ -38,9 +38,9 @@ Made for Pokémon enthusiasts by Pokémon enthusiasts ❤
 
 All of the wonderful Pokémon backgrounds were created by the amazing [Teej/TopHat](https://pldh.net/gallery/the493), [MapleRose](https://twitter.com/PokeWalls) & [Ferretdayo](http://ferretdayo.github.io).
 
-Come over to [Gitter](https://gitter.im/klauscfhq/hyper-pokemon) or [Twitter](https://twitter.com/klauscfhq) to share your thoughts on the project.
+Come over to [Gitter](https://gitter.im/klaussinani/hyper-pokemon) or [Twitter](https://twitter.com/klaussinani) to share your thoughts on the project.
 
-Visit the [contributing guidelines](https://github.com/klauscfhq/hyper-pokemon/blob/master/contributing.md#translating-documentation) to learn more on how to translate this document into more languages.
+Visit the [contributing guidelines](https://github.com/klaussinani/hyper-pokemon/blob/master/contributing.md#translating-documentation) to learn more on how to translate this document into more languages.
 
 ## Vote the next Region
 
@@ -166,7 +166,7 @@ Also, completely omitting the `poketab` option from your `.hyper.js` will have t
 
 ## Available Themes
 
-You can preview in detail all of the available themes [here](https://klauscfhq.github.io/hyper-pokemon).
+You can preview in detail all of the available themes [here](https://klaussinani.github.io/hyper-pokemon).
 
 #### Pokémon Types
 
@@ -229,15 +229,15 @@ You can preview in detail all of the available themes [here](https://klauscfhq.g
 
 ## Related
 
-- [Hyperocean](https://github.com/klauscfhq/hyperocean) - Deep oceanic blue Hyper theme. 
-- [Hyper Star Wars](https://github.com/klauscfhq/hyper-star-wars) - Star Wars themes for your Hyper terminal.
+- [Hyperocean](https://github.com/klaussinani/hyperocean) - Deep oceanic blue Hyper theme. 
+- [Hyper Star Wars](https://github.com/klaussinani/hyper-star-wars) - Star Wars themes for your Hyper terminal.
 - [Pikachu Syntax](https://atom.io/packages/pikachu-syntax) - Pikachu Atom theme.
 
 ## Team
 
-Meet the team and all the [contributors](https://github.com/klauscfhq/hyper-pokemon/graphs/contributors).<br/>
+Meet the team and all the [contributors](https://github.com/klaussinani/hyper-pokemon/graphs/contributors).<br/>
 
-- Klaus Sinani [(@klauscfhq)](https://github.com/klauscfhq)
+- Klaus Sinani [(@klaussinani)](https://github.com/klaussinani)
 - Mario Sinani [(@mariocfhq)](https://github.com/mariocfhq)
 - Thanasis Gkanos [(@ThanasisGkanos)](https://github.com/ThanasisGkanos)
 - George Baxopoulos [(@georgebax)](https://github.com/georgebax)
@@ -245,4 +245,4 @@ Meet the team and all the [contributors](https://github.com/klauscfhq/hyper-poke
 
 ## License
 
-[MIT](https://github.com/klauscfhq/hyper-pokemon/blob/master/license.md)
+[MIT](https://github.com/klaussinani/hyper-pokemon/blob/master/license.md)
