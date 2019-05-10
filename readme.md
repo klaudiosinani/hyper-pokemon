@@ -238,7 +238,7 @@ You can preview in detail all of the available themes [here](https://klaussinani
 Meet the team and all the [contributors](https://github.com/klaussinani/hyper-pokemon/graphs/contributors).<br/>
 
 - Klaus Sinani [(@klaussinani)](https://github.com/klaussinani)
-- Mario Sinani [(@mariocfhq)](https://github.com/mariocfhq)
+- Mario Sinani [(@mariosinani)](https://github.com/mariosinani)
 - Thanasis Gkanos [(@ThanasisGkanos)](https://github.com/ThanasisGkanos)
 - George Baxopoulos [(@georgebax)](https://github.com/georgebax)
 - Gabriel Tibúrcio [(@tibuurcio)](https://github.com/tibuurcio)
