@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  🌈 Tailor-made Pokémon themes for your Hyper terminal
+  Tailor-made Pokémon themes for your Hyper terminal
 </h4>
 
 <div align="center">
@@ -34,7 +34,7 @@
 
 ## Description
 
-Made for Pokémon enthusiasts by Pokémon enthusiasts ❤
+Made for Pokémon enthusiasts by Pokémon enthusiasts.
 
 All of the wonderful Pokémon backgrounds were created by the amazing [Teej/TopHat](https://pldh.net/gallery/the493), [MapleRose](https://twitter.com/PokeWalls) & [Ferretdayo](http://ferretdayo.github.io).
 
@@ -234,8 +234,6 @@ You can preview in detail all of the available themes [here](https://klaussinani
 - [Pikachu Syntax](https://atom.io/packages/pikachu-syntax) - Pikachu Atom theme.
 
 ## Team
-
-Meet the team and all the [contributors](https://github.com/klaussinani/hyper-pokemon/graphs/contributors).<br/>
 
 - Klaus Sinani [(@klaussinani)](https://github.com/klaussinani)
 - Mario Sinani [(@mariosinani)](https://github.com/mariosinani)
