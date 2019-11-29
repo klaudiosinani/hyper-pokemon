@@ -101,7 +101,7 @@ exports.decorateConfig = config => {
   })();
   const highlight = isSecondaryDark ? '#FFFFFF' : '#000000';
   const secondHighlight = isSecondaryDark ? '#C7C7C7' : '#686868';
-  const tab = color(activeTab).darken(0.1);
+  const tab = unibody ? activeTab : color(activeTab).darken(0.1);
 
   // Set poketab
   const tabContent = options.poketab ? gifPath : '';
