@@ -87,7 +87,7 @@ exports.decorateConfig = config => {
   const transparent = color(secondary).alpha(0).string();
   const header = color(background).isDark() ? '#FAFAFA' : '#010101';
   const isSecondaryDark = color(secondary).isDark();
-  const activeTab = isSecondaryDark ? '#FAFAFA' : '#383A42';
+  const activeTab = options.unibody ? background : isSecondaryDark ? '#FAFAFA' : '#383A42';
   const highlight = isSecondaryDark ? '#FFFFFF' : '#000000';
   const secondHighlight = isSecondaryDark ? '#C7C7C7' : '#686868';
   const tab = color(activeTab).darken(0.1);
