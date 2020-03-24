@@ -232,6 +232,7 @@ You can preview in detail all of the available themes [here](https://klaussinani
 - [Hyperocean](https://github.com/klaussinani/hyperocean) - Deep oceanic blue Hyper theme. 
 - [Hyper Star Wars](https://github.com/klaussinani/hyper-star-wars) - Star Wars themes for your Hyper terminal.
 - [Pikachu Syntax](https://atom.io/packages/pikachu-syntax) - Pikachu Atom theme.
+- [Itermocean](https://github.com/klaussinani/itermocean) - Deep oceanic blue iTerm theme.
 
 ## Team
 
