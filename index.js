@@ -23,6 +23,12 @@ function getUserOptions(configObj) {
       }
       return configObj.pokemon || 'pikachu';
     },
+    get exclude() {
+      if (Array.isArray(configObj.exclude)) {
+        return configObj.exclude;
+      }
+      return [configObj.exclude];
+    },
     get poketab() {
       return (configObj.poketab || 'false') === 'true';
     },
@@ -32,9 +38,12 @@ function getUserOptions(configObj) {
   });
 }
 
-function getRandomTheme(category) {
-  const index = Math.floor(Math.random() * (Object.keys(category).length));
-  const name = Object.keys(category)[index];
+function getRandomTheme(category, exclude) {
+  const keys = Object.keys(category).filter(key => {
+    return !exclude.includes(key);
+  });
+  const index = Math.floor(Math.random() * (keys.length));
+  const name = keys[index];
   return [name, category[name]];
 }
 
@@ -46,15 +55,15 @@ function getThemes() {
   return themes;
 }
 
-function getThemeColors(theme) {
+function getThemeColors(theme, exclude) {
   const themes = getThemes();
   const name = theme.trim().toLowerCase();
   if (name === 'random') {
-    return getRandomTheme(themes.pokemon);
+    return getRandomTheme(themes.pokemon, exclude);
   }
   if (Object.prototype.hasOwnProperty.call(themes, name)) {
     // Choose a random theme from the given category -- i.e. `fire`
-    return getRandomTheme(themes[name]);
+    return getRandomTheme(themes[name], exclude);
   }
   if (Object.prototype.hasOwnProperty.call(themes.pokemon, name)) {
     // Return the requested pokemon theme -- i.e. `lapras`
@@ -77,7 +86,7 @@ function getMediaPaths(theme) {
 exports.decorateConfig = config => {
   // Get user options
   const options = getUserOptions(config);
-  const [themeName, colors] = getThemeColors(options.pokemon);
+  const [themeName, colors] = getThemeColors(options.pokemon, options.exclude);
   const [imagePath, gifPath] = getMediaPaths(themeName);
 
   // Set theme colors
