@@ -23,6 +23,19 @@ function getUserOptions(configObj) {
       }
       return configObj.pokemon || 'pikachu';
     },
+    get exclude() {
+      const {exclude} = configObj;
+
+      if (!exclude) {
+        return [];
+      }
+
+      if (Array.isArray(exclude)) {
+        return exclude;
+      }
+
+      return [exclude];
+    },
     get poketab() {
       return (configObj.poketab || 'false') === 'true';
     },
@@ -32,10 +45,17 @@ function getUserOptions(configObj) {
   });
 }
 
-function getRandomTheme(category) {
-  const index = Math.floor(Math.random() * (Object.keys(category).length));
-  const name = Object.keys(category)[index];
-  return [name, category[name]];
+function getRandomTheme(category, exclude) {
+  const keys = Object.keys(category).filter(key => !exclude.includes(key));
+
+  if (keys.length > 0) {
+    const index = Math.floor(Math.random() * (keys.length));
+    const name = keys[index];
+    return [name, category[name]];
+  }
+
+  // All themes filtered out thus resolve to default
+  return ['pikachu', themes.pokemon.pikachu];
 }
 
 function getThemes() {
@@ -46,15 +66,16 @@ function getThemes() {
   return themes;
 }
 
-function getThemeColors(theme) {
+function getThemeColors(theme, exclude) {
   const themes = getThemes();
   const name = theme.trim().toLowerCase();
+  const excludedThemes = [...new Set(exclude)].map(x => x.trim().toLowerCase());
   if (name === 'random') {
-    return getRandomTheme(themes.pokemon);
+    return getRandomTheme(themes.pokemon, excludedThemes);
   }
   if (Object.prototype.hasOwnProperty.call(themes, name)) {
     // Choose a random theme from the given category -- i.e. `fire`
-    return getRandomTheme(themes[name]);
+    return getRandomTheme(themes[name], excludedThemes);
   }
   if (Object.prototype.hasOwnProperty.call(themes.pokemon, name)) {
     // Return the requested pokemon theme -- i.e. `lapras`
@@ -77,7 +98,7 @@ function getMediaPaths(theme) {
 exports.decorateConfig = config => {
   // Get user options
   const options = getUserOptions(config);
-  const [themeName, colors] = getThemeColors(options.pokemon);
+  const [themeName, colors] = getThemeColors(options.pokemon, options.exclude);
   const [imagePath, gifPath] = getMediaPaths(themeName);
 
   // Set theme colors
