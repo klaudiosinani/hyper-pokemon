@@ -60,7 +60,7 @@ The poll will be kept alive until the project's completion, when all **600+** th
 
 ### Hyper Store
 
-Get the theme on the official [Hyper Store](https://hyper.is/plugins/hyper-pokemon).
+Get the theme on the official [Hyper Store](https://hyper.is/store/hyper-pokemon).
 
 ### Using the plugin manager - `hyper`
 
