@@ -21,6 +21,7 @@ function getUserOptions(configObj) {
       if (Array.isArray(configObj.pokemon)) {
         return configObj.pokemon[Math.floor(Math.random() * configObj.pokemon.length)];
       }
+
       return configObj.pokemon || 'pikachu';
     },
     get exclude() {
@@ -73,14 +74,17 @@ function getThemeColors(theme, exclude) {
   if (name === 'random') {
     return getRandomTheme(themes.pokemon, excludedThemes);
   }
+
   if (Object.prototype.hasOwnProperty.call(themes, name)) {
     // Choose a random theme from the given category -- i.e. `fire`
     return getRandomTheme(themes[name], excludedThemes);
   }
+
   if (Object.prototype.hasOwnProperty.call(themes.pokemon, name)) {
     // Return the requested pokemon theme -- i.e. `lapras`
     return [name, themes.pokemon[name]];
   }
+
   // Got non-existent theme name thus resolve to default
   return ['pikachu', themes.pokemon.pikachu];
 }
@@ -92,6 +96,7 @@ function getMediaPaths(theme) {
   if (process.platform === 'win32') {
     return [imagePath, gifPath].map(item => item.join('').replace(/\\/g, '/'));
   }
+
   return [imagePath.join(''), gifPath.join('')];
 }
 
@@ -108,10 +113,16 @@ exports.decorateConfig = config => {
   const transparent = color(secondary).alpha(0).string();
   const header = color(background).isDark() ? '#FAFAFA' : '#010101';
   const isSecondaryDark = color(secondary).isDark();
-  const activeTab = isSecondaryDark ? '#FAFAFA' : '#383A42';
+  const activeTab = (() => {
+    if (options.unibody) {
+      return background;
+    }
+
+    return isSecondaryDark ? '#FAFAFA' : '#383A42';
+  })();
   const highlight = isSecondaryDark ? '#FFFFFF' : '#000000';
   const secondHighlight = isSecondaryDark ? '#C7C7C7' : '#686868';
-  const tab = color(activeTab).darken(0.1);
+  const tab = unibody ? activeTab : color(activeTab).darken(0.1);
 
   // Set poketab
   const tabContent = options.poketab ? gifPath : '';
