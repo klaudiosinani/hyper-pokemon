@@ -55,7 +55,7 @@ function getRandomTheme(category, exclude) {
   }
 
   // All themes filtered out thus resolve to default
-  return ['pikachu', themes.pokemon.pikachu];
+  return ['pikachu', category['pikachu']];
 }
 
 function getThemes() {
