@@ -181,7 +181,7 @@ Also, completely omitting the `poketab` option from your `.hyper.js` will have t
 
 ## Available Themes
 
-You can preview in detail all of the available themes [here](https://klaussinani.github.io/hyper-pokemon).
+You can preview in detail all of the available themes [here](https://klaudiosinani.github.io/hyper-pokemon).
 
 #### Pokémon Types
 
