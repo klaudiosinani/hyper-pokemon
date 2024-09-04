@@ -15,16 +15,17 @@ const colorSchemes = {
   trainers: path.resolve(__dirname, 'themes', 'trainers.yml')
 };
 
-function getUserOptions(configObj) {
+function getUserOptions(configObject) {
   return Object.assign({}, {
     get pokemon() {
-      if (Array.isArray(configObj.pokemon)) {
-        return configObj.pokemon[Math.floor(Math.random() * configObj.pokemon.length)];
+      if (Array.isArray(configObject.pokemon)) {
+        return configObject.pokemon[Math.floor(Math.random() * configObject.pokemon.length)];
       }
-      return configObj.pokemon || 'pikachu';
+
+      return configObject.pokemon || 'pikachu';
     },
     get exclude() {
-      const {exclude} = configObj;
+      const {exclude} = configObject;
 
       if (!exclude) {
         return [];
@@ -37,10 +38,10 @@ function getUserOptions(configObj) {
       return [exclude];
     },
     get poketab() {
-      return (configObj.poketab || 'false') === 'true';
+      return (configObject.poketab || 'false') === 'true';
     },
     get unibody() {
-      return (configObj.unibody || 'true') !== 'false';
+      return (configObject.unibody || 'true') !== 'false';
     }
   });
 }
@@ -54,6 +55,7 @@ function getRandomTheme(category, exclude) {
     return [name, category[name]];
   }
 
+  const themes = getThemes();
   // All themes filtered out thus resolve to default
   return ['pikachu', themes.pokemon.pikachu];
 }
@@ -73,25 +75,30 @@ function getThemeColors(theme, exclude) {
   if (name === 'random') {
     return getRandomTheme(themes.pokemon, excludedThemes);
   }
+
   if (Object.prototype.hasOwnProperty.call(themes, name)) {
     // Choose a random theme from the given category -- i.e. `fire`
     return getRandomTheme(themes[name], excludedThemes);
   }
+
   if (Object.prototype.hasOwnProperty.call(themes.pokemon, name)) {
     // Return the requested pokemon theme -- i.e. `lapras`
     return [name, themes.pokemon[name]];
   }
   // Got non-existent theme name thus resolve to default
+
   return ['pikachu', themes.pokemon.pikachu];
 }
 
 function getMediaPaths(theme) {
   const [imagePath, gifPath] = [[], []];
+
   imagePath.push(...[path.join(filepaths.backgrounds, theme), '.png']);
   gifPath.push(...[path.join(filepaths.gifs, theme), '.gif']);
   if (process.platform === 'win32') {
     return [imagePath, gifPath].map(item => item.join('').replace(/\\/g, '/'));
   }
+
   return [imagePath.join(''), gifPath.join('')];
 }
 
