@@ -1073,6 +1073,14 @@ pokemon:
     tertiary: '#600060'
     unibody: '#32A1E4'
 
+  #253
+  grovyle:
+    primary:   '#041801ff'  # Verde escuro – para folhas e detalhes da cabeça/cauda
+    secondary: '#4A7941'  # Verde claro – cor predominante do fundo/corpo
+    tertiary:  '#F57488'  # Rosa vibrante – cor do peito e barriga
+    unibody:   '#76B36D'  # Verde médio – tonalidade intermediária do corpo (equilíbrio entre as duas anteriores)
+
+
 ##
 # Default values
 ##

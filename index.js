@@ -21,20 +21,7 @@ function getUserOptions(configObj) {
       if (Array.isArray(configObj.pokemon)) {
         return configObj.pokemon[Math.floor(Math.random() * configObj.pokemon.length)];
       }
-      return configObj.pokemon || 'pikachu';
-    },
-    get exclude() {
-      const {exclude} = configObj;
-
-      if (!exclude) {
-        return [];
-      }
-
-      if (Array.isArray(exclude)) {
-        return exclude;
-      }
-
-      return [exclude];
+      return configObj.pokemon || 'growlithe';
     },
     get poketab() {
       return (configObj.poketab || 'false') === 'true';
@@ -45,17 +32,10 @@ function getUserOptions(configObj) {
   });
 }
 
-function getRandomTheme(category, exclude) {
-  const keys = Object.keys(category).filter(key => !exclude.includes(key));
-
-  if (keys.length > 0) {
-    const index = Math.floor(Math.random() * (keys.length));
-    const name = keys[index];
-    return [name, category[name]];
-  }
-
-  // All themes filtered out thus resolve to default
-  return ['pikachu', themes.pokemon.pikachu];
+function getRandomTheme(category) {
+  const index = Math.floor(Math.random() * (Object.keys(category).length));
+  const name = Object.keys(category)[index];
+  return [name, category[name]];
 }
 
 function getThemes() {
@@ -66,23 +46,22 @@ function getThemes() {
   return themes;
 }
 
-function getThemeColors(theme, exclude) {
+function getThemeColors(theme) {
   const themes = getThemes();
   const name = theme.trim().toLowerCase();
-  const excludedThemes = [...new Set(exclude)].map(x => x.trim().toLowerCase());
   if (name === 'random') {
-    return getRandomTheme(themes.pokemon, excludedThemes);
+    return getRandomTheme(themes.pokemon);
   }
   if (Object.prototype.hasOwnProperty.call(themes, name)) {
     // Choose a random theme from the given category -- i.e. `fire`
-    return getRandomTheme(themes[name], excludedThemes);
+    return getRandomTheme(themes[name]);
   }
   if (Object.prototype.hasOwnProperty.call(themes.pokemon, name)) {
     // Return the requested pokemon theme -- i.e. `lapras`
     return [name, themes.pokemon[name]];
   }
   // Got non-existent theme name thus resolve to default
-  return ['pikachu', themes.pokemon.pikachu];
+  return ['growlithe', themes.pokemon.growlithe];
 }
 
 function getMediaPaths(theme) {
@@ -98,7 +77,7 @@ function getMediaPaths(theme) {
 exports.decorateConfig = config => {
   // Get user options
   const options = getUserOptions(config);
-  const [themeName, colors] = getThemeColors(options.pokemon, options.exclude);
+  const [themeName, colors] = getThemeColors(options.pokemon);
   const [imagePath, gifPath] = getMediaPaths(themeName);
 
   // Set theme colors
