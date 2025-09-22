@@ -15,7 +15,6 @@
 </div>
 
 <div align="center">
-  <br>
   <sup><b>Sponsored by:</b></sup>
   <br>
   <a href="https://betterstack.com">
@@ -148,12 +147,10 @@ The assignable values are:
 Also, completely omitting the `poketab` option from your `.hyper.js` will have the same effect as defining it and setting it to `false`. (**Default value**)
 
 <div align="center">
-		<br/>
-			<a href="">
-				<img src="https://github.com/champloohq/hyper-pokemon/blob/master/media/poketab.gif" alt="Hyper Pokemon - Poketab" width="80%">
-			</a>
-		<br/>
-		<br/>
+	<br/>
+	<img src="media/poketab.gif" alt="Hyper Pokemon - Poketab" width="80%">
+	<br/>
+	<br/>
 </div>
 
 ## Available Themes
@@ -230,7 +227,6 @@ You can preview in detail all of the available themes [here](https://klaudiosina
 
 - Klaudio Sinani [(@klaudiosinani)](https://github.com/klaudiosinani)
 - Mario Sinani [(@mariosinani)](https://github.com/mariosinani)
-- Gabriel Tibúrcio [(@tibuurcio)](https://github.com/tibuurcio)
 
 ## Sponsors
 
