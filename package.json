@@ -3,12 +3,12 @@
   "version": "0.4.6",
   "description": "Tailor-made Pokémon themes for your Hyper terminal",
   "license": "MIT",
-  "repository": "klaussinani/hyper-pokemon",
-  "homepage": "https://klaussinani.github.io/hyper-pokemon",
+  "repository": "klaudiosinani/hyper-pokemon",
+  "homepage": "https://klaudiosinani.com/hyper-pokemon",
   "author": {
-    "name": "Klaus Sinani",
-    "email": "klaussinani@gmail.com",
-    "url": "https://klaussinani.github.io"
+    "name": "Klaudio Sinani",
+    "email": "klaudiosinani@protonmail.ch",
+    "url": "https://klaudiosinani.com"
   },
   "maintainers": [
     {
