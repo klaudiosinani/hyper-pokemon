@@ -1,25 +1,18 @@
-<h1 align="center">
-  <img src="media/logo.png" width="28%"><br/>Hyper Pokemon
-</h1>
+<div align="center">
+  <img src="media/logo.png" width="28%">
+</div>
+
+<h4 align="center">
+  Hyper Pokemon
+</h4>
 
 <h4 align="center">
   Tailor-made Pokémon themes for your Hyper terminal
 </h4>
 
 <div align="center">
-      <a href="https://github.com/klaussinani/hyper-pokemon">
-        <img src="media/screen.png" alt="Hyper Pokemon" width="99%">
-      </a>
+  <img src="media/screen.png" alt="Hyper Pokemon" width="99%">
 </div>
-
-<p align="center">
-  <a href="https://travis-ci.org/klaussinani/hyper-pokemon">
-    <img alt="Build Status" src="https://travis-ci.org/klaussinani/hyper-pokemon.svg?branch=master">
-  </a>
-  <a href="https://github.com/bnb/awesome-hyper">
-    <img alt="npm" src="https://awesome.re/mentioned-badge.svg">
-  </a>
-</p>
 
 <div align="center">
   <br>
@@ -53,23 +46,7 @@ Made for Pokémon enthusiasts by Pokémon enthusiasts.
 
 All of the wonderful Pokémon backgrounds were created by the amazing [Teej/TopHat](https://pldh.net/gallery/the493), [MapleRose](https://twitter.com/PokeWalls) & [Ferretdayo](http://ferretdayo.github.io).
 
-Come over to [Gitter](https://gitter.im/klaussinani/hyper-pokemon) or [Twitter](https://twitter.com/klaussinani) to share your thoughts on the project.
-
-Visit the [contributing guidelines](https://github.com/klaussinani/hyper-pokemon/blob/master/contributing.md#translating-documentation) to learn more on how to translate this document into more languages.
-
-## Vote the next Region
-
-Vote for the Pokémon Region you want to see themes from next.<br/>
-In essence, this poll will determine the creation order of all Pokémon Regions.<br/>
-The poll will be kept alive until the project's completion, when all **600+** themes will be available.
-
-[![](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Johto)](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Johto/vote)
-[![](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Hoenn)](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Hoenn/vote)
-[![](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Sinnoh)](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Sinnoh/vote)
-[![](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Unova)](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Unova/vote)
-[![](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Kalos)](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BMH8W2ETBFXQ9H6PSS0X9VZ8/Kalos/vote)
-
-<sub>Poll powered by [tj/gh-polls](https://github.com/tj/gh-polls)</sub>
+Visit the [contributing guidelines](https://github.com/klaudiosinani/hyper-pokemon/blob/master/contributing.md#translating-documentation) to learn more on how to translate this document into more languages.
 
 ## Install
 
@@ -181,7 +158,7 @@ Also, completely omitting the `poketab` option from your `.hyper.js` will have t
 
 ## Available Themes
 
-You can preview in detail all of the available themes [here](https://klaussinani.github.io/hyper-pokemon).
+You can preview in detail all of the available themes [here](https://klaudiosinani.com/hyper-pokemon).
 
 #### Pokémon Types
 
@@ -244,17 +221,15 @@ You can preview in detail all of the available themes [here](https://klaussinani
 
 ## Related
 
-- [Hyperocean](https://github.com/klaussinani/hyperocean) - Deep oceanic blue Hyper theme. 
-- [Hyper Star Wars](https://github.com/klaussinani/hyper-star-wars) - Star Wars themes for your Hyper terminal.
+- [Hyperocean](https://github.com/klaudiosinani/hyperocean) - Deep oceanic blue Hyper theme. 
+- [Hyper Star Wars](https://github.com/klaudiosinani/hyper-star-wars) - Star Wars themes for your Hyper terminal.
 - [Pikachu Syntax](https://atom.io/packages/pikachu-syntax) - Pikachu Atom theme.
-- [Itermocean](https://github.com/klaussinani/itermocean) - Deep oceanic blue iTerm theme.
+- [Itermocean](https://github.com/klaudiosinani/itermocean) - Deep oceanic blue iTerm theme.
 
 ## Team
 
 - Klaudio Sinani [(@klaudiosinani)](https://github.com/klaudiosinani)
 - Mario Sinani [(@mariosinani)](https://github.com/mariosinani)
-- Thanasis Gkanos [(@ThanasisGkanos)](https://github.com/ThanasisGkanos)
-- George Baxopoulos [(@georgebax)](https://github.com/georgebax)
 - Gabriel Tibúrcio [(@tibuurcio)](https://github.com/tibuurcio)
 
 ## Sponsors
@@ -265,4 +240,4 @@ A big thank you to all the people and companies supporting our Open Source work:
 
 ## License
 
-[MIT](https://github.com/klaussinani/hyper-pokemon/blob/master/license.md)
+[MIT](https://github.com/klaudiosinani/hyper-pokemon/blob/master/license.md)
