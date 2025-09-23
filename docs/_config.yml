@@ -1,3 +1,0 @@
-exclude: ["readme.md", "license.md", "code-of-conduct.md", "authors.md"]
-include: [".well-known"]
-auto: true
