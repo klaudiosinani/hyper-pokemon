@@ -168,6 +168,12 @@ exports.decorateConfig = config => {
       .tabs_nav .tabs_list {
         border-bottom: 0;
       }
+      .tabs_nav .tabs_title::before {
+        content: url("file://${tabContent}");
+        position: absolute;
+        right: 10px;
+        top: -4px;
+      }
       .tabs_nav .tabs_title,
       .tabs_nav .tabs_list .tab_tab {
         color: ${secondary};
